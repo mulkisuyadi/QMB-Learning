@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+
+    body.bg {
+  font-family: Arial, sans-serif;
+  background-image: url("/static/images/qmb-images.jpg"); /* relative path from static/style.css */
+  background-position: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.containerlogin {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+input {
+  margin: 10px 0;
+  padding: 8px;
+  width: 90%;
+}
+
+button {
+  padding: 8px 20px;
+  background: #4CAF50;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+.remember-label {
+  font-size: 14px;
+  color: #333;
+  cursor: pointer; /* makes it look clickable */
+}
+
+/* Position logout button in top-right */
+.logout-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+/* Style for logout button */
+.logout-btn {
+  padding: 8px 16px;
+  background: #e74c3c; /* red color */
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+/* Hover effect */
+.logout-btn:hover {
+  background: #c0392b;
+}
+
+  </style>
+
+</head>
+
+<body class="bg">
+
+  <div class="containerlogin">
+    <h2>Login</h2>
+
+    {% with messages = get_flashed_messages(with_categories=true) %}
+    {% if messages %}
+    <script>
+      const flashed = {{ messages|tojson }};
+      flashed.forEach(([category, message]) => {
+        alert(message);
+      });
+
+      
+    </script>
+    {% endif %}
+    {% endwith %}
+
+    <form method="POST" action="{{ url_for('login') }}">
+      <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">  
+
+      <input type="text" name="usernameemail" placeholder="Username or Email" required><br>
+      <input type="password" name="password" placeholder="Password" id="myInput" required>
+      
+      <br>
+      <label class="remember-label" style="display: flex;">
+        <input type="checkbox" onclick="myFunction()">Show Password 
+        <input type="checkbox" name="remember" id="rememberme"> Remember Me
+      </label>
+      
+      <br>
+
+      <button id="loginBtn" type="submit"
+        {% if lock_time and (current_time - lock_time < 60) %} disabled {% endif %}>
+        Login
+      </button>
+      <span id="countdown" style="color:red; margin-left:10px;"></span>
+
+      
+    </form>
+
+    <p>
+      Don't have an account? <a href="{{ url_for('signup') }}">Sign up</a><br>
+      <a href="{{ url_for('forgot') }}">Forgot your password?</a>
+    </p>
+  </div>
+
+  <!-- Countdown script -->
+  <script>
+    function myFunction() {
+        var x = document.getElementById("myInput");
+        if (x.type === "password") {
+          x.type = "text";
+        } else {
+          x.type = "password";
+        }
+      }; 
+    
+    {% if lock_time and (current_time - lock_time < 60) %}
+      let secondsLeft = 60 - Math.floor({{ current_time }} - {{ lock_time }});
+      if (secondsLeft < 0) secondsLeft = 0;
+
+      const btn = document.getElementById("loginBtn");
+      const countdown = document.getElementById("countdown");
+
+      function updateTimer() {
+        if (secondsLeft > 0) {
+          countdown.textContent = "Locked: " + secondsLeft + "s left";
+          btn.disabled = true;
+          secondsLeft--;
+        } else {
+          countdown.textContent = "You can try again now ✅";
+          countdown.style.color = "green";  // turn green for success
+          btn.disabled = false;
+          clearInterval(timer);
+        }
+      }
+
+      updateTimer();
+      const timer = setInterval(updateTimer, 1000);
+    {% endif %}
+  </script>
+
+</body>
+</html>
+
+

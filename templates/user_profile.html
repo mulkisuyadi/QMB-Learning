@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% block title %}Users Profile{% endblock %}
+
+{% block content %}
+<div class="progress-container">
+
+  <table border="1" cellpadding="8">
+    <thead>
+      <tr>
+        <th>Username</th>
+        <th>Email</th>
+        <th>Longname</th>
+        <th>ID Card</th>
+        <th>Confirmed</th>
+        <th>Account Made</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for username, email, longname, idcard, confirmed, formatted_time in userss %}
+      <tr>
+        <td>{{ username }}</td>
+        <td>{{ email }}</td>
+        <td>{{ longname }}</td>
+        <td>{{ idcard }}</td>
+        <td>{{ confirmed }}</td>
+        <td>{{ formatted_time }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <br>
+
+  <a href="{{ url_for('index') }}">
+    <button>Back to Home</button>
+  </a>
+
+</div>
+
+<style>
+.progress-container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+</style>
+{% endblock %}

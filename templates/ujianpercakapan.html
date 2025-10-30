@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+
+{% block title %}Ujian Percakapan{% endblock %}
+
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ test_name }}</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+    
+    <div class="content-section">
+        <h2>Percakapan Sehari-hari</h2>
+        <div class="tab-buttons">
+            <button class="tab-btn" data-tab="percakapan-materi">
+                <a href="{{ url_for('percakapan') }}">Materi</a>
+            </button>
+            <button class="tab-btn" data-tab="percakapan-ujian">
+                <a href="{{ url_for('ujianpercakapan') }}">Ujian</a>
+            </button>
+        </div>
+
+        <form method="POST" action="{{ url_for('save_progress') }}">
+            <label for="test_name">Choose test:</label>
+            <select name="test_name" id="test_name" required>
+                <option value="Math Quiz 1">Math Quiz 1</option>
+                <option value="English Quiz 2">English Quiz 2</option>
+                <option value="Science Quiz 3">Science Quiz 3</option>
+                <option value="HSK1 阅读测验">HSK1 阅读测验</option>
+            </select>
+            <br>
+            
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <div id="quiz-container" ></div>
+            <button type="submit" id="submit">Submit</button>
+            <input type="hidden" name="score" id="scoreInput">
+            <p id="scoreDisplay"></p>
+        </form>
+        
+
+    </div>
+
+</body>
+
+</html>
+
+{% endblock %}

@@ -1,0 +1,79 @@
+{% extends "base.html" %}
+
+{% block title %}HSK 1 - Daily Communication{% endblock %}
+
+{% block content %}
+
+<!-- HSK 1 Section -->
+  <div class="content-section">
+    <h2>HSK 1 - Daily Communication</h2>
+    <div class="tab-buttons">
+      <button class="tab-btn active" data-tab="hsk1-materi">Materi</button>
+      <button class="tab-btn" data-tab="hsk1-pendengaran">Pendengaran</button>
+      <button class="tab-btn" data-tab="hsk1-membaca">Membaca</button>
+      <button class="tab-btn" data-tab="hsk1-berbicara">Berbicara</button>
+      <button class="tab-btn" data-tab="hsk1-menulis">Menulis</button>
+    </div>
+
+    <!-- HSK 1 Materi -->
+   <!-- HSK 1 Materi -->
+        <div id="hsk1-materi" class="tab-content active">
+          <h3>HSK 1 Vocabulary</h3>
+
+          <!-- Featured Hanzi -->
+          <div id="featured-hanzi">
+            <div class="hanzi-display">—</div>
+            <div class="pinyin">Klik kosakata</div>
+            <div class="translation">Click a word</div>
+            <div class="audio-player">
+              <button onclick="playAudio('')">
+                <i class="fas fa-play"></i> Play Audio
+              </button>
+              <span>Click to listen</span>
+            </div>
+          </div>
+
+          <!-- Example Sentences -->
+          <div class="example-sentences">
+            <div class="default-message">
+              <p>Klik kata di bawah untuk melihat contoh kalimat</p>
+              <p>Click a word below to see example sentences</p>
+            </div>
+          </div>
+
+          <!-- Vocabulary Grid -->
+          <div class="vocab-grid">
+            <!-- vocab-cards injected by JSON -->
+          </div>
+        </div>
+
+        <!-- HSK 1 Listening -->
+        <div id="hsk1-pendengaran" class="tab-content">
+          <h3>Latihan Pendengaran</h3>
+          <!-- listening materials injected by JSON -->
+        </div>
+
+        <!-- HSK 1 Reading -->
+        <div id="hsk1-membaca" class="tab-content">
+          <h3>Latihan Membaca</h3>
+          <!-- quizzes injected by JSON -->
+        </div>
+
+        <!-- HSK 1 Speaking -->
+        <div id="hsk1-berbicara" class="tab-content">
+          <h3>Speaking Practice</h3>
+          <p>HSK 1 characters placeholder</p>
+          <p>Audio playback placeholder</p>
+        </div>
+
+        <!-- HSK 1 Writing -->
+        <div id="hsk1-menulis" class="tab-content">
+          <h3>Writing Practice</h3>
+          <p>Stroke order placeholder</p>
+          <div class="practice-box">[User handwriting box placeholder]</div>
+        </div>
+  </div>
+
+  {% endblock %}
+
+  

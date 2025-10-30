@@ -1,0 +1,151 @@
+{
+  "story": {
+    "title": "在 QMB 工作的王明",
+    "content": [
+      "王明是 QMB 的新员工。",
+      "他今年二十五岁。",
+      "他每天八点来公司。",
+      "早上，他喝茶，和同事说话。",
+      "九点，他开始工作。",
+      "他喜欢工作，因为同事很好。",
+      "中午，王明和同事一起吃饭。",
+      "下午，他去开会。",
+      "晚上六点，他回家。",
+      "他觉得今天很快乐。"
+    ]
+  },
+  "hsk1": [
+    {
+      "id": "quiz1",
+      "question": "王明在哪里工作？",
+      "options": [
+        { "value": "QMB", "label": "青美邦" },
+        { "value": "Tsingshan", "label": "青山" },
+        { "value": "Amerika", "label": "美国" }
+      ],
+      "correct": "QMB",
+      "correctMsg": "✅ 正确的! 王明在青美邦工作。",
+      "wrongMsg": "❌ 那是错误的!"
+    },
+    {
+      "id": "quiz2",
+      "question": "王明多大了？",
+      "options": [
+        { "value": "12_tahun", "label": "十二岁" },
+        { "value": "13_tahun", "label": "十三岁" },
+        { "value": "25_tahun", "label": "二十五岁" }
+      ],
+      "correct": "25_tahun",
+      "correctMsg": "✅ 正确的! 王明是二十五岁。",
+      "wrongMsg": "❌ 那是错误的!"
+    },
+    {
+      "id": "quiz3",
+      "question": "王明是中国人吗？",
+      "options": [
+        { "value": "Yes", "label": "是" },
+        { "value": "No", "label": "不" },
+        { "value": "I don't know", "label": "我不知道" }
+      ],
+      "correct": "I don't know",
+      "correctMsg": "✅ 正确的! 无可用信息。",
+      "wrongMsg": "❌ 那是错误的!"
+    },
+    {
+      "id": "quiz4",
+      "question": "王明每天几点来公司？",
+      "options": [
+        { "value": "7_dian", "label": "七点" },
+        { "value": "8_dian", "label": "八点" },
+        { "value": "9_dian", "label": "九点" }
+      ],
+      "correct": "8_dian",
+      "correctMsg": "✅ 正确的! 王明每天八点来公司。",
+      "wrongMsg": "❌ 那是错误的!"
+    },
+    {
+      "id": "quiz5",
+      "question": "王明早上喝什么？",
+      "options": [
+        { "value": "cha", "label": "茶" },
+        { "value": "kafei", "label": "咖啡" },
+        { "value": "niu_nai", "label": "牛奶" }
+      ],
+      "correct": "kafei",
+      "correctMsg": "✅ 正确的! 王明早上喝咖啡。",
+      "wrongMsg": "❌ 那是错误的!"
+    },
+    {
+      "id": "quiz6",
+      "question": "王明下午做什么？",
+      "options": [
+        { "value": "xie_zi", "label": "写字" },
+        { "value": "kai_hui", "label": "开会" },
+        { "value": "chi_fan", "label": "吃饭" }
+      ],
+      "correct": "kai_hui",
+      "correctMsg": "✅ 正确的! 王明下午开会。",
+      "wrongMsg": "❌ 那是错误的!"
+    },
+    {
+      "id": "quiz7",
+      "question": "王明几点回家？",
+      "options": [
+        { "value": "5_dian", "label": "五点" },
+        { "value": "6_dian", "label": "六点" },
+        { "value": "7_dian", "label": "七点" }
+      ],
+      "correct": "6_dian",
+      "correctMsg": "✅ 正确的! 王明六点回家。",
+      "wrongMsg": "❌ 那是错误的!"
+    },
+    {
+      "id": "quiz8",
+      "question": "王明觉得今天怎么样？",
+      "options": [
+        { "value": "hen_hao", "label": "很好" },
+        { "value": "bu_hao", "label": "不好" },
+        { "value": "mama_huhu", "label": "马马虎虎" }
+      ],
+      "correct": "hen_hao",
+      "correctMsg": "✅ 正确的! 王明觉得今天很好。",
+      "wrongMsg": "❌ 那是错误的!"
+    },
+    {
+      "id": "quiz9",
+      "question": "王明早上在做什么？",
+      "options": [
+        { "value": "喝茶说话", "label": "喝茶，和同事说话" },
+        { "value": "开会", "label": "开会" },
+        { "value": "开始工作", "label": "开始工作" }
+      ],
+      "correct": "喝茶说话",
+      "correctMsg": "✅ 正确的! 王明早上喝茶，和同事说话。",
+      "wrongMsg": "❌ 那是错误的!"
+    },
+    {
+      "id": "quiz11",
+      "question": "为什么王明喜欢他的工作？",
+      "options": [
+        { "value": "同事很好", "label": "因为同事很好" },
+        { "value": "工资高", "label": "因为工资高" },
+        { "value": "工作容易", "label": "因为工作容易" }
+      ],
+      "correct": "同事很好",
+      "correctMsg": "✅ 正确的! 因为同事很好。",
+      "wrongMsg": "❌ 那是错误的!"
+    },
+    {
+      "id": "quiz12",
+      "question": "王明和谁一起吃饭？",
+      "options": [
+        { "value": "同事", "label": "同事" },
+        { "value": "朋友", "label": "朋友" },
+        { "value": "家人", "label": "家人" }
+      ],
+      "correct": "同事",
+      "correctMsg": "✅ 正确的! 王明和同事一起吃饭。",
+      "wrongMsg": "❌ 那是错误的!"
+    }
+  ]
+}

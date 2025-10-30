@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}Belajar Mandarin bersama QMB{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+<style>
+  .push-right {
+    margin-left: auto;
+  }
+
+  .logout-container{
+    /* 
+    margin: 1%;
+    position: absolute;
+    right: 0%;
+    */
+    .logout-btn {
+      background-color: lightgreen;
+      font-size: medium;
+      font-style: italic;
+    }
+
+    :hover {
+      /* transform: translateY(-5px); */
+      
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      border-color: #20A164;
+      background-color: #fff9f9;
+      animation: gentlePulse 0.6s ease-in-out;
+      cursor: pointer;
+    }
+  }
+
+
+</style>
+
+</head>
+
+<body>
+
+  <header>
+
+    <div class="header-container">
+
+      <img src="{{ url_for('static', filename='images/logo2.png') }}" alt="QMB Logo" class="QMBlogo">
+      <h1 style="margin-right: auto;">Belajar Mandarin</h1>
+      
+      <!-- <h3 style="color:black; position: absolute; right: 2%;"><a href="{{ url_for('login') }}" >Login</a></h3>  -->
+      
+      <!-- PROFILE BUTTON  -->
+      
+       <h2>{{ username }}</h2>
+      <div class="user-menu">
+        <button class="user-icon">
+          <i class="fa-sharp fa-solid fa-circle-user"></i>
+        </button>
+
+        <div class="dropdownuser">
+
+          <form action="{{ url_for('user_profile') }}">
+            <button type="submit" class="dropdown-item">
+              Profile
+            </button>
+          </form>
+
+          <form action="{{ url_for('progress') }}">
+            <button type="submit" class="dropdown-item">
+              Progress
+            </button>
+          </form>
+
+          <form action="{{ url_for('logout') }}" method="POST">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}">
+            <button type="submit" class="dropdown-item">
+              Logout
+            </button>
+          </form>
+
+        </div>
+      </div>
+
+     
+
+
+    </div>
+
+  </header>
+
+  <div class="container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <h3>Kategori Pembelajaran</h3>
+      <ul>
+        <li class="dropdown">
+          <span><i class="fas fa-comments"></i> Materi HSK</span>
+          <ul class="dropdown-content">
+            <li><a href="{{ url_for('hsk1') }}">HSK 1</a></li>
+            <li class="disabled coming-soon">HSK 2</li>
+          </ul>
+        </li>
+
+        <li class="dropdown">
+          <span><i class="fas fa-briefcase"></i> Ternary Precursor Production</span>
+          <ul class="dropdown-content">
+            <li><a href="{{ url_for('percakapan') }}">Percakapan sehari-hari</a></li>
+            <li class="disabled coming-soon">Peralatan</li>
+            <li class="disabled coming-soon">Keselamatan</li>
+          </ul>
+        </li>
+
+        <li class="disabled coming-soon"><i class="fas fa-industry"></i> RnD</li>
+        <li class="disabled coming-soon"><i class="fas fa-cogs"></i> Analyst</li>
+        <li class="disabled coming-soon"><i class="fas fa-shield-alt"></i> Safety</li>
+        <li class="disabled coming-soon"><i class="fa-solid fa-face-grimace"></i> Ujian Probation</li>
+      </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="content">
+      {% block content %}
+      {% endblock %}
+    </main>
+  </div>
+
+  <div id="toast" class="toast">Coming soon!</div>
+</body>
+</html>
+
+
+

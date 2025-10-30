@@ -1,0 +1,164 @@
+{% extends "base.html" %}
+
+{% block title %}Percakapan Sehari-hari{% endblock %}
+
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ test_name }}</title>
+      <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+  <!-- Percakapan Section -->
+  <div class="content-section">
+    
+    <h2>Percakapan Sehari-hari</h2>
+        <div class="tab-buttons">
+            <button class="tab-btn" data-tab="percakapan-materi">
+                <a href="{{ url_for('percakapan') }}">Materi</a>
+            </button>
+            <button class="tab-btn" data-tab="percakapan-ujian">
+                <a href="{{ url_for('ujianpercakapan') }}">Ujian</a>
+            </button>
+        </div>
+
+    <!-- Percakapan Materi -->
+    
+    <div id="percakapan-materi" class="tab-content active">
+      <p>Content for Percakapan Materi</p>
+
+      <!-- Featured Area -->
+      <div class="featured-hanzi">
+        <div class="hanzi-display">—</div>
+        <div class="pinyin">Klik kartu untuk melihat</div>
+        <div class="translation">Click a card to preview</div>
+        <div class="audio-player">
+          <button class="audio-btn-small" onclick="playAudio('${s.audio}')">
+            <i class="fas fa-play"></i> Play Audio
+          </button>
+          <span>Pilih kosakata</span>
+        </div>
+      </div>
+
+      <!-- Week Buttons -->
+      <div class="week-buttons">
+            <button data-week="week1">Week 1</button>
+            <button data-week="week2">Week 2</button>
+            <button data-week="week3">Week 3</button>
+            <button data-week="week4">Week 4</button>
+            <button data-week="week5">Week 5</button>
+            <button data-week="week6">Week 6</button>
+            <button data-week="week7">Week 7</button>
+            <button data-week="week8">Week 8</button>
+            <button data-week="week9">Week 9</button>
+            <button data-week="week10">Week 10</button>
+            <button data-week="week11">Week 11</button>
+      </div>
+
+     
+      
+      <div id="week1" class="week-content">
+            <h4>Week 1 Vocabulary</h4>
+            <div class="vocab-container">
+            </div>
+          </div> 
+       
+
+          <div id="week2" class="week-content">
+            <h4>Week 2 Vocabulary</h4>
+            <div class="vocab-container">
+              <!-- vocab-cards injected by JSON -->
+            </div>
+          </div>
+
+          <div id="week3" class="week-content">
+            <h4>Week 3 Vocabulary</h4>
+            <div class="vocab-container">
+              <!-- vocab-cards injected by JSON -->
+            </div>
+          </div>
+
+          <div id="week4" class="week-content">
+            <h4>Week 4 Vocabulary</h4>
+            <div class="vocab-container">
+              <!-- vocab-cards injected by JSON -->
+            </div>
+          </div>
+
+          <div id="week5" class="week-content">
+            <h4>Week 5 Vocabulary</h4>
+            <div class="vocab-container">
+              <!-- vocab-cards injected by JSON -->
+            </div>
+          </div>
+
+          <div id="week6" class="week-content">
+            <h4>Week 6 Vocabulary</h4>
+            <div class="vocab-container">
+              <!-- vocab-cards injected by JSON -->
+            </div>
+          </div>
+
+          <div id="week7" class="week-content">
+            <h4>Week 7 Vocabulary</h4>
+            <div class="vocab-container">
+              <!-- vocab-cards injected by JSON -->
+            </div>
+          </div>
+
+          <div id="week8" class="week-content">
+            <h4>Week 8 Vocabulary</h4>
+            <div class="vocab-container">
+              <!-- vocab-cards injected by JSON -->
+            </div>
+          </div>
+
+          <div id="week9" class="week-content">
+            <h4>Week 9 Vocabulary</h4>
+            <div class="vocab-container">
+              <!-- vocab-cards injected by JSON -->
+            </div>
+          </div>
+
+          <div id="week10" class="week-content">
+            <h4>Week 10 Vocabulary</h4>
+            <div class="vocab-container">
+              <!-- vocab-cards injected by JSON -->
+            </div>
+          </div>
+
+          <div id="week11" class="week-content">
+            <h4>Week 11 Vocabulary</h4>
+            <div class="vocab-container">
+              <!-- vocab-cards injected by JSON -->
+            </div>
+          </div>
+    </div>
+
+    <!-- Other Percakapan Tabs 
+    <div id="percakapan-pendengaran" class="tab-content">
+      <p>Content for Percakapan Pendengaran</p>
+    </div>
+    <div id="percakapan-membaca" class="tab-content">
+      <p>Content for Percakapan Membaca</p>
+    </div>
+    <div id="percakapan-berbicara" class="tab-content">
+      <p>Content for Percakapan Berbicara</p>
+    </div>
+    <div id="percakapan-menulis" class="tab-content">
+      <p>Content for Percakapan Menulis</p>
+    </div> 
+    -->
+    
+  </div>
+</body>
+
+{% endblock %}

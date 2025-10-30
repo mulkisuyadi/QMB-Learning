@@ -1,0 +1,657 @@
+/* === Global Styles === */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+header {
+  color: #020202;
+  padding: 1%;
+  text-align: center;
+  font-size: 1.2vh;
+
+  /* 
+  background-image: url('/static/images/qmb-images.jpg');
+  background-size: cover;      scale the image to cover the whole header 
+  background-position: center; center the image 
+  background-repeat: no-repeat; don’t tile the image
+  */
+  
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* space between image and text */
+}
+
+.QMBlogo {
+  height: 50px;
+  width: auto;
+}
+
+.container {
+  display: flex;
+}
+
+/* === Sidebar === */
+.sidebar {
+  width: 250px;
+  background: #fff;
+  border-right: 1px solid #ccc;
+  padding: 15px;
+}
+
+.sidebar h3 {
+  margin-top: 0;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.sidebar ul li.disabled {
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+/* Dropdown content - hidden state */
+.dropdown-content {
+  opacity: 0;
+  visibility: hidden;
+  max-height: 0;
+  overflow: hidden;
+  padding-left: 15px;
+  transition: all 0.3s ease;
+}
+
+/* When hovered, show dropdown smoothly */
+.dropdown:hover .dropdown-content {
+  opacity: 1;
+  visibility: visible;
+  max-height: 500px; /* big enough for content */
+  transition: all 0.3s ease;
+}
+
+.dropdown-content li {
+  padding: 5px 0;
+}
+
+.dropdown-content li.active {
+  font-weight: bold;
+  color: #1d3557;
+}
+
+/* === Main Content === */
+.content {
+  flex: 1;
+  padding: 20px;
+  background: #fff;
+}
+
+.tab-buttons {
+  margin-bottom: 15px;
+}
+
+.tab-btn {
+  background: #457b9d;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.tab-btn.active {
+  background: #1d3557;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.practice-box {
+  border: 2px dashed #ccc;
+  width: 300px;
+  height: 150px;
+  margin-top: 10px;
+}
+
+/* === Toast Notification === */
+.toast {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease, transform 0.4s ease;
+  z-index: 9999;
+}
+
+.toast.show {
+  opacity: 1;
+  transform: translateX(-50%) translateY(-10px);
+}
+/* === Toast Notification === */
+
+
+
+/* === HSK 1 Materials Section === */
+#hsk1-materi {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#hsk1-materi h3 {
+  color: #2c3e50;
+  border-bottom: 2px solid #20A164;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+/* Hanzi Display */
+#hsk1-materi .hanzi-display {
+  font-size: 2.5rem;
+  margin: 20px 0;
+  text-align: center;
+  color: #20A164;
+}
+
+#hsk1-materi .pinyin {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#hsk1-materi .translation {
+  font-style: italic;
+  color: #34495e;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Audio Player */
+#hsk1-materi .audio-player {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+#hsk1-materi .audio-player button {
+  background-color: #20A164;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#hsk1-materi .audio-player button:hover {
+  background-color: #c0392b;
+}
+
+/* Vocabulary Grid */
+#hsk1-materi .vocab-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 10px;
+  margin-top: 15px;
+  max-height: 70vh; /* scrollable container */
+  overflow-y: auto;
+  padding-right: 5px; /* space for scrollbar */
+}
+
+@media (max-width: 768px) {
+  #hsk1-materi .vocab-grid {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+}
+
+/* Vocabulary Cards */
+#hsk1-materi .vocab-card {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid #eee;
+  font-size: 13px;
+}
+
+#hsk1-materi .vocab-card .hanzi {
+  font-size: 1.4rem;
+  transition: all 0.3s ease;
+}
+
+#hsk1-materi .vocab-card .pinyin {
+  font-size: 0.85rem;
+}
+
+#hsk1-materi .vocab-card .translation {
+  font-size: 0.75rem;
+  color: #777;
+}
+
+/* Card Hover Effects */
+#hsk1-materi .vocab-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-color: #20A164;
+  background-color: #fff9f9;
+  animation: gentlePulse 0.6s ease-in-out;
+}
+
+#hsk1-materi .vocab-card:hover .hanzi {
+  color: #20A164;
+  transform: scale(1.1);
+}
+
+#hsk1-materi .vocab-card:hover .pinyin {
+  font-weight: bold;
+  color: #333;
+}
+
+/* Pulse Animation */
+@keyframes gentlePulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+
+@media (hover: none) {
+  .vocab-card:active {
+    animation: gentlePulse 0.6s ease-in-out;
+  }
+}
+
+/* Selected Card */
+.vocab-card.selected {
+  transform: scale(1.05);
+  box-shadow: 0 0 0 3px #20A164 !important;
+  background-color: #fff9f9;
+}
+
+.vocab-card.selected .hanzi {
+  color: #20A164 !important;
+}
+
+.vocab-card.selected .pinyin {
+  font-weight: bold;
+  color: #333 !important;
+}
+
+.vocab-card.selected:hover {
+  transform: scale(1.05); /* lock size */
+  animation: none !important;
+  box-shadow: 0 0 0 3px #20A164 !important;
+  background-color: #fff9f9 !important;
+}
+
+/* === Example Sentences === */
+.example-sentences {
+  margin: 25px 0;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #20A164;
+}
+
+.example-sentences h4 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+
+.example-sentences .default-message {
+  text-align: center;
+  color: #7f8c8d;
+  font-style: italic;
+  padding: 20px;
+}
+
+.example-sentences .sentence-card {
+  display: none;
+}
+
+.example-sentences.has-content .default-message {
+  display: none;
+}
+
+.example-sentences.has-content .sentence-card {
+  display: flex;
+}
+
+/* Sentence Card */
+.sentence-card {
+  padding: 12px;
+  margin-bottom: 10px;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  transition: transform 0.2s ease;
+}
+
+.sentence-card:hover {
+  transform: translateX(5px);
+}
+
+.sentence-hanzi {
+  font-size: 1.3rem;
+  color: #20A164;
+  flex: 1 0 100%;
+}
+
+.sentence-pinyin {
+  color: #7f8c8d;
+  flex: 1;
+}
+
+.sentence-translation {
+  font-style: italic;
+  color: #34495e;
+  flex: 1;
+}
+
+.sentence-audio {
+  flex: 0 0 auto;
+}
+
+.audio-btn-small {
+  background: none;
+  border: none;
+  color: #20A164;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+/* === Smooth Content Transition === */
+#featured-hanzi > div {
+  transition: all 0.3s ease;
+}
+
+/* Week Buttons */
+.week-buttons {
+  margin: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.week-buttons button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: 1px solid #457b9d;
+  background: #f1f1f1;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.week-buttons button:hover {
+  background: #457b9d;
+  color: #fff;
+}
+
+.week-buttons button.active {
+  background: #1d3557;
+  color: #fff;
+  border-color: #1d3557;
+}
+
+#percakapan-materi .vocab-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 15px;
+  margin-top: 10px;
+}
+
+/* ==== Shared featured panel (works for HSK1 id and Percakapan class) ==== */
+#hsk1-materi #featured-hanzi,
+.featured-hanzi {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#hsk1-materi #featured-hanzi .hanzi-display,
+.featured-hanzi .hanzi-display {
+  font-size: 2.5rem;
+  margin: 20px 0;
+  text-align: center;
+  color: #20A164;
+}
+
+#hsk1-materi #featured-hanzi .pinyin,
+.featured-hanzi .pinyin {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#hsk1-materi #featured-hanzi .translation,
+.featured-hanzi .translation {
+  font-style: italic;
+  color: #34495e;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#hsk1-materi #featured-hanzi .audio-player,
+.featured-hanzi .audio-player {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+#hsk1-materi #featured-hanzi .audio-player button,
+.featured-hanzi .audio-player button {
+  background-color: #20A164;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#hsk1-materi #featured-hanzi .audio-player button:hover,
+.featured-hanzi .audio-player button:hover {
+  background-color: #c0392b;
+}
+
+/* ==== Shared card design (works in ALL sections) ==== */
+.vocab-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.vocab-card {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid #eee;
+  font-size: 13px;
+}
+
+.vocab-card p {
+  margin: 2px 0;  /* smaller vertical spacing */
+  line-height: 1.2; /* optional: makes text more compact */
+}
+
+.vocab-card .hanzi {
+  font-size: 1.4rem;
+  transition: all 0.3s ease;
+}
+
+.vocab-card .pinyin {
+  font-size: 0.85rem;
+}
+
+.vocab-card .translation {
+  font-size: 0.75rem;
+  color: #777;
+}
+
+.vocab-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  border-color: #20A164;
+  background-color: #fff9f9;
+  animation: gentlePulse 0.6s ease-in-out;
+}
+
+.vocab-card:hover .hanzi {
+  color: #20A164;
+  transform: scale(1.1);
+}
+
+.vocab-card:hover .pinyin {
+  font-weight: bold;
+  color: #333;
+}
+
+.vocab-card.selected {
+  transform: scale(1.05);
+  box-shadow: 0 0 0 3px #20A164 !important;
+  background-color: #fff9f9;
+}
+
+.vocab-card.selected .hanzi {
+  color: #20A164 !important;
+}
+
+.vocab-card.selected .pinyin {
+  font-weight: bold;
+  color: #333 !important;
+}
+
+.vocab-card.selected:hover {
+  transform: scale(1.05);
+  animation: none !important;
+  box-shadow: 0 0 0 3px #20A164 !important;
+  background-color: #fff9f9 !important;
+}
+
+/* === a LINK === */
+a {
+  color: black;      /* your preferred color */
+  text-decoration: none;  /* remove underline */
+}
+
+a:visited {
+  color: black;   /* same as normal so it doesn’t change */
+}
+
+a:hover {
+  color: #20A164;   /* darker on hover */
+  text-decoration: none;  /* underline only on hover */
+}
+/* === a LINK === */
+
+
+
+.user-menu {
+  position: relative;
+  display: inline-block;
+}
+
+/* User icon */
+.user-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.user-icon i {
+  font-size: 28px;
+  color: #333;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.user-icon:hover i {
+  color: #007bff;
+  transform: scale(1.1);
+}
+
+/* Dropdown container */
+.dropdownuser {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  min-width: 140px;
+  z-index: 1000;
+}
+
+/* Shared style for <a> and <button> */
+.dropdown-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  background: none;
+  border: none;
+  color: #333;  
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  border-radius: 0;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+/* Hide form border/margin */
+.dropdownuser form {
+  margin: 0;
+}
+
+/* Show dropdown when hovering */
+.user-menu:hover .dropdownuser {
+  display: block;
+}
+
