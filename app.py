@@ -43,22 +43,32 @@ from flask import make_response
 
 app = Flask(__name__)
 
+# ✅ Get DB URL from Railway or fallback to SQLite locally
+db_url = os.getenv("DATABASE_URL")
+
+# ✅ Railway gives postgres:// but SQLAlchemy needs postgresql://
+if db_url and db_url.startswith("postgres://"):
+    db_url = db_url.replace("postgres://", "postgresql://", 1)
+
 app.config.update(
-    SECRET_KEY= os.getenv("SECRET_KEY") or "dev-secret-key",
-    SESSION_COOKIE_HTTPONLY=True, # Protect from JavaScript
-    SESSION_COOKIE_SECURE=False, # Use True in production (requires HTTPS)
-    SESSION_COOKIE_SAMESITE="Lax", # Or "Strict" if your flows allow it
-    #SQLALCHEMY_DATABASE_URI="sqlite:///users.db",
-    #SQLALCHEMY_TRACK_MODIFICATIONS= False,
+    SECRET_KEY=os.getenv("SECRET_KEY") or "dev-secret-key",
+    SESSION_COOKIE_HTTPONLY=True,
+    SESSION_COOKIE_SECURE=False,  # ⚠️ set True after https
+    SESSION_COOKIE_SAMESITE="Lax",
+    
+    # ✅ Database settings
+    SQLALCHEMY_DATABASE_URI=db_url or "sqlite:///users.db",
+    SQLALCHEMY_TRACK_MODIFICATIONS=False,
+
+    # Email
     MAIL_SERVER="smtp.gmail.com",
     MAIL_PORT=587,
     MAIL_USE_TLS=True,
     MAIL_USERNAME="nerdboy166@gmail.com",
     MAIL_PASSWORD="hfvl xtdm tqhp szyq",
-    MAIL_DEFAULT_SENDER=("QMB Mandarin Learning", "nerdboy166@gmail.com"),
-    SQLALCHEMY_DATABASE_URI=os.getenv("DATABASE_URL") or "dev-database-key",
-    SQLALCHEMY_TRACK_MODIFICATIONS=False
+    MAIL_DEFAULT_SENDER=("QMB Mandarin Learning", "nerdboy166@gmail.com")
 )
+
 
 print("SECRET KEY:", app.secret_key)  # ✅ keep this for now
 print("SECRET KEY:", app.config["SECRET_KEY"])
