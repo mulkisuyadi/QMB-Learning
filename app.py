@@ -41,8 +41,6 @@ from itsdangerous import URLSafeTimedSerializer, SignatureExpired, BadSignature
 from flask import make_response
 
 
-
-
 app = Flask(__name__)
 
 app.config.update(
@@ -58,6 +56,8 @@ app.config.update(
     MAIL_USERNAME="nerdboy166@gmail.com",
     MAIL_PASSWORD="hfvl xtdm tqhp szyq",
     MAIL_DEFAULT_SENDER=("QMB Mandarin Learning", "nerdboy166@gmail.com")
+    SQLALCHEMY_DATABASE_URI=os.getenv("DATABASE_URL")
+    SQLALCHEMY_TRACK_MODIFICATIONS=False
 )
 
 print("SECRET KEY:", app.secret_key)  # ✅ keep this for now
