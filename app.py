@@ -48,8 +48,8 @@ app.config.update(
     SESSION_COOKIE_HTTPONLY=True, # Protect from JavaScript
     SESSION_COOKIE_SECURE=False, # Use True in production (requires HTTPS)
     SESSION_COOKIE_SAMESITE="Lax", # Or "Strict" if your flows allow it
-    SQLALCHEMY_DATABASE_URI="sqlite:///users.db",
-    SQLALCHEMY_TRACK_MODIFICATIONS= False,
+    #SQLALCHEMY_DATABASE_URI="sqlite:///users.db",
+    #SQLALCHEMY_TRACK_MODIFICATIONS= False,
     MAIL_SERVER="smtp.gmail.com",
     MAIL_PORT=587,
     MAIL_USE_TLS=True,
@@ -62,7 +62,7 @@ app.config.update(
 
 print("SECRET KEY:", app.secret_key)  # ✅ keep this for now
 print("SECRET KEY:", app.config["SECRET_KEY"])
-print("Database_URL:", app.config["DATABASE_URL"])
+print("Database_URL:", app.config["SQLALCHEMY_DATABASE_URI"])
 
 
 mail = Mail(app)
