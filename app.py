@@ -41,10 +41,12 @@ from itsdangerous import URLSafeTimedSerializer, SignatureExpired, BadSignature
 from flask import make_response
 
 
+
+
 app = Flask(__name__)
 
 app.config.update(
-    SECRET_KEY= os.getenv("SECRET_KEY"),
+    SECRET_KEY= os.getenv("SECRET_KEY") or "dev-secret-key",
     SESSION_COOKIE_HTTPONLY=True, # Protect from JavaScript
     SESSION_COOKIE_SECURE=False, # Use True in production (requires HTTPS)
     SESSION_COOKIE_SAMESITE="Lax", # Or "Strict" if your flows allow it
@@ -58,6 +60,8 @@ app.config.update(
     MAIL_DEFAULT_SENDER=("QMB Mandarin Learning", "nerdboy166@gmail.com")
 )
 
+print("SECRET KEY:", app.secret_key)  # ✅ keep this for now
+
 mail = Mail(app)
 
 serializer = URLSafeTimedSerializer(app.secret_key)
@@ -67,6 +71,7 @@ serializer = URLSafeTimedSerializer(app.secret_key)
 def create_tables():
     db.create_all()
 app.cli.add_command(create_tables)
+
 
 
 db = SQLAlchemy(app)
