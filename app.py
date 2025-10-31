@@ -56,12 +56,14 @@ app.config.update(
     MAIL_USERNAME="nerdboy166@gmail.com",
     MAIL_PASSWORD="hfvl xtdm tqhp szyq",
     MAIL_DEFAULT_SENDER=("QMB Mandarin Learning", "nerdboy166@gmail.com"),
-    SQLALCHEMY_DATABASE_URI=os.getenv("DATABASE_URL"),
+    SQLALCHEMY_DATABASE_URI=os.getenv("DATABASE_URL") or "dev-database-key",
     SQLALCHEMY_TRACK_MODIFICATIONS=False
 )
 
 print("SECRET KEY:", app.secret_key)  # ✅ keep this for now
 print("SECRET KEY:", app.config["SECRET_KEY"])
+print("Database_URL:", app.config["DATABASE_URL"])
+
 
 mail = Mail(app)
 
