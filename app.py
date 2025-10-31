@@ -41,6 +41,7 @@ from itsdangerous import URLSafeTimedSerializer, SignatureExpired, BadSignature
 from flask import make_response
 
 
+
 app = Flask(__name__)
 
 # ✅ Get DB URL from Railway or fallback to SQLite locally
@@ -70,7 +71,6 @@ app.config.update(
 )
 
 
-print("SECRET KEY:", app.secret_key)  # ✅ keep this for now
 print("SECRET KEY:", app.config["SECRET_KEY"])
 print("Database_URL:", app.config["SQLALCHEMY_DATABASE_URI"])
 
