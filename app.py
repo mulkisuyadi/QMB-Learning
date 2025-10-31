@@ -55,8 +55,8 @@ app.config.update(
     MAIL_USE_TLS=True,
     MAIL_USERNAME="nerdboy166@gmail.com",
     MAIL_PASSWORD="hfvl xtdm tqhp szyq",
-    MAIL_DEFAULT_SENDER=("QMB Mandarin Learning", "nerdboy166@gmail.com")
-    SQLALCHEMY_DATABASE_URI=os.getenv("DATABASE_URL")
+    MAIL_DEFAULT_SENDER=("QMB Mandarin Learning", "nerdboy166@gmail.com"),
+    SQLALCHEMY_DATABASE_URI=os.getenv("DATABASE_URL"),
     SQLALCHEMY_TRACK_MODIFICATIONS=False
 )
 
