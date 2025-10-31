@@ -61,10 +61,12 @@ app.config.update(
 )
 
 print("SECRET KEY:", app.secret_key)  # ✅ keep this for now
+print("SECRET KEY:", app.config["SECRET_KEY"])
 
 mail = Mail(app)
 
 serializer = URLSafeTimedSerializer(app.secret_key)
+serializer = URLSafeTimedSerializer(app.config["SECRET_KEY"])
 
 @click.command(name="create_tables")
 @with_appcontext
