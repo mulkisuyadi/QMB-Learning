@@ -51,6 +51,11 @@ db_url = os.getenv("DATABASE_URL")
 if db_url and db_url.startswith("postgres://"):
     db_url = db_url.replace("postgres://", "postgresql://", 1)
 
+if os.getenv("RAILWAY_ENVIRONMENT"):
+    app.config["SERVER_NAME"] = "qmblearning.up.railway.app"
+    app.config["PREFERRED_URL_SCHEME"] = "https"
+
+
 app.config.update(
     SECRET_KEY=os.getenv("SECRET_KEY") or "dev-secret-key",
     SESSION_COOKIE_HTTPONLY=True,
