@@ -67,12 +67,20 @@ app.config.update(
     SQLALCHEMY_TRACK_MODIFICATIONS=False,
 
     # Email
-    MAIL_SERVER="smtp.gmail.com",
+    #MAIL_SERVER="smtp.gmail.com",
+    #MAIL_PORT=587,
+    #MAIL_USE_TLS=True,
+    #MAIL_USERNAME="nerdboy166@gmail.com",
+    #MAIL_PASSWORD="hfvl xtdm tqhp szyq",
+    #MAIL_DEFAULT_SENDER=("QMB Mandarin Learning", "nerdboy166@gmail.com")
+
+    MAIL_SERVER="smtp.mail.yahoo.com",
     MAIL_PORT=587,
     MAIL_USE_TLS=True,
-    MAIL_USERNAME="nerdboy166@gmail.com",
-    MAIL_PASSWORD="hfvl xtdm tqhp szyq",
-    MAIL_DEFAULT_SENDER=("QMB Mandarin Learning", "nerdboy166@gmail.com")
+    MAIL_USERNAME="mulki.anas@yahoo.com",
+    MAIL_PASSWORD="jhir csbg lfdt vkfy",
+    MAIL_DEFAULT_SENDER=("QMB Mandarin Learning", "mulki.anas@yahoo.com")
+
 )
 
 
