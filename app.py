@@ -40,6 +40,8 @@ from itsdangerous import URLSafeTimedSerializer, SignatureExpired, BadSignature
 
 from flask import make_response
 
+import resend
+
 
 
 app = Flask(__name__)
@@ -55,6 +57,7 @@ if os.getenv("RAILWAY_ENVIRONMENT"):
     app.config["SERVER_NAME"] = "qmblearning.up.railway.app"
     app.config["PREFERRED_URL_SCHEME"] = "https"
 
+resend.api_key = os.getenv("RESEND_API_KEY")
 
 app.config.update(
     SECRET_KEY=os.getenv("SECRET_KEY") or "dev-secret-key",
@@ -74,6 +77,7 @@ app.config.update(
     #MAIL_PASSWORD="hfvl xtdm tqhp szyq",
     #MAIL_DEFAULT_SENDER=("QMB Mandarin Learning", "nerdboy166@gmail.com")
 
+    
     MAIL_SERVER="smtp.mail.yahoo.com",
     MAIL_PORT=587,
     MAIL_USE_TLS=True,
@@ -469,12 +473,18 @@ def signup():
         confirm_url = url_for("confirm_email", token=token, _external = True)
 
         #Prepare message - both text and html optional
-        subject = "Confirm your email"
-        text_body = f"Hi {username}, \n\nPlease confirm your email by clicking the link: {confirm_url}\n\nIf you didn't sign up, ignore this email."
-        html_body = render_template("confirm.html", confirm_url=confirm_url, username=username)
+        #subject = "Confirm your email"
+        #text_body = f"Hi {username}, \n\nPlease confirm your email by clicking the link: {confirm_url}\n\nIf you didn't sign up, ignore this email."
+        #html_body = render_template("confirm.html", confirm_url=confirm_url, username=username)
 
-        send_email(subject, [email], html_body=html_body, text_body=text_body)
-
+        #send_email(subject, [email], html_body=html_body, text_body=text_body)
+        params = {
+        "from": "QMB Learning <onboarding@resend.dev>",
+        "to": [email],
+        "subject": "Confirm your account",
+        "html": f"Click here to confirm your email: <a href='{ {confirm_url} }'>{ {confirm_url} }</a>"
+        }
+        resend.Emails.send(params)
         flash("A confirmation email has been sent. Please check your inbox.", "info")
 
         return redirect(url_for("login"))
