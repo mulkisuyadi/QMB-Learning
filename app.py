@@ -77,13 +77,12 @@ app.config.update(
     #MAIL_PASSWORD="hfvl xtdm tqhp szyq",
     #MAIL_DEFAULT_SENDER=("QMB Mandarin Learning", "nerdboy166@gmail.com")
 
-    
-    MAIL_SERVER="smtp.mail.yahoo.com",
-    MAIL_PORT=587,
-    MAIL_USE_TLS=True,
-    MAIL_USERNAME="mulki.anas@yahoo.com",
-    MAIL_PASSWORD="jhir csbg lfdt vkfy",
-    MAIL_DEFAULT_SENDER=("QMB Mandarin Learning", "mulki.anas@yahoo.com")
+    #MAIL_SERVER="smtp.mail.yahoo.com",
+    #MAIL_PORT=587,
+    #MAIL_USE_TLS=True,
+    #MAIL_USERNAME="mulki.anas@yahoo.com",
+    #MAIL_PASSWORD="jhir csbg lfdt vkfy",
+    #MAIL_DEFAULT_SENDER=("QMB Mandarin Learning", "mulki.anas@yahoo.com")
 
 )
 
@@ -482,7 +481,7 @@ def signup():
         "from": "QMB Learning <onboarding@resend.dev>",
         "to": [email],
         "subject": "Confirm your account",
-        "html": f"Click here to confirm your email: <a href='{ {confirm_url} }'>{ {confirm_url} }</a>"
+        "html": f"Click here to confirm your email: <a href='{ confirm_url }'>{ confirm_url }</a>"
         }
         resend.Emails.send(params)
         flash("A confirmation email has been sent. Please check your inbox.", "info")
