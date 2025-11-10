@@ -87,8 +87,8 @@ app.config.update(
 )
 
 
-print("SECRET KEY:", app.config["SECRET_KEY"])
-print("Database_URL:", app.config["SQLALCHEMY_DATABASE_URI"])
+#print("SECRET KEY:", app.config["SECRET_KEY"])
+#print("Database_URL:", app.config["SQLALCHEMY_DATABASE_URI"])
 
 
 mail = Mail(app)
@@ -241,7 +241,7 @@ def login():
             session.pop("lock_time", None)
             session["login_attempts"] = 0
 
-    print("LINE 190-209 IF FINE")
+    #print("LINE 190-209 IF FINE")
 
     g.login_failed = False  # default
 
@@ -389,12 +389,12 @@ def index():
             return render_template("index.html", username=user.username)
 
         # Optional: token exists but no user — remove the stale cookie so it won't reappear
-        resp = make_response(redirect(url_for("login")))
+        resp = make_response(redirect(url_for("login"))) 
         resp.set_cookie("remember_token", "", expires=0)
         return resp
 
     # 3) No session and no valid remember token → go to login
-    return redirect(url_for("login"))
+    return redirect(url_for("login")) 
 #====================================================================================
 # === INDEX PAGE === #
 
@@ -544,10 +544,19 @@ def forgot():
             subject = "Password reset requested"
             reset_url = url_for("reset_password", token=token, _external=True)
 
-            text_body = f"To reset your password, click: {reset_url}\nIf you did not request this, ignore."
-            html_body = render_template("redirectemail.html", reset_url=reset_url, username=user.username)
+            #text_body = f"To reset your password, click: {reset_url}\nIf you did not request this, ignore."
+            #html_body = render_template("redirectemail.html", reset_url=reset_url, username=user.username)
 
-            send_email(subject, [user.email], html_body=html_body, text_body=text_body)
+            params1 = {
+            "from": "QMB Learning <onboarding@resend.dev>",
+            "to": [email],
+            "subject": "Reset your password",
+            "html": f"Click here to reset your password: <a href='{ reset_url }'>{ reset_url }</a>"
+            }
+            resend.Emails.send(params1)
+            flash("A reset password email has been sent. Please check your inbox.", "info")
+
+            #send_email(subject, [user.email], html_body=html_body, text_body=text_body)
             print("🔗 DEBUG RESET LINK:", reset_url)
         #Generic message (prevents account enumeration)
         flash("If the email exists in our system, a password reset link was sent.", "info")
@@ -871,5 +880,7 @@ def test_email():
 
 
 if __name__ == "__main__":
-    #app.run(debug=True)
-    app.run(host='0.0.0.0', port=5000)
+    app.run(debug=True)
+    #app.run(host='0.0.0.0', port=5000)
+#JANGAN LUPA UNTUK MATIKAN debug=True KALAU SUDAH DEBUGGING ATAU UJI COBA DLL
+#JANGAN LUPA UNTUK NYALAKAN KEMBALI host=.........

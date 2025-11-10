@@ -4,15 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reset Password</title>
-</head>
-<body>
-    <h2>Reset Password</h2>
 
-    <form method="POST" action="{{ url_for('reset_password', token=token) }}">
-        <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"> 
-        <input type="password" name="password" placeholder="New password" required>
-        <button type="submit">Reset Password</button>
-    </form>
+<style>
+    body.bg {
+  font-family: Arial, sans-serif;
+  background-image: url("/static/images/qmb-images.jpg"); /* relative path from static/style.css */
+  background-position: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+input {
+  margin: 10px 0;
+  padding: 8px;
+  width: 90%;
+}
+
+button {
+  padding: 8px 20px;
+  background: #4CAF50;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+.remember-label {
+  font-size: 14px;
+  color: #333;
+  cursor: pointer; /* makes it look clickable */
+}
+
+</style>
+
+
+
+</head>
+
+<body class="bg">
+
+    <div class="container">
+        
+        <h2>Reset Password</h2>
+
+        <form method="POST" action="{{ url_for('reset_password', token=token) }}">
+            <input type="hidden" name="csrf_token" value="{{ csrf_token() }}"> 
+            <input type="password" name="password" placeholder="New password" required>
+            <button type="submit">Reset Password</button>
+        </form>
+
+    </div>
 
 </body>
+
 </html>
