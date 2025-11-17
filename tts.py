@@ -8,8 +8,6 @@ client = ElevenLabs(
   api_key=os.getenv("ELEVENLABS_API_KEY"),
 )
 
-
-
 os.makedirs("audio", exist_ok=True)
 
 with open("static/data/test.json", "r", encoding="utf8") as f:
