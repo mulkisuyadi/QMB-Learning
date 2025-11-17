@@ -2943,6 +2943,9 @@
     ]
   }
 ],
+
+
+
 "week14": [
   {
     "hanzi": "堆放区",
@@ -2996,6 +2999,412 @@
       }
     ]
   },
+
+  {
+    "hanzi": "模温机",
+    "pinyin": "mó wēn jī",
+    "arti": "Pemanas moduler",
+    "audio": "/static/audio/mowenji.mp3",
+    "sentences": [
+      {
+        "cn": "模温机正在加热。",
+        "pinyin": "Mówēnjī zhèngzài jiārè.",
+        "id": "Pemanas moduler sedang memanaskan.",
+        "audio": "/static/audio/Mówēnjī zhèngzài jiārè.mp3"
+      },
+      {
+        "cn": "请检查模温机的温度。",
+        "pinyin": "Qǐng jiǎnchá mówēnjī de wēndù.",
+        "id": "Tolong cek suhu pemanas moduler.",
+        "audio": "/static/audio/Qǐng jiǎnchá mówēnjī de wēndù.mp3"
+      },
+      {
+        "cn": "模温机出现故障了。",
+        "pinyin": "Mówēnjī chūxiàn gùzhàng le.",
+        "id": "Pemanas moduler mengalami gangguan.",
+        "audio": "/static/audio/Mówēnjī chūxiàn gùzhàng le.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "蠕动泵",
+    "pinyin": "rú dòng bèng",
+    "arti": "Pompa peristaltik",
+    "audio": "/static/audio/rudongbeng.mp3",
+    "sentences": [
+      {
+        "cn": "蠕动泵正在运行。",
+        "pinyin": "Rúdòngbèng zhèngzài yùnxíng.",
+        "id": "Pompa peristaltik sedang beroperasi.",
+        "audio": "/static/audio/Rúdòngbèng zhèngzài yùnxíng.mp3"
+      },
+      {
+        "cn": "请调整蠕动泵的流量。",
+        "pinyin": "Qǐng tiáozhěng rúdòngbèng de liúliàng.",
+        "id": "Tolong sesuaikan aliran pompa peristaltik.",
+        "audio": "/static/audio/Qǐng tiáozhěng rúdòngbèng de liúliàng.mp3"
+      },
+      {
+        "cn": "蠕动泵需要保养。",
+        "pinyin": "Rúdòngbèng xūyào bǎoyǎng.",
+        "id": "Pompa peristaltik perlu dirawat.",
+        "audio": "/static/audio/Rúdòngbèng xūyào bǎoyǎng.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "冷却水",
+    "pinyin": "lěng què shuǐ",
+    "arti": "Air pendingin",
+    "audio": "/static/audio/lengqueshui.mp3",
+    "sentences": [
+      {
+        "cn": "冷却水温度太高了。",
+        "pinyin": "Lěngquèshuǐ wēndù tài gāo le.",
+        "id": "Suhu air pendingin terlalu tinggi.",
+        "audio": "/static/audio/Lěngquèshuǐ wēndù tài gāo le.mp3"
+      },
+      {
+        "cn": "请补充冷却水。",
+        "pinyin": "Qǐng bǔchōng lěngquèshuǐ.",
+        "id": "Tolong isi ulang air pendingin.",
+        "audio": "/static/audio/Qǐng bǔchōng lěngquèshuǐ.mp3"
+      },
+      {
+        "cn": "机器需要冷却水才能运行。",
+        "pinyin": "Jīqì xūyào lěngquèshuǐ cái néng yùnxíng.",
+        "id": "Mesin membutuhkan air pendingin agar dapat berjalan.",
+        "audio": "/static/audio/Jīqì xūyào lěngquèshuǐ cái néng yùnxíng.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "扫把",
+    "pinyin": "sào bǎ",
+    "arti": "Sapu",
+    "audio": "/static/audio/saoba.mp3",
+    "sentences": [
+      {
+        "cn": "请用扫把打扫地面。",
+        "pinyin": "Qǐng yòng sàoba dǎsǎo dìmiàn.",
+        "id": "Tolong sapu lantainya.",
+        "audio": "/static/audio/Qǐng yòng sàoba dǎsǎo dìmiàn.mp3"
+      },
+      {
+        "cn": "扫把放在哪里？",
+        "pinyin": "Sàoba fàng zài nǎlǐ?",
+        "id": "Sapu disimpan di mana?",
+        "audio": "/static/audio/Sàoba fàng zài nǎlǐ.mp3"
+      },
+      {
+        "cn": "这把扫把很好用。",
+        "pinyin": "Zhè bǎ sàoba hěn hǎoyòng.",
+        "id": "Sapu ini sangat enak digunakan.",
+        "audio": "/static/audio/Zhè bǎ sàoba hěn hǎoyòng.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "拖把",
+    "pinyin": "tuō bǎ",
+    "arti": "Pel",
+    "audio": "/static/audio/tuoba.mp3",
+    "sentences": [
+      {
+        "cn": "请用拖把拖地。",
+        "pinyin": "Qǐng yòng tuōba tuō dì.",
+        "id": "Tolong pel lantainya.",
+        "audio": "/static/audio/Qǐng yòng tuōba tuō dì.mp3"
+      },
+      {
+        "cn": "拖把需要清洗。",
+        "pinyin": "Tuōba xūyào qīngxǐ.",
+        "id": "Pelnya perlu dicuci.",
+        "audio": "/static/audio/Tuōba xūyào qīngxǐ.mp3"
+      },
+      {
+        "cn": "拖把在哪里？",
+        "pinyin": "Tuōba zài nǎlǐ?",
+        "id": "Pelnya dimana?",
+        "audio": "/static/audio/Tuōba zài nǎlǐ.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "抹布",
+    "pinyin": "mā bù",
+    "arti": "Kain lap",
+    "audio": "/static/audio/mabu.mp3",
+    "sentences": [
+      {
+        "cn": "请拿一块抹布。",
+        "pinyin": "Qǐng ná yí kuài mābù.",
+        "id": "Tolong ambil satu kain lap.",
+        "audio": "/static/audio/Qǐng ná yí kuài mābù.mp3"
+      },
+      {
+        "cn": "抹布很脏，需要洗一下。",
+        "pinyin": "Mābù hěn zāng, xūyào xǐ yíxià.",
+        "id": "Kain lapnya kotor, perlu dicuci.",
+        "audio": "/static/audio/Mābù hěn zāng, xūyào xǐ yíxià.mp3"
+      },
+      {
+        "cn": "请用抹布擦桌子。",
+        "pinyin": "Qǐng yòng mābù cā zhuōzi.",
+        "id": "Tolong lap mejanya pakai kain.",
+        "audio": "/static/audio/Qǐng yòng mābù cā zhuōzi.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "运动",
+    "pinyin": "yùn dòng",
+    "arti": "Olahraga",
+    "audio": "/static/audio/yundong.mp3",
+    "sentences": [
+      {
+        "cn": "我每天运动。",
+        "pinyin": "Wǒ měitiān yùndòng.",
+        "id": "Saya berolahraga setiap hari.",
+        "audio": "/static/audio/Wǒ měitiān yùndòng.mp3"
+      },
+      {
+        "cn": "运动对身体很好。",
+        "pinyin": "Yùndòng duì shēntǐ hěn hǎo.",
+        "id": "Olahraga baik untuk kesehatan.",
+        "audio": "/static/audio/Yùndòng duì shēntǐ hěn hǎo.mp3"
+      },
+      {
+        "cn": "你喜欢做什么运动？",
+        "pinyin": "Nǐ xǐhuān zuò shénme yùndòng?",
+        "id": "Kamu suka olahraga apa?",
+        "audio": "/static/audio/Nǐ xǐhuān zuò shénme yùndòng.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "跑步",
+    "pinyin": "pǎo bù",
+    "arti": "Lari",
+    "audio": "/static/audio/paobu.mp3",
+    "sentences": [
+      {
+        "cn": "我每天跑步三十分钟。",
+        "pinyin": "Wǒ měitiān pǎobù sānshí fēnzhōng.",
+        "id": "Saya lari 30 menit setiap hari.",
+        "audio": "/static/audio/Wǒ měitiān pǎobù sānshí fēnzhōng.mp3"
+      },
+      {
+        "cn": "跑步很累但是很健康。",
+        "pinyin": "Pǎobù hěn lèi dànshì hěn jiànkāng.",
+        "id": "Lari itu melelahkan tapi sehat.",
+        "audio": "/static/audio/Pǎobù hěn lèi dànshì hěn jiànkāng.mp3"
+      },
+      {
+        "cn": "他喜欢早上跑步。",
+        "pinyin": "Tā xǐhuān zǎoshang pǎobù.",
+        "id": "Dia suka lari di pagi hari.",
+        "audio": "/static/audio/Tā xǐhuān zǎoshang pǎobù.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "踢足球",
+    "pinyin": "tī zú qiú",
+    "arti": "Sepak bola",
+    "audio": "/static/audio/tizuqiu.mp3",
+    "sentences": [
+      {
+        "cn": "我喜欢踢足球。",
+        "pinyin": "Wǒ xǐhuān tī zúqiú.",
+        "id": "Saya suka bermain sepak bola.",
+        "audio": "/static/audio/Wǒ xǐhuān tī zúqiú.mp3"
+      },
+      {
+        "cn": "他们每周踢一次足球。",
+        "pinyin": "Tāmen měi zhōu tī yí cì zúqiú.",
+        "id": "Mereka bermain sepak bola seminggu sekali.",
+        "audio": "/static/audio/Tāmen měi zhōu tī yí cì zúqiú.mp3"
+      },
+      {
+        "cn": "踢足球很有趣。",
+        "pinyin": "Tī zúqiú hěn yǒuqù.",
+        "id": "Main sepak bola itu seru.",
+        "audio": "/static/audio/Tī zúqiú hěn yǒuqù.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "打篮球",
+    "pinyin": "dǎ lán qiú",
+    "arti": "Basket",
+    "audio": "/static/audio/dalanqiu.mp3",
+    "sentences": [
+      {
+        "cn": "我喜欢打篮球。",
+        "pinyin": "Wǒ xǐhuān dǎ lánqiú.",
+        "id": "Saya suka bermain basket.",
+        "audio": "/static/audio/Wǒ xǐhuān dǎ lánqiú.mp3"
+      },
+      {
+        "cn": "他们下午去打篮球。",
+        "pinyin": "Tāmen xiàwǔ qù dǎ lánqiú.",
+        "id": "Mereka pergi bermain basket sore ini.",
+        "audio": "/static/audio/Tāmen xiàwǔ qù dǎ lánqiú.mp3"
+      },
+      {
+        "cn": "打篮球可以增强体力。",
+        "pinyin": "Dǎ lánqiú kěyǐ zēngqiáng tǐlì.",
+        "id": "Basket bisa meningkatkan stamina.",
+        "audio": "/static/audio/Dǎ lánqiú kěyǐ zēngqiáng tǐlì.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "游泳",
+    "pinyin": "yóu yǒng",
+    "arti": "Berenang",
+    "audio": "/static/audio/youyong.mp3",
+    "sentences": [
+      {
+        "cn": "我喜欢游泳。",
+        "pinyin": "Wǒ xǐhuān yóuyǒng.",
+        "id": "Saya suka berenang.",
+        "audio": "/static/audio/Wǒ xǐhuān yóuyǒng.mp3"
+      },
+      {
+        "cn": "游泳对身体很好。",
+        "pinyin": "Yóuyǒng duì shēntǐ hěn hǎo.",
+        "id": "Berenang baik untuk tubuh.",
+        "audio": "/static/audio/Yóuyǒng duì shēntǐ hěn hǎo.mp3"
+      },
+      {
+        "cn": "他每周去游泳两次。",
+        "pinyin": "Tā měi zhōu qù yóuyǒng liǎng cì.",
+        "id": "Dia berenang dua kali seminggu.",
+        "audio": "/static/audio/Tā měi zhōu qù yóuyǒng liǎng cì.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "我要拿。。。",
+    "pinyin": "wǒ yào ná...",
+    "arti": "Saya mau mengambil...",
+    "audio": "/static/audio/woyaona.mp3",
+    "sentences": [
+      {
+        "cn": "我要拿这个。",
+        "pinyin": "Wǒ yào ná zhège.",
+        "id": "Saya mau mengambil ini.",
+        "audio": "/static/audio/Wǒ yào ná zhège.mp3"
+      },
+      {
+        "cn": "我要拿你的笔。",
+        "pinyin": "Wǒ yào ná nǐ de bǐ.",
+        "id": "Saya mau mengambil penamu.",
+        "audio": "/static/audio/Wǒ yào ná nǐ de bǐ.mp3"
+      },
+      {
+        "cn": "我要拿文件。",
+        "pinyin": "Wǒ yào ná wénjiàn.",
+        "id": "Saya mau mengambil dokumen.",
+        "audio": "/static/audio/Wǒ yào ná wénjiàn.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "我需要。。。",
+    "pinyin": "wǒ xū yào...",
+    "arti": "Saya butuh...",
+    "audio": "/static/audio/woxuyao.mp3",
+    "sentences": [
+      {
+        "cn": "我需要帮忙。",
+        "pinyin": "Wǒ xūyào bāngmáng.",
+        "id": "Saya butuh bantuan.",
+        "audio": "/static/audio/Wǒ xūyào bāngmáng.mp3"
+      },
+      {
+        "cn": "我需要冷却水。",
+        "pinyin": "Wǒ xūyào lěngquèshuǐ.",
+        "id": "Saya butuh air pendingin.",
+        "audio": "/static/audio/Wǒ xūyào lěngquèshuǐ.mp3"
+      },
+      {
+        "cn": "我需要新的扫把。",
+        "pinyin": "Wǒ xūyào xīn de sàoba.",
+        "id": "Saya butuh sapu baru.",
+        "audio": "/static/audio/Wǒ xūyào xīn de sàoba.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "我每天跑步三十分钟",
+    "pinyin": "wǒ měi tiān pǎo bù sān shí fēn zhōng",
+    "arti": "Saya lari 30 menit setiap hari",
+    "audio": "/static/audio/womeitianpaobusanshifenzhong.mp3",
+    "sentences": [
+      {
+        "cn": "我每天跑步三十分钟。",
+        "pinyin": "Wǒ měitiān pǎobù sānshí fēnzhōng.",
+        "id": "Saya lari 30 menit setiap hari.",
+        "audio": "/static/audio/Wǒ měitiān pǎobù sānshí fēnzhōng.mp3"
+      },
+      {
+        "cn": "跑步让我很健康。",
+        "pinyin": "Pǎobù ràng wǒ hěn jiànkāng.",
+        "id": "Lari membuat saya sehat.",
+        "audio": "/static/audio/Pǎobù ràng wǒ hěn jiànkāng.mp3"
+      },
+      {
+        "cn": "我喜欢每天跑步。",
+        "pinyin": "Wǒ xǐhuān měitiān pǎobù.",
+        "id": "Saya suka lari setiap hari.",
+        "audio": "/static/audio/Wǒ xǐhuān měitiān pǎobù.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "我想学习中文",
+    "pinyin": "wǒ xiǎng xué xí zhōng wén",
+    "arti": "Saya ingin belajar Mandarin",
+    "audio": "/static/audio/woxiangxuexizhongwen.mp3",
+    "sentences": [
+      {
+        "cn": "我想学习中文。",
+        "pinyin": "Wǒ xiǎng xuéxí zhōngwén.",
+        "id": "Saya ingin belajar Mandarin.",
+        "audio": "/static/audio/Wǒ xiǎng xuéxí zhōngwén.mp3"
+      },
+      {
+        "cn": "学习中文不容易。",
+        "pinyin": "Xuéxí zhōngwén bù róngyì.",
+        "id": "Belajar Mandarin tidak mudah.",
+        "audio": "/static/audio/Xuéxí zhōngwén bù róngyì.mp3"
+      },
+      {
+        "cn": "我每天学习中文。",
+        "pinyin": "Wǒ měitiān xuéxí zhōngwén.",
+        "id": "Saya belajar Mandarin setiap hari.",
+        "audio": "/static/audio/Wǒ měitiān xuéxí zhōngwén.mp3"
+      }
+    ]
+  },
+  
   {
     "hanzi": "仓库管理",
     "pinyin": "cāng kù guǎn lǐ",
@@ -3023,6 +3432,7 @@
     ]
   }
 ],
+
 "week15": [
   {
     "hanzi": "高位槽",

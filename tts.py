@@ -7,7 +7,7 @@ load_dotenv()
 client = ElevenLabs(
   api_key=os.getenv("ELEVENLABS_API_KEY"),
 )
-#client = ElevenLabs(api_key="9e35ea5bf500a502bbd5aee80f0d5184e5314d63463410b3ae6bbd73da6d4bdd")
+
 
 
 os.makedirs("audio", exist_ok=True)

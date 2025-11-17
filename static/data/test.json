@@ -1,17 +1,77 @@
 [
-{ "text": "堆放区", "filename": "duifangqu.mp3" },
-{ "text": "请把材料搬到堆放区。", "filename": "Qǐng bǎ cáiliào bān dào duīfàngqū.mp3" },
-{ "text": "堆放区必须保持整洁。", "filename": "Duīfàngqū bìxū bǎochí zhěngjié.mp3" },
-{ "text": "这批货物已经放在堆放区了。", "filename": "Zhè pī huòwù yǐjīng fàng zài duīfàngqū le.mp3" },
+    { "text": "模温机", "filename": "mowenji.mp3" },
+{ "text": "模温机正在加热。", "filename": "Mówēnjī zhèngzài jiārè.mp3" },
+{ "text": "请检查模温机的温度。", "filename": "Qǐng jiǎnchá mówēnjī de wēndù.mp3" },
+{ "text": "模温机出现故障了。", "filename": "Mówēnjī chūxiàn gùzhàng le.mp3" },
 
-{ "text": "卸货", "filename": "xiehuo.mp3" },
-{ "text": "工人们正在卸货。", "filename": "Gōngrénmen zhèngzài xièhuò.mp3" },
-{ "text": "卸货需要小心操作。", "filename": "Xièhuò xūyào xiǎoxīn cāozuò.mp3" },
-{ "text": "请在这里等待卸货。", "filename": "Qǐng zài zhèlǐ děngdài xièhuò.mp3" },
+{ "text": "蠕动泵", "filename": "rudongbeng.mp3" },
+{ "text": "蠕动泵正在运行。", "filename": "Rúdòngbèng zhèngzài yùnxíng.mp3" },
+{ "text": "请调整蠕动泵的流量。", "filename": "Qǐng tiáozhěng rúdòngbèng de liúliàng.mp3" },
+{ "text": "蠕动泵需要保养。", "filename": "Rúdòngbèng xūyào bǎoyǎng.mp3" },
 
-{ "text": "仓库管理", "filename": "cangkuguanli.mp3" },
-{ "text": "仓库管理需要良好的记录系统。", "filename": "Cāngkù guǎnlǐ xūyào liánghǎo de jìlù xìtǒng.mp3" },
-{ "text": "他负责公司的仓库管理。", "filename": "Tā fùzé gōngsī de cāngkù guǎnlǐ.mp3" },
-{ "text": "仓库管理做得很好。", "filename": "Cāngkù guǎnlǐ zuò de hěn hǎo.mp3" }
+{ "text": "冷却水", "filename": "lengqueshui.mp3" },
+{ "text": "冷却水温度太高了。", "filename": "Lěngquèshuǐ wēndù tài gāo le.mp3" },
+{ "text": "请补充冷却水。", "filename": "Qǐng bǔchōng lěngquèshuǐ.mp3" },
+{ "text": "机器需要冷却水才能运行。", "filename": "Jīqì xūyào lěngquèshuǐ cái néng yùnxíng.mp3" },
+
+{ "text": "扫把", "filename": "saoba.mp3" },
+{ "text": "请用扫把打扫地面。", "filename": "Qǐng yòng sàoba dǎsǎo dìmiàn.mp3" },
+{ "text": "扫把放在哪里？", "filename": "Sàoba fàng zài nǎlǐ.mp3" },
+{ "text": "这把扫把很好用。", "filename": "Zhè bǎ sàoba hěn hǎoyòng.mp3" },
+
+{ "text": "拖把", "filename": "tuoba.mp3" },
+{ "text": "请用拖把拖地。", "filename": "Qǐng yòng tuōba tuō dì.mp3" },
+{ "text": "拖把需要清洗。", "filename": "Tuōba xūyào qīngxǐ.mp3" },
+{ "text": "拖把在哪里？", "filename": "Tuōba zài nǎlǐ.mp3" },
+
+{ "text": "抹布", "filename": "mabu.mp3" },
+{ "text": "请拿一块抹布。", "filename": "Qǐng ná yí kuài mābù.mp3" },
+{ "text": "抹布很脏，需要洗一下。", "filename": "Mābù hěn zāng, xūyào xǐ yíxià.mp3" },
+{ "text": "请用抹布擦桌子。", "filename": "Qǐng yòng mābù cā zhuōzi.mp3" },
+
+{ "text": "运动", "filename": "yundong.mp3" },
+{ "text": "我每天运动。", "filename": "Wǒ měitiān yùndòng.mp3" },
+{ "text": "运动对身体很好。", "filename": "Yùndòng duì shēntǐ hěn hǎo.mp3" },
+{ "text": "你喜欢做什么运动？", "filename": "Nǐ xǐhuān zuò shénme yùndòng.mp3" },
+
+{ "text": "跑步", "filename": "paobu.mp3" },
+{ "text": "我每天跑步三十分钟。", "filename": "Wǒ měitiān pǎobù sānshí fēnzhōng.mp3" },
+{ "text": "跑步很累但是很健康。", "filename": "Pǎobù hěn lèi dànshì hěn jiànkāng.mp3" },
+{ "text": "他喜欢早上跑步。", "filename": "Tā xǐhuān zǎoshang pǎobù.mp3" },
+
+{ "text": "踢足球", "filename": "tizuqiu.mp3" },
+{ "text": "我喜欢踢足球。", "filename": "Wǒ xǐhuān tī zúqiú.mp3" },
+{ "text": "他们每周踢一次足球。", "filename": "Tāmen měi zhōu tī yí cì zúqiú.mp3" },
+{ "text": "踢足球很有趣。", "filename": "Tī zúqiú hěn yǒuqù.mp3" },
+
+{ "text": "打篮球", "filename": "dalanqiu.mp3" },
+{ "text": "我喜欢打篮球。", "filename": "Wǒ xǐhuān dǎ lánqiú.mp3" },
+{ "text": "他们下午去打篮球。", "filename": "Tāmen xiàwǔ qù dǎ lánqiú.mp3" },
+{ "text": "打篮球可以增强体力。", "filename": "Dǎ lánqiú kěyǐ zēngqiáng tǐlì.mp3" },
+
+{ "text": "游泳", "filename": "youyong.mp3" },
+{ "text": "我喜欢游泳。", "filename": "Wǒ xǐhuān yóuyǒng.mp3" },
+{ "text": "游泳对身体很好。", "filename": "Yóuyǒng duì shēntǐ hěn hǎo.mp3" },
+{ "text": "他每周去游泳两次。", "filename": "Tā měi zhōu qù yóuyǒng liǎng cì.mp3" },
+
+{ "text": "我要拿。。。", "filename": "woyaona.mp3" },
+{ "text": "我要拿这个。", "filename": "Wǒ yào ná zhège.mp3" },
+{ "text": "我要拿你的笔。", "filename": "Wǒ yào ná nǐ de bǐ.mp3" },
+{ "text": "我要拿文件。", "filename": "Wǒ yào ná wénjiàn.mp3" },
+
+{ "text": "我需要。。。", "filename": "woxuyao.mp3" },
+{ "text": "我需要帮忙。", "filename": "Wǒ xūyào bāngmáng.mp3" },
+{ "text": "我需要冷却水。", "filename": "Wǒ xūyào lěngquèshuǐ.mp3" },
+{ "text": "我需要新的扫把。", "filename": "Wǒ xūyào xīn de sàoba.mp3" },
+
+{ "text": "我每天跑步三十分钟", "filename": "womeitianpaobusanshifenzhong.mp3" },
+{ "text": "我每天跑步三十分钟。", "filename": "Wǒ měitiān pǎobù sānshí fēnzhōng.mp3" },
+{ "text": "跑步让我很健康。", "filename": "Pǎobù ràng wǒ hěn jiànkāng.mp3" },
+{ "text": "我喜欢每天跑步。", "filename": "Wǒ xǐhuān měitiān pǎobù.mp3" },
+
+{ "text": "我想学习中文", "filename": "woxiangxuexizhongwen.mp3" },
+{ "text": "我想学习中文。", "filename": "Wǒ xiǎng xuéxí zhōngwén.mp3" },
+{ "text": "学习中文不容易。", "filename": "Xuéxí zhōngwén bù róngyì.mp3" },
+{ "text": "我每天学习中文。", "filename": "Wǒ měitiān xuéxí zhōngwén.mp3" }
+
 ]
-
