@@ -2027,6 +2027,1289 @@
           }
         ]
       }
+    ],
+
+  "week12": [
+    {
+      "hanzi": "去",
+      "pinyin": "qù",
+      "arti": "Pergi",
+      "audio": "/static/audio/qu.mp3",
+      "sentences": [
+        {
+          "cn": "我要去上班。",
+          "pinyin": "Wǒ yào qù shàngbān.",
+          "id": "Saya mau pergi bekerja.",
+          "audio": "/static/audio/qu1.mp3"
+        },
+        {
+          "cn": "我们下午去超市。",
+          "pinyin": "Wǒmen xiàwǔ qù chāoshì.",
+          "id": "Kami sore ini pergi ke supermarket.",
+          "audio": "/static/audio/qu2.mp3"
+        },
+        {
+          "cn": "你明天去不去？",
+          "pinyin": "Nǐ míngtiān qù bù qù?",
+          "id": "Besok kamu pergi atau tidak?",
+          "audio": "/static/audio/qu3.mp3"
+        }
+      ]
+    },
+    {
+      "hanzi": "来",
+      "pinyin": "lái",
+      "arti": "Datang",
+      "audio": "/static/audio/lai.mp3",
+      "sentences": [
+        {
+          "cn": "请你过来一下。",
+          "pinyin": "Qǐng nǐ guòlái yíxià.",
+          "id": "Tolong datang ke sini sebentar.",
+          "audio": "/static/audio/lai1.mp3"
+        },
+        {
+          "cn": "他刚刚来了。",
+          "pinyin": "Tā gānggāng lái le.",
+          "id": "Dia baru saja datang.",
+          "audio": "/static/audio/lai2.mp3"
+        },
+        {
+          "cn": "你什么时候来？",
+          "pinyin": "Nǐ shénme shíhou lái?",
+          "id": "Kapan kamu datang?",
+          "audio": "/static/audio/lai3.mp3"
+        }
+      ]
+    },
+    {
+      "hanzi": "叫",
+      "pinyin": "jiào",
+      "arti": "Memanggil",
+      "audio": "/static/audio/jiao.mp3",
+      "sentences": [
+        {
+          "cn": "你叫我吗？",
+          "pinyin": "Nǐ jiào wǒ ma?",
+          "id": "Kamu memanggil saya?",
+          "audio": "/static/audio/jiao1.mp3"
+        },
+        {
+          "cn": "我叫他过来。",
+          "pinyin": "Wǒ jiào tā guòlái.",
+          "id": "Saya memanggil dia ke sini.",
+          "audio": "/static/audio/jiao2.mp3"
+        },
+        {
+          "cn": "老师叫我们安静。",
+          "pinyin": "Lǎoshī jiào wǒmen ānjìng.",
+          "id": "Guru meminta kami diam.",
+          "audio": "/static/audio/jiao3.mp3"
+        }
+      ]
+    },
+    {
+      "hanzi": "喝",
+      "pinyin": "hē",
+      "arti": "Minum",
+      "audio": "/static/audio/he.mp3",
+      "sentences": [
+        {
+          "cn": "我想喝水。",
+          "pinyin": "Wǒ xiǎng hē shuǐ.",
+          "id": "Saya ingin minum air.",
+          "audio": "/static/audio/he1.mp3"
+        },
+        {
+          "cn": "他每天喝牛奶。",
+          "pinyin": "Tā měitiān hē niúnǎi.",
+          "id": "Dia minum susu setiap hari.",
+          "audio": "/static/audio/he2.mp3"
+        },
+        {
+          "cn": "你喝不喝咖啡？",
+          "pinyin": "Nǐ hē bù hē kāfēi?",
+          "id": "Kamu minum kopi atau tidak?",
+          "audio": "/static/audio/he3.mp3"
+        }
+      ]
+    },
+    {
+      "hanzi": "我",
+      "pinyin": "wǒ",
+      "arti": "Saya",
+      "audio": "/static/audio/wo.mp3",
+      "sentences": [
+        {
+          "cn": "我喜欢运动。",
+          "pinyin": "Wǒ xǐhuan yùndòng.",
+          "id": "Saya suka berolahraga.",
+          "audio": "/static/audio/wo1.mp3"
+        },
+        {
+          "cn": "我正在学习中文。",
+          "pinyin": "Wǒ zhèngzài xuéxí Zhōngwén.",
+          "id": "Saya sedang belajar Mandarin.",
+          "audio": "/static/audio/wo2.mp3"
+        },
+        {
+          "cn": "今天我很累。",
+          "pinyin": "Jīntiān wǒ hěn lèi.",
+          "id": "Hari ini saya sangat lelah.",
+          "audio": "/static/audio/wo3.mp3"
+        }
+      ]
+    },
+    {
+      "hanzi": "你",
+      "pinyin": "nǐ",
+      "arti": "Kamu",
+      "audio": "/static/audio/ni.mp3",
+      "sentences": [
+        {
+          "cn": "你吃饭了吗？",
+          "pinyin": "Nǐ chīfàn le ma?",
+          "id": "Apakah kamu sudah makan?",
+          "audio": "/static/audio/ni1.mp3"
+        },
+        {
+          "cn": "我可以帮你吗？",
+          "pinyin": "Wǒ kěyǐ bāng nǐ ma?",
+          "id": "Bisakah saya membantumu?",
+          "audio": "/static/audio/ni2.mp3"
+        },
+        {
+          "cn": "你明天有空吗？",
+          "pinyin": "Nǐ míngtiān yǒu kòng ma?",
+          "id": "Besok kamu ada waktu luang?",
+          "audio": "/static/audio/ni3.mp3"
+        }
+      ]
+    },
+    {
+      "hanzi": "他",
+      "pinyin": "tā",
+      "arti": "Dia (laki-laki)",
+      "audio": "/static/audio/ta.mp3",
+      "sentences": [
+        {
+          "cn": "他是我的朋友。",
+          "pinyin": "Tā shì wǒ de péngyǒu.",
+          "id": "Dia adalah teman saya.",
+          "audio": "/static/audio/ta1.mp3"
+        },
+        {
+          "cn": "他今天不上班。",
+          "pinyin": "Tā jīntiān bú shàngbān.",
+          "id": "Dia hari ini tidak bekerja.",
+          "audio": "/static/audio/ta2.mp3"
+        },
+        {
+          "cn": "他喜欢喝茶。",
+          "pinyin": "Tā xǐhuan hē chá.",
+          "id": "Dia suka minum teh.",
+          "audio": "/static/audio/ta3.mp3"
+        }
+      ]
+    },
+    {
+      "hanzi": "我们",
+      "pinyin": "wǒmen",
+      "arti": "Kami / Kita",
+      "audio": "/static/audio/women.mp3",
+      "sentences": [
+        {
+          "cn": "我们一起去吧。",
+          "pinyin": "Wǒmen yìqǐ qù ba.",
+          "id": "Mari kita pergi bersama.",
+          "audio": "/static/audio/women1.mp3"
+        },
+        {
+          "cn": "我们在学习中文。",
+          "pinyin": "Wǒmen zài xuéxí Zhōngwén.",
+          "id": "Kami sedang belajar Mandarin.",
+          "audio": "/static/audio/women2.mp3"
+        },
+        {
+          "cn": "我们明天有会议。",
+          "pinyin": "Wǒmen míngtiān yǒu huìyì.",
+          "id": "Kami besok ada rapat.",
+          "audio": "/static/audio/women3.mp3"
+        }
+      ]
+    },
+    {
+      "hanzi": "睡觉",
+      "pinyin": "shuì jiào",
+      "arti": "Tidur",
+      "audio": "/static/audio/shuijiao.mp3",
+      "sentences": [
+        {
+          "cn": "我太累了，想睡觉。",
+          "pinyin": "Wǒ tài lèi le, xiǎng shuìjiào.",
+          "id": "Saya sangat lelah, ingin tidur.",
+          "audio": "/static/audio/shuijiao1.mp3"
+        },
+        {
+          "cn": "他每天十点睡觉。",
+          "pinyin": "Tā měitiān shí diǎn shuìjiào.",
+          "id": "Dia tidur jam sepuluh setiap hari.",
+          "audio": "/static/audio/shuijiao2.mp3"
+        },
+        {
+          "cn": "你为什么还不睡觉？",
+          "pinyin": "Nǐ wèishénme hái bù shuìjiào?",
+          "id": "Kenapa kamu belum tidur?",
+          "audio": "/static/audio/shuijiao3.mp3"
+        }
+      ]
+    },
+    {
+      "hanzi": "学习",
+      "pinyin": "xué xí",
+      "arti": "Belajar",
+      "audio": "/static/audio/xuexi.mp3",
+      "sentences": [
+        {
+          "cn": "我喜欢学习语言。",
+          "pinyin": "Wǒ xǐhuan xuéxí yǔyán.",
+          "id": "Saya suka belajar bahasa.",
+          "audio": "/static/audio/xuexi1.mp3"
+        },
+        {
+          "cn": "他们在学习新技能。",
+          "pinyin": "Tāmen zài xuéxí xīn jìnéng.",
+          "id": "Mereka sedang mempelajari keahlian baru.",
+          "audio": "/static/audio/xuexi2.mp3"
+        },
+        {
+          "cn": "你今天学习了吗？",
+          "pinyin": "Nǐ jīntiān xuéxí le ma?",
+          "id": "Apakah kamu sudah belajar hari ini?",
+          "audio": "/static/audio/xuexi3.mp3"
+        }
+      ]
+    },
+    {
+      "hanzi": "加油",
+      "pinyin": "jiā yóu",
+      "arti": "Semangat",
+      "audio": "/static/audio/jiayou.mp3",
+      "sentences": [
+        {
+          "cn": "你可以的，加油！",
+          "pinyin": "Nǐ kěyǐ de, jiāyóu!",
+          "id": "Kamu pasti bisa, semangat!",
+          "audio": "/static/audio/jiayou1.mp3"
+        },
+        {
+          "cn": "比赛快开始了，加油！",
+          "pinyin": "Bǐsài kuài kāishǐ le, jiāyóu!",
+          "id": "Pertandingan akan segera dimulai, semangat!",
+          "audio": "/static/audio/jiayou2.mp3"
+        },
+        {
+          "cn": "工作再累也要加油。",
+          "pinyin": "Gōngzuò zài lèi yě yào jiāyóu.",
+          "id": "Kerja seberat apa pun tetap harus semangat.",
+          "audio": "/static/audio/jiayou3.mp3"
+        }
+      ]
+    },
+    {
+      "hanzi": "再见",
+      "pinyin": "zài jiàn",
+      "arti": "Sampai jumpa",
+      "audio": "/static/audio/zaijian.mp3",
+      "sentences": [
+        {
+          "cn": "明天见，再见！",
+          "pinyin": "Míngtiān jiàn, zàijiàn!",
+          "id": "Sampai besok, sampai jumpa!",
+          "audio": "/static/audio/zaijian1.mp3"
+        },
+        {
+          "cn": "我先走了，再见。",
+          "pinyin": "Wǒ xiān zǒu le, zàijiàn.",
+          "id": "Saya pergi dulu, sampai jumpa.",
+          "audio": "/static/audio/zaijian2.mp3"
+        },
+        {
+          "cn": "谢谢你，再见！",
+          "pinyin": "Xièxiè nǐ, zàijiàn!",
+          "id": "Terima kasih, sampai jumpa!",
+          "audio": "/static/audio/zaijian3.mp3"
+        }
+      ]
+    },
+    {
+      "hanzi": "吃饭",
+      "pinyin": "chī fàn",
+      "arti": "Makan",
+      "audio": "/static/audio/chifan.mp3",
+      "sentences": [
+        {
+          "cn": "我们一起吃饭吧。",
+          "pinyin": "Wǒmen yìqǐ chīfàn ba.",
+          "id": "Ayo kita makan bersama.",
+          "audio": "/static/audio/chifan1.mp3"
+        },
+        {
+          "cn": "他现在在吃饭。",
+          "pinyin": "Tā xiànzài zài chīfàn.",
+          "id": "Dia sedang makan.",
+          "audio": "/static/audio/chifan2.mp3"
+        },
+        {
+          "cn": "你想吃饭还是喝水？",
+          "pinyin": "Nǐ xiǎng chīfàn háishì hē shuǐ?",
+          "id": "Kamu mau makan atau minum?",
+          "audio": "/static/audio/chifan3.mp3"
+        }
+      ]
+    },
+    {
+      "hanzi": "下班",
+      "pinyin": "xià bān",
+      "arti": "Pulang (dari kerja)",
+      "audio": "/static/audio/xiaban.mp3",
+      "sentences": [
+        {
+          "cn": "我六点下班。",
+          "pinyin": "Wǒ liù diǎn xiàbān.",
+          "id": "Saya pulang kerja jam enam.",
+          "audio": "/static/audio/xiaban1.mp3"
+        },
+        {
+          "cn": "下班后我们去吃饭吧。",
+          "pinyin": "Xiàbān hòu wǒmen qù chīfàn ba.",
+          "id": "Setelah pulang kerja, ayo kita makan.",
+          "audio": "/static/audio/xiaban2.mp3"
+        },
+        {
+          "cn": "你几点下班？",
+          "pinyin": "Nǐ jǐ diǎn xiàbān?",
+          "id": "Kamu pulang kerja jam berapa?",
+          "audio": "/static/audio/xiaban3.mp3"
+        }
+      ]
+    },
+    {
+      "hanzi": "工作",
+      "pinyin": "gōng zuò",
+      "arti": "Kerja",
+      "audio": "/static/audio/gongzuo.mp3",
+      "sentences": [
+        {
+          "cn": "我在工厂工作。",
+          "pinyin": "Wǒ zài gōngchǎng gōngzuò.",
+          "id": "Saya bekerja di pabrik.",
+          "audio": "/static/audio/gongzuo1.mp3"
+        },
+        {
+          "cn": "今天的工作很多。",
+          "pinyin": "Jīntiān de gōngzuò hěn duō.",
+          "id": "Hari ini pekerjaan sangat banyak.",
+          "audio": "/static/audio/gongzuo2.mp3"
+        },
+        {
+          "cn": "你喜欢你的工作吗？",
+          "pinyin": "Nǐ xǐhuan nǐ de gōngzuò ma?",
+          "id": "Apakah kamu suka pekerjaanmu?",
+          "audio": "/static/audio/gongzuo3.mp3"
+        }
+      ]
+    },
+    {
+      "hanzi": "谢谢",
+      "pinyin": "xiè xie",
+      "arti": "Terima kasih",
+      "audio": "/static/audio/xiexie.mp3",
+      "sentences": [
+        {
+          "cn": "谢谢你的帮助。",
+          "pinyin": "Xièxie nǐ de bāngzhù.",
+          "id": "Terima kasih atas bantuanmu.",
+          "audio": "/static/audio/xiexie1.mp3"
+        },
+        {
+          "cn": "谢谢你今天陪我。",
+          "pinyin": "Xièxie nǐ jīntiān péi wǒ.",
+          "id": "Terima kasih sudah menemani saya hari ini.",
+          "audio": "/static/audio/xiexie2.mp3"
+        },
+        {
+          "cn": "真的非常谢谢你。",
+          "pinyin": "Zhēn de fēicháng xièxie nǐ.",
+          "id": "Saya benar-benar sangat berterima kasih.",
+          "audio": "/static/audio/xiexie3.mp3"
+        }
+      ]
+    },
+    {
+      "hanzi": "等一下",
+      "pinyin": "děng yí xià",
+      "arti": "Tunggu",
+      "audio": "/static/audio/dengyixia.mp3",
+      "sentences": [
+        {
+          "cn": "请等一下。",
+          "pinyin": "Qǐng děng yíxià.",
+          "id": "Tolong tunggu sebentar.",
+          "audio": "/static/audio/deng1.mp3"
+        },
+        {
+          "cn": "我马上回来，你等一下。",
+          "pinyin": "Wǒ mǎshàng huílái, nǐ děng yíxià.",
+          "id": "Saya segera kembali, tunggu sebentar.",
+          "audio": "/static/audio/deng2.mp3"
+        },
+        {
+          "cn": "他让我们再等一下。",
+          "pinyin": "Tā ràng wǒmen zài děng yíxià.",
+          "id": "Dia meminta kami menunggu sebentar lagi.",
+          "audio": "/static/audio/deng3.mp3"
+        }
+      ]
+    },
+    {
+      "hanzi": "烘箱",
+      "pinyin": "hōng xiāng",
+      "arti": "Oven",
+      "audio": "/static/audio/hongxiang.mp3",
+      "sentences": [
+        {
+          "cn": "请把样品放进烘箱。",
+          "pinyin": "Qǐng bǎ yàngpǐn fàng jìn hōngxiāng.",
+          "id": "Tolong masukkan sampel ke dalam oven.",
+          "audio": "/static/audio/hong1.mp3"
+        },
+        {
+          "cn": "烘箱温度太高了。",
+          "pinyin": "Hōngxiāng wēndù tài gāo le.",
+          "id": "Suhu oven terlalu tinggi.",
+          "audio": "/static/audio/hong2.mp3"
+        },
+        {
+          "cn": "我们正在使用烘箱。",
+          "pinyin": "Wǒmen zhèngzài shǐyòng hōngxiāng.",
+          "id": "Kami sedang menggunakan oven.",
+          "audio": "/static/audio/hong3.mp3"
+        }
+      ]
+    },
+    {
+      "hanzi": "离心机",
+      "pinyin": "lí xīn jī",
+      "arti": "Centrifuge",
+      "audio": "/static/audio/lixinji.mp3",
+      "sentences": [
+        {
+          "cn": "离心机正在运转。",
+          "pinyin": "Líxīnjī zhèngzài yùnzhuǎn.",
+          "id": "Centrifuge sedang berputar.",
+          "audio": "/static/audio/lixinji1.mp3"
+        },
+        {
+          "cn": "请启动离心机。",
+          "pinyin": "Qǐng qǐdòng líxīnjī.",
+          "id": "Tolong nyalakan centrifuge.",
+          "audio": "/static/audio/lixinji2.mp3"
+        },
+        {
+          "cn": "离心机需要保养。",
+          "pinyin": "Líxīnjī xūyào bǎoyǎng.",
+          "id": "Centrifuge perlu pemeliharaan.",
+          "audio": "/static/audio/lixinji3.mp3"
+        }
+      ]
+    },
+    {
+      "hanzi": "反应釜",
+      "pinyin": "fǎn yìng fǔ",
+      "arti": "Reaktor",
+      "audio": "/static/audio/fanyingfu.mp3",
+      "sentences": [
+        {
+          "cn": "反应釜温度上升了。",
+          "pinyin": "Fǎnyìngfǔ wēndù shàngshēng le.",
+          "id": "Suhu reaktor meningkat.",
+          "audio": "/static/audio/fanying1.mp3"
+        },
+        {
+          "cn": "我们正在检查反应釜。",
+          "pinyin": "Wǒmen zhèngzài jiǎnchá fǎnyìngfǔ.",
+          "id": "Kami sedang memeriksa reaktor.",
+          "audio": "/static/audio/fanying2.mp3"
+        },
+        {
+          "cn": "请不要靠近反应釜。",
+          "pinyin": "Qǐng búyào kàojìn fǎnyìngfǔ.",
+          "id": "Tolong jangan mendekati reaktor.",
+          "audio": "/static/audio/fanying3.mp3"
+        }
+      ]
+    }
+  ],
+  "week13": [
+  {
+    "hanzi": "筛分机",
+    "pinyin": "shāi fēn jī",
+    "arti": "Mesin penyaring",
+    "audio": "/static/audio/shaifenji.mp3",
+    "sentences": [
+      {
+        "cn": "筛分机正在工作。",
+        "pinyin": "Shāifēnjī zhèngzài gōngzuò.",
+        "id": "Mesin penyaring sedang bekerja.",
+        "audio": "/static/audio/Shāifēnjī zhèngzài gōngzuò.mp3"
+      },
+      {
+        "cn": "请检查筛分机的状态。",
+        "pinyin": "Qǐng jiǎnchá shāifēnjī de zhuàngtài.",
+        "id": "Tolong cek kondisi mesin penyaring.",
+        "audio": "/static/audio/Qǐng jiǎnchá shāifēnjī de zhuàngtài.mp3"
+      },
+      {
+        "cn": "筛分机需要清理。",
+        "pinyin": "Shāifēnjī xūyào qīnglǐ.",
+        "id": "Mesin penyaring perlu dibersihkan.",
+        "audio": "/static/audio/Shāifēnjī xūyào qīnglǐ.mp3"
+      }
     ]
+  },
+  {
+    "hanzi": "除铁器",
+    "pinyin": "chú tiě qì",
+    "arti": "Pemisah Magnetik",
+    "audio": "/static/audio/chutieqi.mp3",
+    "sentences": [
+      {
+        "cn": "除铁器可以去除金属杂质。",
+        "pinyin": "Chútiěqì kěyǐ qùchú jīnshǔ zázhì.",
+        "id": "Pemisah magnetik bisa menghilangkan kotoran logam.",
+        "audio": "/static/audio/Chútiěqì kěyǐ qùchú jīnshǔ zázhì.mp3"
+      },
+      {
+        "cn": "请打开除铁器。",
+        "pinyin": "Qǐng dǎkāi chútiěqì.",
+        "id": "Tolong nyalakan pemisah magnetik.",
+        "audio": "/static/audio/Qǐng dǎkāi chútiěqì.mp3"
+      },
+      {
+        "cn": "除铁器需要维护。",
+        "pinyin": "Chútiěqì xūyào wéihù.",
+        "id": "Pemisah magnetik perlu perawatan.",
+        "audio": "/static/audio/Chútiěqì xūyào wéihù.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "回转窑",
+    "pinyin": "huí zhuǎn yáo",
+    "arti": "Rotary Kiln",
+    "audio": "/static/audio/huizhuanyao.mp3",
+    "sentences": [
+      {
+        "cn": "回转窑温度很高。",
+        "pinyin": "Huízhuǎnyáo wēndù hěn gāo.",
+        "id": "Suhu rotary kiln sangat tinggi.",
+        "audio": "/static/audio/Huízhuǎnyáo wēndù hěn gāo.mp3"
+      },
+      {
+        "cn": "请监控回转窑的运转情况。",
+        "pinyin": "Qǐng jiānkòng huízhuǎnyáo de yùnzhuǎn qíngkuàng.",
+        "id": "Tolong pantau kondisi operasi rotary kiln.",
+        "audio": "/static/audio/Qǐng jiānkòng huízhuǎnyáo de yùnzhuǎn qíngkuàng.mp3"
+      },
+      {
+        "cn": "回转窑已经启动。",
+        "pinyin": "Huízhuǎnyáo yǐjīng qǐdòng.",
+        "id": "Rotary kiln sudah dinyalakan.",
+        "audio": "/static/audio/Huízhuǎnyáo yǐjīng qǐdòng.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "餐厅",
+    "pinyin": "cān tīng",
+    "arti": "Kantin",
+    "audio": "/static/audio/canting.mp3",
+    "sentences": [
+      {
+        "cn": "我们去餐厅吃饭吧。",
+        "pinyin": "Wǒmen qù cāntīng chīfàn ba.",
+        "id": "Ayo kita makan di kantin.",
+        "audio": "/static/audio/Wǒmen qù cāntīng chīfàn ba.mp3"
+      },
+      {
+        "cn": "餐厅今天很干净。",
+        "pinyin": "Cāntīng jīntiān hěn gānjìng.",
+        "id": "Kantin hari ini sangat bersih.",
+        "audio": "/static/audio/Cāntīng jīntiān hěn gānjìng.mp3"
+      },
+      {
+        "cn": "餐厅里有很多人。",
+        "pinyin": "Cāntīng lǐ yǒu hěn duō rén.",
+        "id": "Kantin penuh orang.",
+        "audio": "/static/audio/Cāntīng lǐ yǒu hěn duō rén.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "请客",
+    "pinyin": "qǐng kè",
+    "arti": "Traktir",
+    "audio": "/static/audio/qingke.mp3",
+    "sentences": [
+      {
+        "cn": "今天我请客！",
+        "pinyin": "Jīntiān wǒ qǐngkè!",
+        "id": "Hari ini saya traktir!",
+        "audio": "/static/audio/Jīntiān wǒ qǐngkè.mp3"
+      },
+      {
+        "cn": "下次你请客吧。",
+        "pinyin": "Xiàcì nǐ qǐngkè ba.",
+        "id": "Lain kali kamu yang traktir ya.",
+        "audio": "/static/audio/Xiàcì nǐ qǐngkè ba.mp3"
+      },
+      {
+        "cn": "他请客我们吃火锅。",
+        "pinyin": "Tā qǐngkè wǒmen chī huǒguō.",
+        "id": "Dia mentraktir kami makan hotpot.",
+        "audio": "/static/audio/Tā qǐngkè wǒmen chī huǒguō.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "菜单",
+    "pinyin": "cài dān",
+    "arti": "Menu",
+    "audio": "/static/audio/caidan.mp3",
+    "sentences": [
+      {
+        "cn": "请给我菜单。",
+        "pinyin": "Qǐng gěi wǒ càidān.",
+        "id": "Tolong berikan saya menu.",
+        "audio": "/static/audio/Qǐng gěi wǒ càidān.mp3"
+      },
+      {
+        "cn": "菜单上有很多菜。",
+        "pinyin": "Càidān shàng yǒu hěn duō cài.",
+        "id": "Di menu ada banyak pilihan makanan.",
+        "audio": "/static/audio/Càidān shàng yǒu hěn duō cài.mp3"
+      },
+      {
+        "cn": "这道菜在菜单里吗？",
+        "pinyin": "Zhè dào cài zài càidān lǐ ma?",
+        "id": "Apakah makanan ini ada di menu?",
+        "audio": "/static/audio/Zhè dào cài zài càidān lǐ ma.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "在哪里",
+    "pinyin": "zài nǎ lǐ",
+    "arti": "Dimana?",
+    "audio": "/static/audio/zainali.mp3",
+    "sentences": [
+      {
+        "cn": "厕所在哪里？",
+        "pinyin": "Cèsuǒ zài nǎlǐ?",
+        "id": "Toilet ada di mana?",
+        "audio": "/static/audio/Cèsuǒ zài nǎlǐ.mp3"
+      },
+      {
+        "cn": "你家在哪里？",
+        "pinyin": "Nǐ jiā zài nǎlǐ?",
+        "id": "Rumahmu di mana?",
+        "audio": "/static/audio/Nǐ jiā zài nǎlǐ.mp3"
+      },
+      {
+        "cn": "工厂在哪里？",
+        "pinyin": "Gōngchǎng zài nǎlǐ?",
+        "id": "Pabrik ada di mana?",
+        "audio": "/static/audio/Gōngchǎng zài nǎlǐ.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "今天",
+    "pinyin": "jīn tiān",
+    "arti": "Hari ini",
+    "audio": "/static/audio/jintian.mp3",
+    "sentences": [
+      {
+        "cn": "今天我们有会议。",
+        "pinyin": "Jīntiān wǒmen yǒu huìyì.",
+        "id": "Hari ini kita ada rapat.",
+        "audio": "/static/audio/Jīntiān wǒmen yǒu huìyì.mp3"
+      },
+      {
+        "cn": "今天天气很好。",
+        "pinyin": "Jīntiān tiānqì hěn hǎo.",
+        "id": "Cuaca hari ini bagus.",
+        "audio": "/static/audio/Jīntiān tiānqì hěn hǎo.mp3"
+      },
+      {
+        "cn": "今天我很忙。",
+        "pinyin": "Jīntiān wǒ hěn máng.",
+        "id": "Hari ini saya sibuk.",
+        "audio": "/static/audio/Jīntiān wǒ hěn máng.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "早上好",
+    "pinyin": "zǎo shàng hǎo",
+    "arti": "Selamat pagi!",
+    "audio": "/static/audio/zaoshanghao.mp3",
+    "sentences": [
+      {
+        "cn": "老师，早上好！",
+        "pinyin": "Lǎoshī, zǎoshang hǎo!",
+        "id": "Guru, selamat pagi!",
+        "audio": "/static/audio/Lǎoshī, zǎoshang hǎo.mp3"
+      },
+      {
+        "cn": "大家早上好！",
+        "pinyin": "Dàjiā zǎoshang hǎo!",
+        "id": "Selamat pagi semuanya!",
+        "audio": "/static/audio/Dàjiā zǎoshang hǎo.mp3"
+      },
+      {
+        "cn": "朋友，早上好。",
+        "pinyin": "Péngyǒu, zǎoshang hǎo.",
+        "id": "Teman, selamat pagi.",
+        "audio": "/static/audio/Péngyǒu, zǎoshang hǎo.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "下午好",
+    "pinyin": "xià wǔ hǎo",
+    "arti": "Selamat sore!",
+    "audio": "/static/audio/xiawuhao.mp3",
+    "sentences": [
+      {
+        "cn": "老师，下午好！",
+        "pinyin": "Lǎoshī, xiàwǔ hǎo!",
+        "id": "Guru, selamat sore!",
+        "audio": "/static/audio/Lǎoshī, xiàwǔ hǎo.mp3"
+      },
+      {
+        "cn": "下午好，我们开始工作吧。",
+        "pinyin": "Xiàwǔ hǎo, wǒmen kāishǐ gōngzuò ba.",
+        "id": "Selamat sore, mari kita mulai bekerja.",
+        "audio": "/static/audio/Xiàwǔ hǎo, wǒmen kāishǐ gōngzuò ba.mp3"
+      },
+      {
+        "cn": "大家下午好！",
+        "pinyin": "Dàjiā xiàwǔ hǎo!",
+        "id": "Selamat sore semuanya!",
+        "audio": "/static/audio/Dàjiā xiàwǔ hǎo.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "晚上好",
+    "pinyin": "wǎn shàng hǎo",
+    "arti": "Selamat malam!",
+    "audio": "/static/audio/wanshanghao.mp3",
+    "sentences": [
+      {
+        "cn": "朋友，晚上好！",
+        "pinyin": "Péngyǒu, wǎnshang hǎo!",
+        "id": "Teman, selamat malam!",
+        "audio": "/static/audio/Péngyǒu, wǎnshang hǎo.mp3"
+      },
+      {
+        "cn": "晚上好，今天辛苦了。",
+        "pinyin": "Wǎnshang hǎo, jīntiān xīnkǔ le.",
+        "id": "Selamat malam, hari ini kamu sudah bekerja keras.",
+        "audio": "/static/audio/Wǎnshang hǎo, jīntiān xīnkǔ le.mp3"
+      },
+      {
+        "cn": "大家晚上好。",
+        "pinyin": "Dàjiā wǎnshang hǎo.",
+        "id": "Selamat malam semuanya.",
+        "audio": "/static/audio/Dàjiā wǎnshang hǎo.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "参观",
+    "pinyin": "cān guān",
+    "arti": "Kunjungan",
+    "audio": "/static/audio/canguan.mp3",
+    "sentences": [
+      {
+        "cn": "我们明天要参观工厂。",
+        "pinyin": "Wǒmen míngtiān yào cānguān gōngchǎng.",
+        "id": "Besok kami akan melakukan kunjungan ke pabrik.",
+        "audio": "/static/audio/Wǒmen míngtiān yào cānguān gōngchǎng.mp3"
+      },
+      {
+        "cn": "参观需要提前预约。",
+        "pinyin": "Cānguān xūyào tíqián yùyuē.",
+        "id": "Kunjungan harus membuat janji terlebih dahulu.",
+        "audio": "/static/audio/Cānguān xūyào tíqián yùyuē.mp3"
+      },
+      {
+        "cn": "他们正在参观实验室。",
+        "pinyin": "Tāmen zhèngzài cānguān shíyànshì.",
+        "id": "Mereka sedang berkunjung ke laboratorium.",
+        "audio": "/static/audio/Tāmen zhèngzài cānguān shíyànshì.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "你叫什么名字？",
+    "pinyin": "nǐ jiào shénme míngzi?",
+    "arti": "Siapa namamu?",
+    "audio": "/static/audio/nijiaoshenmemingzi.mp3",
+    "sentences": [
+      {
+        "cn": "你好，你叫什么名字？",
+        "pinyin": "Nǐhǎo, nǐ jiào shénme míngzi?",
+        "id": "Halo, siapa namamu?",
+        "audio": "/static/audio/Nǐhǎo, nǐ jiào shénme míngzi.mp3"
+      },
+      {
+        "cn": "请问你叫什么名字？",
+        "pinyin": "Qǐngwèn, nǐ jiào shénme míngzi?",
+        "id": "Boleh tanya, siapa namamu?",
+        "audio": "/static/audio/Qǐngwèn, nǐ jiào shénme míngzi.mp3"
+      },
+      {
+        "cn": "我没听清，你叫什么名字？",
+        "pinyin": "Wǒ méi tīng qīng, nǐ jiào shénme míngzi?",
+        "id": "Aku kurang jelas dengarnya, siapa namamu?",
+        "audio": "/static/audio/Wǒ méi tīng qīng, nǐ jiào shénme míngzi.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "你几岁了？",
+    "pinyin": "nǐ jǐ suì le?",
+    "arti": "Umurmu berapa?",
+    "audio": "/static/audio/nijisuile.mp3",
+    "sentences": [
+      {
+        "cn": "请问你几岁了？",
+        "pinyin": "Qǐngwèn, nǐ jǐ suì le?",
+        "id": "Boleh tanya, umurmu berapa?",
+        "audio": "/static/audio/Qǐngwèn, nǐ jǐ suì le.mp3"
+      },
+      {
+        "cn": "他问我：你几岁了？",
+        "pinyin": "Tā wèn wǒ: nǐ jǐ suì le?",
+        "id": "Dia bertanya padaku: umurmu berapa?",
+        "audio": "/static/audio/Tā wèn wǒ nǐ jǐ suì le.mp3"
+      },
+      {
+        "cn": "小朋友，你几岁了？",
+        "pinyin": "Xiǎopéngyǒu, nǐ jǐ suì le?",
+        "id": "Adik kecil, umurmu berapa?",
+        "audio": "/static/audio/Xiǎopéngyǒu nǐ jǐ suì le.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "你的爱好是什么？",
+    "pinyin": "nǐ de àihào shì shénme?",
+    "arti": "Hobimu apa?",
+    "audio": "/static/audio/nideaihaoshishenme.mp3",
+    "sentences": [
+      {
+        "cn": "你的爱好是什么？",
+        "pinyin": "Nǐ de àihào shì shénme?",
+        "id": "Hobimu apa?",
+        "audio": "/static/audio/Nǐ de àihào shì shénme.mp3"
+      },
+      {
+        "cn": "我想知道你的爱好是什么。",
+        "pinyin": "Wǒ xiǎng zhīdào nǐ de àihào shì shénme.",
+        "id": "Aku ingin tahu apa hobimu.",
+        "audio": "/static/audio/Wǒ xiǎng zhīdào nǐ de àihào shì shénme.mp3"
+      },
+      {
+        "cn": "他们在问彼此的爱好是什么。",
+        "pinyin": "Tāmen zài wèn bǐcǐ de àihào shì shénme.",
+        "id": "Mereka sedang bertanya satu sama lain tentang hobi.",
+        "audio": "/static/audio/Tāmen zài wèn bǐcǐ de àihào shì shénme.mp3"
+      }
+    ]
+  }
+],
+"week14": [
+  {
+    "hanzi": "堆放区",
+    "pinyin": "duī fàng qū",
+    "arti": "Area penumpukan",
+    "audio": "/static/audio/duifangqu.mp3",
+    "sentences": [
+      {
+        "cn": "请把材料搬到堆放区。",
+        "pinyin": "Qǐng bǎ cáiliào bān dào duīfàngqū.",
+        "id": "Tolong pindahkan material ke area penumpukan.",
+        "audio": "/static/audio/Qǐng bǎ cáiliào bān dào duīfàngqū.mp3"
+      },
+      {
+        "cn": "堆放区必须保持整洁。",
+        "pinyin": "Duīfàngqū bìxū bǎochí zhěngjié.",
+        "id": "Area penumpukan harus tetap rapi.",
+        "audio": "/static/audio/Duīfàngqū bìxū bǎochí zhěngjié.mp3"
+      },
+      {
+        "cn": "这批货物已经放在堆放区了。",
+        "pinyin": "Zhè pī huòwù yǐjīng fàng zài duīfàngqū le.",
+        "id": "Barang-barang ini sudah ditempatkan di area penumpukan.",
+        "audio": "/static/audio/Zhè pī huòwù yǐjīng fàng zài duīfàngqū le.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "卸货",
+    "pinyin": "xiè huò",
+    "arti": "Bongkar muatan",
+    "audio": "/static/audio/xiehuo.mp3",
+    "sentences": [
+      {
+        "cn": "工人们正在卸货。",
+        "pinyin": "Gōngrénmen zhèngzài xièhuò.",
+        "id": "Para pekerja sedang membongkar muatan.",
+        "audio": "/static/audio/Gōngrénmen zhèngzài xièhuò.mp3"
+      },
+      {
+        "cn": "卸货需要小心操作。",
+        "pinyin": "Xièhuò xūyào xiǎoxīn cāozuò.",
+        "id": "Membongkar muatan harus dilakukan dengan hati-hati.",
+        "audio": "/static/audio/Xièhuò xūyào xiǎoxīn cāozuò.mp3"
+      },
+      {
+        "cn": "请在这里等待卸货。",
+        "pinyin": "Qǐng zài zhèlǐ děngdài xièhuò.",
+        "id": "Tolong tunggu di sini untuk proses bongkar muatan.",
+        "audio": "/static/audio/Qǐng zài zhèlǐ děngdài xièhuò.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "仓库管理",
+    "pinyin": "cāng kù guǎn lǐ",
+    "arti": "Manajemen gudang",
+    "audio": "/static/audio/cangkuguanli.mp3",
+    "sentences": [
+      {
+        "cn": "仓库管理需要良好的记录系统。",
+        "pinyin": "Cāngkù guǎnlǐ xūyào liánghǎo de jìlù xìtǒng.",
+        "id": "Manajemen gudang membutuhkan sistem pencatatan yang baik.",
+        "audio": "/static/audio/Cāngkù guǎnlǐ xūyào liánghǎo de jìlù xìtǒng.mp3"
+      },
+      {
+        "cn": "他负责公司的仓库管理。",
+        "pinyin": "Tā fùzé gōngsī de cāngkù guǎnlǐ.",
+        "id": "Dia bertanggung jawab atas manajemen gudang perusahaan.",
+        "audio": "/static/audio/Tā fùzé gōngsī de cāngkù guǎnlǐ.mp3"
+      },
+      {
+        "cn": "仓库管理做得很好。",
+        "pinyin": "Cāngkù guǎnlǐ zuò de hěn hǎo.",
+        "id": "Manajemen gudangnya dilakukan dengan sangat baik.",
+        "audio": "/static/audio/Cāngkù guǎnlǐ zuò de hěn hǎo.mp3"
+      }
+    ]
+  }
+],
+"week15": [
+  {
+    "hanzi": "高位槽",
+    "pinyin": "gāo wèi cáo",
+    "arti": "Tangki tingkat tinggi",
+    "audio": "/static/audio/gaoweicao.mp3",
+    "sentences": [
+      {
+        "cn": "高位槽需要定期检查。",
+        "pinyin": "Gāowèicáo xūyào dìngqī jiǎnchá.",
+        "id": "Tangki tingkat tinggi harus diperiksa secara berkala.",
+        "audio": "/static/audio/Gāowèicáo xūyào dìngqī jiǎnchá.mp3"
+      },
+      {
+        "cn": "请把液体加入高位槽。",
+        "pinyin": "Qǐng bǎ yètǐ jiārù gāowèicáo.",
+        "id": "Tolong tambahkan cairan ke tangki tingkat tinggi.",
+        "audio": "/static/audio/Qǐng bǎ yètǐ jiārù gāowèicáo.mp3"
+      },
+      {
+        "cn": "高位槽的液位已经满了。",
+        "pinyin": "Gāowèicáo de yèwèi yǐjīng mǎn le.",
+        "id": "Ketinggian cairan di tangki sudah penuh.",
+        "audio": "/static/audio/Gāowèicáo de yèwèi yǐjīng mǎn le.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "底液",
+    "pinyin": "dǐ yè",
+    "arti": "Bottom liquid",
+    "audio": "/static/audio/diye.mp3",
+    "sentences": [
+      {
+        "cn": "我在配底液。",
+        "pinyin": "Wǒ zài pèi dǐyè.",
+        "id": "Saya sedang membuat bottom liquid.",
+        "audio": "/static/audio/Wǒ zài pèi dǐyè.mp3"
+      },
+      {
+        "cn": "底液需要准确配比。",
+        "pinyin": "Dǐyè xūyào zhǔnquè pèibǐ.",
+        "id": "Bottom liquid harus dibuat dengan perbandingan yang tepat.",
+        "audio": "/static/audio/Dǐyè xūyào zhǔnquè pèibǐ.mp3"
+      },
+      {
+        "cn": "请检查底液的质量。",
+        "pinyin": "Qǐng jiǎnchá dǐyè de zhìliàng.",
+        "id": "Tolong cek kualitas bottom liquid.",
+        "audio": "/static/audio/Qǐng jiǎnchá dǐyè de zhìliàng.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "取样",
+    "pinyin": "qǔ yàng",
+    "arti": "Sampling",
+    "audio": "/static/audio/quyang.mp3",
+    "sentences": [
+      {
+        "cn": "请去取样。",
+        "pinyin": "Qǐng qù qǔyàng.",
+        "id": "Tolong lakukan sampling.",
+        "audio": "/static/audio/Qǐng qù qǔyàng.mp3"
+      },
+      {
+        "cn": "取样必须按照标准流程进行。",
+        "pinyin": "Qǔyàng bìxū ànzhào biāozhǔn liúchéng jìnxíng.",
+        "id": "Sampling harus dilakukan sesuai prosedur standar.",
+        "audio": "/static/audio/Qǔyàng bìxū ànzhào biāozhǔn liúchéng jìnxíng.mp3"
+      },
+      {
+        "cn": "他们正在取样。",
+        "pinyin": "Tāmen zhèngzài qǔyàng.",
+        "id": "Mereka sedang melakukan sampling.",
+        "audio": "/static/audio/Tāmen zhèngzài qǔyàng.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "检查",
+    "pinyin": "jiǎn chá",
+    "arti": "Mengecek",
+    "audio": "/static/audio/jiancha.mp3",
+    "sentences": [
+      {
+        "cn": "请检查机器。",
+        "pinyin": "Qǐng jiǎnchá jīqì.",
+        "id": "Tolong cek mesinnya.",
+        "audio": "/static/audio/Qǐng jiǎnchá jīqì.mp3"
+      },
+      {
+        "cn": "我们每天都要检查设备。",
+        "pinyin": "Wǒmen měitiān dōu yào jiǎnchá shèbèi.",
+        "id": "Kita harus mengecek peralatan setiap hari.",
+        "audio": "/static/audio/Wǒmen měitiān dōu yào jiǎnchá shèbèi.mp3"
+      },
+      {
+        "cn": "他正在检查底液。",
+        "pinyin": "Tā zhèngzài jiǎnchá dǐyè.",
+        "id": "Dia sedang mengecek bottom liquid.",
+        "audio": "/static/audio/Tā zhèngzài jiǎnchá dǐyè.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "难",
+    "pinyin": "nán",
+    "arti": "Susah",
+    "audio": "/static/audio/nan.mp3",
+    "sentences": [
+      {
+        "cn": "这很难。",
+        "pinyin": "Zhè hěn nán.",
+        "id": "Ini sulit.",
+        "audio": "/static/audio/Zhè hěn nán.mp3"
+      },
+      {
+        "cn": "考试不难。",
+        "pinyin": "Kǎoshì bù nán.",
+        "id": "Ujiannya tidak sulit.",
+        "audio": "/static/audio/Kǎoshì bù nán.mp3"
+      },
+      {
+        "cn": "这个任务有点难。",
+        "pinyin": "Zhège rènwù yǒudiǎn nán.",
+        "id": "Tugas ini agak sulit.",
+        "audio": "/static/audio/Zhège rènwù yǒudiǎn nán.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "告诉",
+    "pinyin": "gào sù",
+    "arti": "Memberi tahu",
+    "audio": "/static/audio/gaosu.mp3",
+    "sentences": [
+      {
+        "cn": "请告诉我。",
+        "pinyin": "Qǐng gàosu wǒ.",
+        "id": "Tolong beri tahu saya.",
+        "audio": "/static/audio/Qǐng gàosu wǒ.mp3"
+      },
+      {
+        "cn": "他告诉了我结果。",
+        "pinyin": "Tā gàosu le wǒ jiéguǒ.",
+        "id": "Dia memberi tahu saya hasilnya.",
+        "audio": "/static/audio/Tā gàosu le wǒ jiéguǒ.mp3"
+      },
+      {
+        "cn": "请告诉他们今天要考试。",
+        "pinyin": "Qǐng gàosu tāmen jīntiān yào kǎoshì.",
+        "id": "Tolong beri tahu mereka bahwa hari ini ada ujian.",
+        "audio": "/static/audio/Qǐng gàosu tāmen jīntiān yào kǎoshì.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "笔",
+    "pinyin": "bǐ",
+    "arti": "Pen",
+    "audio": "/static/audio/bi.mp3",
+    "sentences": [
+      {
+        "cn": "我需要一支笔。",
+        "pinyin": "Wǒ xūyào yī zhī bǐ.",
+        "id": "Saya butuh sebuah pena.",
+        "audio": "/static/audio/Wǒ xūyào yī zhī bǐ.mp3"
+      },
+      {
+        "cn": "这支笔很好用。",
+        "pinyin": "Zhè zhī bǐ hěn hǎoyòng.",
+        "id": "Pena ini enak dipakai.",
+        "audio": "/static/audio/Zhè zhī bǐ hěn hǎoyòng.mp3"
+      },
+      {
+        "cn": "请把你的笔借给我。",
+        "pinyin": "Qǐng bǎ nǐ de bǐ jiè gěi wǒ.",
+        "id": "Tolong pinjamkan penamu ke saya.",
+        "audio": "/static/audio/Qǐng bǎ nǐ de bǐ jiè gěi wǒ.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "考试",
+    "pinyin": "kǎo shì",
+    "arti": "Ujian",
+    "audio": "/static/audio/kaoshi.mp3",
+    "sentences": [
+      {
+        "cn": "我们今天考试。",
+        "pinyin": "Wǒmen jīntiān kǎoshì.",
+        "id": "Kita hari ini ujian.",
+        "audio": "/static/audio/Wǒmen jīntiān kǎoshì.mp3"
+      },
+      {
+        "cn": "考试开始了。",
+        "pinyin": "Kǎoshì kāishǐ le.",
+        "id": "Ujian sudah dimulai.",
+        "audio": "/static/audio/Kǎoshì kāishǐ le.mp3"
+      },
+      {
+        "cn": "考试结束后我们回家。",
+        "pinyin": "Kǎoshì jiéshù hòu wǒmen huí jiā.",
+        "id": "Setelah ujian kita pulang.",
+        "audio": "/static/audio/Kǎoshì jiéshù hòu wǒmen huí jiā.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "现在",
+    "pinyin": "xiàn zài",
+    "arti": "Sekarang",
+    "audio": "/static/audio/xianzai.mp3",
+    "sentences": [
+      {
+        "cn": "我现在很忙。",
+        "pinyin": "Wǒ xiànzài hěn máng.",
+        "id": "Saya sedang sibuk sekarang.",
+        "audio": "/static/audio/Wǒ xiànzài hěn máng.mp3"
+      },
+      {
+        "cn": "现在开始做工作。",
+        "pinyin": "Xiànzài kāishǐ zuò gōngzuò.",
+        "id": "Sekarang mulai bekerja.",
+        "audio": "/static/audio/Xiànzài kāishǐ zuò gōngzuò.mp3"
+      },
+      {
+        "cn": "我们现在要去取样。",
+        "pinyin": "Wǒmen xiànzài yào qù qǔyàng.",
+        "id": "Kita sekarang harus pergi sampling.",
+        "audio": "/static/audio/Wǒmen xiànzài yào qù qǔyàng.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "简单",
+    "pinyin": "jiǎn dān",
+    "arti": "Mudah",
+    "audio": "/static/audio/jiandan.mp3",
+    "sentences": [
+      {
+        "cn": "这个很简单。",
+        "pinyin": "Zhège hěn jiǎndān.",
+        "id": "Ini sangat mudah.",
+        "audio": "/static/audio/Zhège hěn jiǎndān.mp3"
+      },
+      {
+        "cn": "考试很简单。",
+        "pinyin": "Kǎoshì hěn jiǎndān.",
+        "id": "Ujiannya mudah.",
+        "audio": "/static/audio/Kǎoshì hěn jiǎndān.mp3"
+      },
+      {
+        "cn": "这个任务非常简单。",
+        "pinyin": "Zhège rènwù fēicháng jiǎndān.",
+        "id": "Tugas ini sangat mudah.",
+        "audio": "/static/audio/Zhège rènwù fēicháng jiǎndān.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "一个小时",
+    "pinyin": "yí gè xiǎo shí",
+    "arti": "Satu jam",
+    "audio": "/static/audio/yigexiaoshi.mp3",
+    "sentences": [
+      {
+        "cn": "我等一个小时。",
+        "pinyin": "Wǒ děng yī gè xiǎoshí.",
+        "id": "Saya menunggu satu jam.",
+        "audio": "/static/audio/Wǒ děng yī gè xiǎoshí.mp3"
+      },
+      {
+        "cn": "任务需要一个小时完成。",
+        "pinyin": "Rènwù xūyào yí gè xiǎoshí wánchéng.",
+        "id": "Tugas ini membutuhkan satu jam untuk selesai.",
+        "audio": "/static/audio/Rènwù xūyào yí gè xiǎoshí wánchéng.mp3"
+      },
+      {
+        "cn": "请休息一个小时。",
+        "pinyin": "Qǐng xiūxí yí gè xiǎoshí.",
+        "id": "Silakan istirahat selama satu jam.",
+        "audio": "/static/audio/Qǐng xiūxí yí gè xiǎoshí.mp3"
+      }
+    ]
+  }
+]
   }
 }
