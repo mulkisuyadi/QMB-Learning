@@ -11,19 +11,15 @@
         <th>Email</th>
         <th>Longname</th>
         <th>ID Card</th>
-        <th>Confirmed</th>
-        <th>Account Made</th>
       </tr>
     </thead>
     <tbody>
-      {% for username, email, longname, idcard, confirmed, formatted_time in userss %}
+      {% for username, email, longname, idcard in userss %}
       <tr>
         <td>{{ username }}</td>
         <td>{{ email }}</td>
         <td>{{ longname }}</td>
         <td>{{ idcard }}</td>
-        <td>{{ confirmed }}</td>
-        <td>{{ formatted_time }}</td>
       </tr>
       {% endfor %}
     </tbody>

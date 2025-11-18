@@ -57,7 +57,7 @@ if os.getenv("RAILWAY_ENVIRONMENT"):
     app.config["SERVER_NAME"] = "qmblearning.up.railway.app"
     app.config["PREFERRED_URL_SCHEME"] = "https"
 
-resend.api_key = os.getenv("RESEND_API_KEY")
+#resend.api_key = os.getenv("RESEND_API_KEY")
 
 app.config.update(
     SECRET_KEY=os.getenv("SECRET_KEY") or "dev-secret-key",
@@ -69,7 +69,7 @@ app.config.update(
     SQLALCHEMY_DATABASE_URI=db_url or "sqlite:///users.db",
     SQLALCHEMY_TRACK_MODIFICATIONS=False,
 
-    # Email
+    #Email
     #MAIL_SERVER="smtp.gmail.com",
     #MAIL_PORT=587,
     #MAIL_USE_TLS=True,
@@ -102,8 +102,6 @@ def create_tables():
     db.create_all()
 app.cli.add_command(create_tables)
 
-
-
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
 #print(SQLAlchemy)
@@ -118,8 +116,8 @@ class User(db.Model):
     idcard = db.Column(db.String(120), unique=True, nullable=False)
     password = db.Column(db.String(200), nullable=False)
     remember_token = db.Column(db.String(200))
-    confirmed = db.Column(db.Boolean, default=False, nullable=False)
-    confirmed_on = db.Column(db.DateTime, nullable=True)
+    #confirmed = db.Column(db.Boolean, default=False, nullable=False)
+    #confirmed_on = db.Column(db.DateTime, nullable=True)
     progress = db.relationship("UserProgress", back_populates="user", cascade="all, delete")
     
 class UserProgress(db.Model):
@@ -275,8 +273,9 @@ def login():
         if user and check_password_hash(user.password, password):
             
             # 🚧 Add this BEFORE setting session
+            """
             if not user.confirmed:
-                # ✅ Auto-resend confirmation email
+                #✅ Auto-resend confirmation email
                 token = generate_confirmation_token(user.email)
                 confirm_url = url_for('confirm_email', token=token, _external=True)
 
@@ -290,6 +289,8 @@ def login():
 
                 flash("Your email is not confirmed. We've sent a new confirmation link to your inbox.", "warning")
                 return render_template("login.html")
+            """
+            
             
             # ✅ Successful login
             session["user_id"] = user.id
@@ -332,6 +333,7 @@ def login():
 
 #====================================================================================
 # === RESEND CONFIRMATION === #
+"""
 @app.route("/resend-confirmation", methods=["GET", "POST"])
 def resend_confirmation():
     if request.method == "POST":
@@ -357,6 +359,7 @@ def resend_confirmation():
         return redirect(url_for("login"))
 
     return render_template("resend_confirmation.html")
+"""
 #====================================================================================
 # === RESEND CONFIRMATION === #
 
@@ -468,15 +471,21 @@ def signup():
         user = get_user_by_username(username)
        
         # Generate confirmation token and URL
+        """
         token = generate_confirmation_token(user.email)
         confirm_url = url_for("confirm_email", token=token, _external = True)
+        """
 
+        """
         #Prepare message - both text and html optional
-        #subject = "Confirm your email"
-        #text_body = f"Hi {username}, \n\nPlease confirm your email by clicking the link: {confirm_url}\n\nIf you didn't sign up, ignore this email."
-        #html_body = render_template("confirm.html", confirm_url=confirm_url, username=username)
+        subject = "Confirm your email"
+        text_body = f"Hi {username}, \n\nPlease confirm your email by clicking the link: {confirm_url}\n\nIf you didn't sign up, ignore this email."
+        html_body = render_template("confirm.html", confirm_url=confirm_url, username=username)
 
-        #send_email(subject, [email], html_body=html_body, text_body=text_body)
+        send_email(subject, [email], html_body=html_body, text_body=text_body)
+        """
+        
+        """
         params = {
         "from": "QMB Learning <onboarding@resend.dev>",
         "to": [email],
@@ -485,6 +494,8 @@ def signup():
         }
         resend.Emails.send(params)
         flash("A confirmation email has been sent. Please check your inbox.", "info")
+        """
+        
 
         return redirect(url_for("login"))
     return render_template("signup.html")
@@ -494,6 +505,7 @@ def signup():
 
 #====================================================================================
 # === EMAIL CONFIRMATION === #
+"""
 @app.route("/confirm/<token>")
 def confirm_email(token):
     
@@ -524,6 +536,7 @@ def confirm_email(token):
 
     flash("Email confirmed successfully! You can now log in.", "success")
     return redirect(url_for("login"))
+"""
 #====================================================================================
 # === EMAIL CONFIRMATION === #
 
@@ -544,9 +557,10 @@ def forgot():
             subject = "Password reset requested"
             reset_url = url_for("reset_password", token=token, _external=True)
 
-            #text_body = f"To reset your password, click: {reset_url}\nIf you did not request this, ignore."
-            #html_body = render_template("redirectemail.html", reset_url=reset_url, username=user.username)
-
+            text_body = f"To reset your password, click: {reset_url}\nIf you did not request this, ignore."
+            html_body = render_template("redirectemail.html", reset_url=reset_url, username=user.username)
+            
+            """
             params1 = {
             "from": "QMB Learning <onboarding@resend.dev>",
             "to": [email],
@@ -555,7 +569,8 @@ def forgot():
             }
             resend.Emails.send(params1)
             flash("A reset password email has been sent. Please check your inbox.", "info")
-
+            """
+        
             #send_email(subject, [user.email], html_body=html_body, text_body=text_body)
             print("🔗 DEBUG RESET LINK:", reset_url)
         #Generic message (prevents account enumeration)
@@ -828,13 +843,16 @@ def user_profile():
         
         if user:
             
+            """
             if user.confirmed_on:
                 wita_dt = user.confirmed_on + timedelta(hours=8)
                 formatted_time = wita_dt.strftime("%Y-%m-%d %H:%M:%S") + " WITA"
             else:
                 formatted_time = "Unknown"
-
+            
             converted_result = (user.username, user.email, user.longname, user.idcard, user.confirmed, formatted_time)
+            """
+            converted_result = (user.username, user.email, user.longname, user.idcard)
 
             #print("Belakangoke", converted_results)
             return render_template("user_profile.html", userss=[converted_result], username=user.username)
