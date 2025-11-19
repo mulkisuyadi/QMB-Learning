@@ -17,7 +17,7 @@ with app.app_context():
 # === DELETE USERNAME === #
 with app.app_context():
     #user = User.query.get(2)  # or filter_by(username='adi123').first()
-    user = User.query.get(12) # or filter_by(username='adi123').first()
+    user = User.query.get(16) # or filter_by(username='adi123').first()
     if user:
         db.session.delete(user)
         db.session.commit()

@@ -10,7 +10,8 @@
           {
             "cn": "反应釜在三楼。",
             "pinyin": "Fǎnyìngfǔ zài sān lóu.",
-            "id": "Reaktor berada di lantai tiga."
+            "id": "Reaktor berada di lantai tiga.",
+            "audio": "/static/audio/Fǎnyìngfǔ zài sān lóu.mp3"
           }
         ]
       },
@@ -23,7 +24,8 @@
           {
             "cn": "加入浓密剂。",
             "pinyin": "Jiārù nóngmìjì.",
-            "id": "Tambahkan pengental."
+            "id": "Tambahkan pengental.",
+            "audio": "/static/audio/Jiārù nóngmìjì.mp3"
           }
         ]
       },
@@ -36,7 +38,8 @@
           {
             "cn": "高位槽满了。",
             "pinyin": "Gāowèicáo mǎn le.",
-            "id": "Tangki tingkat tinggi sudah penuh."
+            "id": "Tangki tingkat tinggi sudah penuh.",
+            "audio": "/static/audio/Gāowèicáo mǎn le.mp3"
           }
         ]
       },
@@ -49,12 +52,14 @@
           {
             "cn": "离心机在工作。",
             "pinyin": "Líxīnjī zài gōngzuò.",
-            "id": "Centrifuge sedang bekerja."
+            "id": "Centrifuge sedang bekerja.",
+            "audio": "/static/audio/Líxīnjī zài gōngzuò.mp3"
           },
           {
             "cn": "请把样品放进离心机。",
             "pinyin": "Qǐng bǎ yàngpǐn fàng jìn líxīnjī.",
-            "id": "Tolong masukkan sampel ke dalam centrifuge."
+            "id": "Tolong masukkan sampel ke dalam centrifuge.",
+            "audio": "/static/audio/Qǐng bǎ yàngpǐn fàng jìn líxīnjī.mp3"
           }
         ]
       },
@@ -67,12 +72,14 @@
           {
             "cn": "烘箱已经加热好了。",
             "pinyin": "Hōngxiāng yǐjīng jiārè hǎo le.",
-            "id": "Oven sudah dipanaskan."
+            "id": "Oven sudah dipanaskan.",
+            "audio": "/static/audio/Hōngxiāng yǐjīng jiārè hǎo le.mp3"
           },
           {
             "cn": "请把样品放进烘箱里。",
             "pinyin": "Qǐng bǎ yàngpǐn fàng jìn hōngxiāng lǐ.",
-            "id": "Tolong masukkan sampel ke dalam oven."
+            "id": "Tolong masukkan sampel ke dalam oven.",
+            "audio": "/static/audio/Qǐng bǎ yàngpǐn fàng jìn hōngxiāng lǐ.mp3"
           }
         ]
       },
@@ -85,12 +92,14 @@
           {
             "cn": "我在吃饭。",
             "pinyin": "Wǒ zài chīfàn.",
-            "id": "Saya sedang makan."
+            "id": "Saya sedang makan.",
+            "audio": "/static/audio/Wǒ zài chīfàn.mp3"
           },
           {
             "cn": "我们一起去吃饭吧。",
             "pinyin": "Wǒmen yīqǐ qù chīfàn ba.",
-            "id": "Ayo kita makan bersama."
+            "id": "Ayo kita makan bersama.",
+            "audio": "/static/audio/Wǒmen yīqǐ qù chīfàn ba.mp3"
           }
         ]
       },
@@ -103,12 +112,14 @@
           {
             "cn": "我五点下班。",
             "pinyin": "Wǒ wǔ diǎn xiàbān.",
-            "id": "Saya pulang kerja jam lima."
+            "id": "Saya pulang kerja jam lima.",
+            "audio": "/static/audio/Wǒ wǔ diǎn xiàbān.mp3"
           },
           {
             "cn": "下班以后我们去吃饭。",
             "pinyin": "Xiàbān yǐhòu wǒmen qù chīfàn.",
-            "id": "Setelah pulang kerja, kita pergi makan."
+            "id": "Setelah pulang kerja, kita pergi makan.",
+            "audio": "/static/audio/Xiàbān yǐhòu wǒmen qù chīfàn.mp3"
           }
         ]
       },
@@ -121,12 +132,14 @@
           {
             "cn": "请等一下。",
             "pinyin": "Qǐng děng yíxià.",
-            "id": "Tolong tunggu sebentar."
+            "id": "Tolong tunggu sebentar.",
+            "audio": "/static/audio/Qǐng děng yíxià.mp3"
           },
           {
             "cn": "等一下我再给你打电话。",
             "pinyin": "Děng yíxià wǒ zài gěi nǐ dǎ diànhuà.",
-            "id": "Tunggu sebentar, nanti saya telepon kamu lagi."
+            "id": "Tunggu sebentar, nanti saya telepon kamu lagi.",
+            "audio": "/static/audio/Děng yíxià wǒ zài gěi nǐ dǎ diànhuà.mp3"
           }
         ]
       },
@@ -139,12 +152,14 @@
           {
             "cn": "我在银行工作。",
             "pinyin": "Wǒ zài yínháng gōngzuò.",
-            "id": "Saya bekerja di bank."
+            "id": "Saya bekerja di bank.",
+            "audio": "/static/audio/Wǒ zài yínháng gōngzuò.mp3"
           },
           {
             "cn": "她的工作很忙。",
             "pinyin": "Tā de gōngzuò hěn máng.",
-            "id": "Pekerjaannya sangat sibuk."
+            "id": "Pekerjaannya sangat sibuk.",
+            "audio": "/static/audio/Tā de gōngzuò hěn máng.mp3"
           }
         ]
       },
@@ -157,12 +172,14 @@
           {
             "cn": "谢谢你。",
             "pinyin": "Xièxie nǐ.",
-            "id": "Terima kasih."
+            "id": "Terima kasih.",
+            "audio": "/static/audio/Xièxie nǐ.mp3"
           },
           {
             "cn": "谢谢你的帮助。",
             "pinyin": "Xièxie nǐ de bāngzhù.",
-            "id": "Terima kasih atas bantuanmu."
+            "id": "Terima kasih atas bantuanmu.",
+            "audio": "/static/audio/Xièxie nǐ de bāngzhù.mp3"
           }
         ]
       }
