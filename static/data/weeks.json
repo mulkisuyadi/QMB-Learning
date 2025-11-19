@@ -851,186 +851,206 @@
   }
 ],
     "week5": [
+  {
+    "hanzi": "电梯",
+    "pinyin": "diàntī",
+    "arti": "Lift / Elevator",
+    "audio": "/static/audio/diàntī.mp3",
+    "sentences": [
       {
-        "hanzi": "电梯",
-        "pinyin": "diàntī",
-        "arti": "Lift / Elevator",
-        "audio": "/static/dianti.mp3",
-        "sentences": [
-          {
-            "cn": "电梯在五楼。",
-            "pinyin": "Diàntī zài wǔ lóu.",
-            "id": "Lift ada di lantai lima."
-          },
-          {
-            "cn": "我们坐电梯上去。",
-            "pinyin": "Wǒmen zuò diàntī shàngqù.",
-            "id": "Kami naik lift ke atas."
-          }
-        ]
+        "cn": "电梯在五楼。",
+        "pinyin": "Diàntī zài wǔ lóu。",
+        "id": "Lift ada di lantai lima.",
+        "audio": "/static/audio/Diàntī zài wǔ lóu.mp3"
       },
       {
-        "hanzi": "控制室",
-        "pinyin": "kòngzhì shì",
-        "arti": "Ruang Kontrol",
-        "audio": "/static/kongzhishi.mp3",
-        "sentences": [
-          {
-            "cn": "他在控制室工作。",
-            "pinyin": "Tā zài kòngzhì shì gōngzuò.",
-            "id": "Dia bekerja di ruang kontrol."
-          },
-          {
-            "cn": "控制室很重要。",
-            "pinyin": "Kòngzhì shì hěn zhòngyào.",
-            "id": "Ruang kontrol sangat penting."
-          }
-        ]
-      },
-      {
-        "hanzi": "烧杯",
-        "pinyin": "shāobēi",
-        "arti": "Gelas Beaker",
-        "audio": "/static/shaobei.mp3",
-        "sentences": [
-          {
-            "cn": "烧杯里有水。",
-            "pinyin": "Shāobēi lǐ yǒu shuǐ.",
-            "id": "Ada air di dalam gelas beaker."
-          },
-          {
-            "cn": "请拿一个烧杯。",
-            "pinyin": "Qǐng ná yī gè shāobēi.",
-            "id": "Tolong ambil satu gelas beaker."
-          }
-        ]
-      },
-      {
-        "hanzi": "锥形瓶",
-        "pinyin": "zhuīxíngpíng",
-        "arti": "Erlenmeyer Flask",
-        "audio": "/static/zhuixingping.mp3",
-        "sentences": [
-          {
-            "cn": "锥形瓶在桌子上。",
-            "pinyin": "Zhuīxíngpíng zài zhuōzi shàng.",
-            "id": "Erlenmeyer ada di atas meja."
-          },
-          {
-            "cn": "请把液体倒进锥形瓶。",
-            "pinyin": "Qǐng bǎ yètǐ dào jìn zhuīxíngpíng.",
-            "id": "Tolong tuangkan cairan ke dalam Erlenmeyer."
-          }
-        ]
-      },
-      {
-        "hanzi": "量筒",
-        "pinyin": "liàngtǒng",
-        "arti": "Gelas Ukur",
-        "audio": "/static/liangtong.mp3",
-        "sentences": [
-          {
-            "cn": "量筒可以测量体积。",
-            "pinyin": "Liàngtǒng kěyǐ cèliáng tǐjī.",
-            "id": "Gelas ukur bisa mengukur volume."
-          },
-          {
-            "cn": "请用量筒量水。",
-            "pinyin": "Qǐng yòng liàngtǒng liáng shuǐ.",
-            "id": "Tolong ukur air dengan gelas ukur."
-          }
-        ]
-      },
-      {
-        "hanzi": "去",
-        "pinyin": "qù",
-        "arti": "Pergi",
-        "audio": "/static/qu.mp3",
-        "sentences": [
-          {
-            "cn": "我去学校。",
-            "pinyin": "Wǒ qù xuéxiào.",
-            "id": "Saya pergi ke sekolah."
-          },
-          {
-            "cn": "你要去哪里？",
-            "pinyin": "Nǐ yào qù nǎlǐ?",
-            "id": "Kamu mau pergi ke mana?"
-          }
-        ]
-      },
-      {
-        "hanzi": "喝",
-        "pinyin": "hē",
-        "arti": "Minum",
-        "audio": "/static/he.mp3",
-        "sentences": [
-          {
-            "cn": "我喝茶。",
-            "pinyin": "Wǒ hē chá.",
-            "id": "Saya minum teh."
-          },
-          {
-            "cn": "你喝水吗？",
-            "pinyin": "Nǐ hē shuǐ ma?",
-            "id": "Apakah kamu minum air?"
-          }
-        ]
-      },
-      {
-        "hanzi": "叫",
-        "pinyin": "jiào",
-        "arti": "Dipanggil / Memanggil",
-        "audio": "/static/jiao.mp3",
-        "sentences": [
-          {
-            "cn": "我叫小王。",
-            "pinyin": "Wǒ jiào Xiǎo Wáng.",
-            "id": "Nama saya Xiao Wang."
-          },
-          {
-            "cn": "他叫出租车。",
-            "pinyin": "Tā jiào chūzūchē.",
-            "id": "Dia memanggil taksi."
-          }
-        ]
-      },
-      {
-        "hanzi": "来",
-        "pinyin": "lái",
-        "arti": "Datang",
-        "audio": "/static/lai.mp3",
-        "sentences": [
-          {
-            "cn": "请你来我家。",
-            "pinyin": "Qǐng nǐ lái wǒ jiā.",
-            "id": "Silakan datang ke rumah saya."
-          },
-          {
-            "cn": "他来了。",
-            "pinyin": "Tā lái le.",
-            "id": "Dia sudah datang."
-          }
-        ]
-      },
-      {
-        "hanzi": "睡觉",
-        "pinyin": "shuìjiào",
-        "arti": "Tidur",
-        "audio": "/static/shuijiao.mp3",
-        "sentences": [
-          {
-            "cn": "我晚上十点睡觉。",
-            "pinyin": "Wǒ wǎnshàng shí diǎn shuìjiào.",
-            "id": "Saya tidur jam sepuluh malam."
-          },
-          {
-            "cn": "他正在睡觉。",
-            "pinyin": "Tā zhèngzài shuìjiào.",
-            "id": "Dia sedang tidur."
-          }
-        ]
+        "cn": "我们坐电梯上去。",
+        "pinyin": "Wǒmen zuò diàntī shàngqù。",
+        "id": "Kami naik lift ke atas.",
+        "audio": "/static/audio/Wǒmen zuò diàntī shàngqù.mp3"
       }
+    ]
+  },
+  {
+    "hanzi": "控制室",
+    "pinyin": "kòngzhì shì",
+    "arti": "Ruang Kontrol",
+    "audio": "/static/audio/kòngzhì shì.mp3",
+    "sentences": [
+      {
+        "cn": "他在控制室工作。",
+        "pinyin": "Tā zài kòngzhì shì gōngzuò。",
+        "id": "Dia bekerja di ruang kontrol.",
+        "audio": "/static/audio/Tā zài kòngzhì shì gōngzuò.mp3"
+      },
+      {
+        "cn": "控制室很重要。",
+        "pinyin": "Kòngzhì shì hěn zhòngyào。",
+        "id": "Ruang kontrol sangat penting.",
+        "audio": "/static/audio/Kòngzhì shì hěn zhòngyào.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "烧杯",
+    "pinyin": "shāobēi",
+    "arti": "Gelas Beaker",
+    "audio": "/static/audio/shāobēi.mp3",
+    "sentences": [
+      {
+        "cn": "烧杯里有水。",
+        "pinyin": "Shāobēi lǐ yǒu shuǐ。",
+        "id": "Ada air di dalam gelas beaker.",
+        "audio": "/static/audio/Shāobēi lǐ yǒu shuǐ.mp3"
+      },
+      {
+        "cn": "请拿一个烧杯。",
+        "pinyin": "Qǐng ná yī gè shāobēi。",
+        "id": "Tolong ambil satu gelas beaker.",
+        "audio": "/static/audio/Qǐng ná yī gè shāobēi.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "锥形瓶",
+    "pinyin": "zhuīxíngpíng",
+    "arti": "Erlenmeyer Flask",
+    "audio": "/static/audio/zhuīxíngpíng.mp3",
+    "sentences": [
+      {
+        "cn": "锥形瓶在桌子上。",
+        "pinyin": "Zhuīxíngpíng zài zhuōzi shàng。",
+        "id": "Erlenmeyer ada di atas meja.",
+        "audio": "/static/audio/Zhuīxíngpíng zài zhuōzi shàng.mp3"
+      },
+      {
+        "cn": "请把液体倒进锥形瓶。",
+        "pinyin": "Qǐng bǎ yètǐ dào jìn zhuīxíngpíng。",
+        "id": "Tolong tuangkan cairan ke dalam Erlenmeyer.",
+        "audio": "/static/audio/Qǐng bǎ yètǐ dào jìn zhuīxíngpíng.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "量筒",
+    "pinyin": "liàngtǒng",
+    "arti": "Gelas Ukur",
+    "audio": "/static/audio/liàngtǒng.mp3",
+    "sentences": [
+      {
+        "cn": "量筒可以测量体积。",
+        "pinyin": "Liàngtǒng kěyǐ cèliáng tǐjī。",
+        "id": "Gelas ukur bisa mengukur volume.",
+        "audio": "/static/audio/Liàngtǒng kěyǐ cèliáng tǐjī.mp3"
+      },
+      {
+        "cn": "请用量筒量水。",
+        "pinyin": "Qǐng yòng liàngtǒng liáng shuǐ。",
+        "id": "Tolong ukur air dengan gelas ukur.",
+        "audio": "/static/audio/Qǐng yòng liàngtǒng liáng shuǐ.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "去",
+    "pinyin": "qù",
+    "arti": "Pergi",
+    "audio": "/static/audio/qù.mp3",
+    "sentences": [
+      {
+        "cn": "我去学校。",
+        "pinyin": "Wǒ qù xuéxiào。",
+        "id": "Saya pergi ke sekolah.",
+        "audio": "/static/audio/Wǒ qù xuéxiào.mp3"
+      },
+      {
+        "cn": "你要去哪里？",
+        "pinyin": "Nǐ yào qù nǎlǐ？",
+        "id": "Kamu mau pergi ke mana?",
+        "audio": "/static/audio/Nǐ yào qù nǎlǐ.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "喝",
+    "pinyin": "hē",
+    "arti": "Minum",
+    "audio": "/static/audio/hē.mp3",
+    "sentences": [
+      {
+        "cn": "我喝茶。",
+        "pinyin": "Wǒ hē chá。",
+        "id": "Saya minum teh.",
+        "audio": "/static/audio/Wǒ hē chá.mp3"
+      },
+      {
+        "cn": "你喝水吗？",
+        "pinyin": "Nǐ hē shuǐ ma？",
+        "id": "Apakah kamu minum air?",
+        "audio": "/static/audio/Nǐ hē shuǐ ma.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "叫",
+    "pinyin": "jiào",
+    "arti": "Dipanggil / Memanggil",
+    "audio": "/static/audio/jiào.mp3",
+    "sentences": [
+      {
+        "cn": "我叫小王。",
+        "pinyin": "Wǒ jiào Xiǎo Wáng。",
+        "id": "Nama saya Xiao Wang.",
+        "audio": "/static/audio/Wǒ jiào Xiǎo Wáng.mp3"
+      },
+      {
+        "cn": "他叫出租车。",
+        "pinyin": "Tā jiào chūzūchē。",
+        "id": "Dia memanggil taksi.",
+        "audio": "/static/audio/Tā jiào chūzūchē.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "来",
+    "pinyin": "lái",
+    "arti": "Datang",
+    "audio": "/static/audio/lái.mp3",
+    "sentences": [
+      {
+        "cn": "请你来我家。",
+        "pinyin": "Qǐng nǐ lái wǒ jiā。",
+        "id": "Silakan datang ke rumah saya.",
+        "audio": "/static/audio/Qǐng nǐ lái wǒ jiā.mp3"
+      },
+      {
+        "cn": "他来了。",
+        "pinyin": "Tā lái le。",
+        "id": "Dia sudah datang.",
+        "audio": "/static/audio/Tā lái le.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "睡觉",
+    "pinyin": "shuìjiào",
+    "arti": "Tidur",
+    "audio": "/static/audio/shuìjiào.mp3",
+    "sentences": [
+      {
+        "cn": "我晚上十点睡觉。",
+        "pinyin": "Wǒ wǎnshàng shí diǎn shuìjiào。",
+        "id": "Saya tidur jam sepuluh malam.",
+        "audio": "/static/audio/Wǒ wǎnshàng shí diǎn shuìjiào.mp3"
+      },
+      {
+        "cn": "他正在睡觉。",
+        "pinyin": "Tā zhèngzài shuìjiào。",
+        "id": "Dia sedang tidur.",
+        "audio": "/static/audio/Tā zhèngzài shuìjiào.mp3"
+      }
+    ]
+  }
     ],
     "week6": [
       {

@@ -1,41 +1,41 @@
 [
-  { "text": "碱", "filename": "jiǎn.mp3" },
-  { "text": "碱是一种化学物质。", "filename": "Jiǎn shì yī zhǒng huàxué wùzhì.mp3" },
-  { "text": "这个溶液里有碱。", "filename": "Zhège róngyè lǐ yǒu jiǎn.mp3" },
+  { "text": "电梯", "filename": "dianti.mp3" },
+  { "text": "电梯在五楼。", "filename": "Diàntī zài wǔ lóu.mp3" },
+  { "text": "我们坐电梯上去。", "filename": "Wǒmen zuò diàntī shàngqù.mp3" },
 
-  { "text": "氨水", "filename": "ān shuǐ.mp3" },
-  { "text": "氨水有刺激性气味。", "filename": "Ānshuǐ yǒu cìjīxìng qìwèi.mp3" },
-  { "text": "请小心使用氨水。", "filename": "Qǐng xiǎoxīn shǐyòng ānshuǐ.mp3" },
+  { "text": "控制室", "filename": "kongzhishi.mp3" },
+  { "text": "他在控制室工作。", "filename": "Tā zài kòngzhì shì gōngzuò.mp3" },
+  { "text": "控制室很重要。", "filename": "Kòngzhì shì hěn zhòngyào.mp3" },
 
-  { "text": "硫酸", "filename": "liúsuān.mp3" },
-  { "text": "硫酸很危险。", "filename": "Liúsuān hěn wēixiǎn.mp3" },
-  { "text": "我们在实验室里用硫酸。", "filename": "Wǒmen zài shíyànshì lǐ yòng liúsuān.mp3" },
+  { "text": "烧杯", "filename": "shaobei.mp3" },
+  { "text": "烧杯里有水。", "filename": "Shāobēi lǐ yǒu shuǐ.mp3" },
+  { "text": "请拿一个烧杯。", "filename": "Qǐng ná yī gè shāobēi.mp3" },
 
-  { "text": "除铁器", "filename": "chú tiě qì.mp3" },
-  { "text": "除铁器可以去掉铁。", "filename": "Chútiěqì kěyǐ qùdiào tiě.mp3" },
-  { "text": "我们安装了新的除铁器。", "filename": "Wǒmen ānzhuāng le xīn de chútiěqì.mp3" },
+  { "text": "锥形瓶", "filename": "zhuixingping.mp3" },
+  { "text": "锥形瓶在桌子上。", "filename": "Zhuīxíngpíng zài zhuōzi shàng.mp3" },
+  { "text": "请把液体倒进锥形瓶。", "filename": "Qǐng bǎ yètǐ dào jìn zhuīxíngpíng.mp3" },
 
-  { "text": "热水", "filename": "rè shuǐ.mp3" },
-  { "text": "我喝一杯热水。", "filename": "Wǒ hē yī bēi rè shuǐ.mp3" },
-  { "text": "热水对身体很好。", "filename": "Rè shuǐ duì shēntǐ hěn hǎo.mp3" },
+  { "text": "量筒", "filename": "liangtong.mp3" },
+  { "text": "量筒可以测量体积。", "filename": "Liàngtǒng kěyǐ cèliáng tǐjī.mp3" },
+  { "text": "请用量筒量水。", "filename": "Qǐng yòng liàngtǒng liáng shuǐ.mp3" },
 
-  { "text": "生病", "filename": "shēng bìng.mp3" },
-  { "text": "我生病了。", "filename": "Wǒ shēngbìng le.mp3" },
-  { "text": "他昨天生病了。", "filename": "Tā zuótiān shēngbìng le.mp3" },
+  { "text": "去", "filename": "qu.mp3" },
+  { "text": "我去学校。", "filename": "Wǒ qù xuéxiào.mp3" },
+  { "text": "你要去哪里？", "filename": "Nǐ yào qù nǎlǐ.mp3" },
 
-  { "text": "学习", "filename": "xué xí.mp3" },
-  { "text": "我喜欢学习汉语。", "filename": "Wǒ xǐhuān xuéxí hànyǔ.mp3" },
-  { "text": "他们在教室里学习。", "filename": "Tāmen zài jiàoshì lǐ xuéxí.mp3" },
+  { "text": "喝", "filename": "he.mp3" },
+  { "text": "我喝茶。", "filename": "Wǒ hē chá.mp3" },
+  { "text": "你喝水吗？", "filename": "Nǐ hē shuǐ ma.mp3" },
 
-  { "text": "度假", "filename": "dù jià.mp3" },
-  { "text": "我们去海边度假。", "filename": "Wǒmen qù hǎibiān dùjià.mp3" },
-  { "text": "他们正在度假。", "filename": "Tāmen zhèngzài dùjià.mp3" },
+  { "text": "叫", "filename": "jiao.mp3" },
+  { "text": "我叫小王。", "filename": "Wǒ jiào Xiǎo Wáng.mp3" },
+  { "text": "他叫出租车。", "filename": "Tā jiào chūzūchē.mp3" },
 
-  { "text": "你好吗？", "filename": "nǐ hǎo ma.mp3" },
-  { "text": "你好吗？", "filename": "Nǐ hǎo ma.mp3" },
-  { "text": "我很好，你呢？", "filename": "Wǒ hěn hǎo, nǐ ne.mp3" },
+  { "text": "来", "filename": "lai.mp3" },
+  { "text": "请你来我家。", "filename": "Qǐng nǐ lái wǒ jiā.mp3" },
+  { "text": "他来了。", "filename": "Tā lái le.mp3" },
 
-  { "text": "我想上厕所", "filename": "wǒ xiǎng shàng cèsuǒ.mp3" },
-  { "text": "我想上厕所。", "filename": "Wǒ xiǎng shàng cèsuǒ.mp3" },
-  { "text": "请问，厕所在哪里？", "filename": "Qǐngwèn, cèsuǒ zài nǎlǐ.mp3" }
+  { "text": "睡觉", "filename": "shuijiao.mp3" },
+  { "text": "我晚上十点睡觉。", "filename": "Wǒ wǎnshàng shí diǎn shuìjiào.mp3" },
+  { "text": "他正在睡觉。", "filename": "Tā zhèngzài shuìjiào.mp3" }
 ]
