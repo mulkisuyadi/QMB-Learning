@@ -1,45 +1,47 @@
 {
   "hsk1": [
     {
-      "hanzi": "我",
-      "pinyin": "wǒ",
-      "arti": "Saya",
-      "audio": "wo.mp3",
-      "sentences": [
-        { "cn": "我是学生。", "pinyin": "Wǒ shì xuéshēng.", "id": "Saya adalah seorang siswa." },
-        { "cn": "我很好。", "pinyin": "Wǒ hěn hǎo.", "id": "Saya baik-baik saja." },
-        { "cn": "我叫小李。", "pinyin": "Wǒ jiào Xiǎo Lǐ.", "id": "Nama saya Xiao Li." },
-        { "cn": "我喜欢中国菜。", "pinyin": "Wǒ xǐhuān Zhōngguó cài.", "id": "Saya suka masakan Tiongkok." }
-      ]
-    },
-    {
-      "hanzi": "你",
-      "pinyin": "nǐ",
-      "arti": "Kamu",
-      "audio": "ni.mp3",
-      "sentences": [
-        { "cn": "你好吗？", "pinyin": "Nǐ hǎo ma?", "id": "Apa kabar?" },
-        { "cn": "你叫什么名字？", "pinyin": "Nǐ jiào shénme míngzì?", "id": "Siapa namamu?" }
-      ]
-    },
-    {
-      "hanzi": "好",
-      "pinyin": "hǎo",
-      "arti": "Baik / Bagus",
-      "audio": "hao.mp3",
-      "sentences": [
-        { "cn": "你好！", "pinyin": "Nǐ hǎo!", "id": "Halo!" },
-        { "cn": "我很好。", "pinyin": "Wǒ hěn hǎo.", "id": "Saya baik-baik saja." },
-        { "cn": "老师好！", "pinyin": "Lǎoshī hǎo!", "id": "Halo, guru!" },
-        { "cn": "早上好！", "pinyin": "Zǎoshang hǎo!", "id": "Selamat pagi!" },
-        { "cn": "下午好！", "pinyin": "Xiàwǔ hǎo!", "id": "Selamat siang!" },
-        { "cn": "晚上好！", "pinyin": "Wǎnshàng hǎo!", "id": "Selamat malam!" },
-        { "cn": "你好吗？", "pinyin": "Nǐ hǎo ma?", "id": "Apa kabar?" },
-        { "cn": "很好，谢谢。", "pinyin": "Hěn hǎo, xièxie.", "id": "Baik sekali, terima kasih." },
-        { "cn": "你好不好？", "pinyin": "Nǐ hǎo bù hǎo?", "id": "Apakah kamu baik-baik saja?" },
-        { "cn": "我也很好。", "pinyin": "Wǒ yě hěn hǎo.", "id": "Saya juga baik." }
-      ]
-    },
+    "hanzi": "我",
+    "pinyin": "wǒ",
+    "arti": "Saya",
+    "audio": "/static/audio/wǒ.mp3",
+    "sentences": [
+      { "cn": "我是学生。", "pinyin": "Wǒ shì xuéshēng.", "id": "Saya adalah seorang siswa.", "audio": "/static/audio/Wǒ shì xuéshēng.mp3" },
+      { "cn": "我很好。", "pinyin": "Wǒ hěn hǎo.", "id": "Saya baik-baik saja.", "audio": "/static/audio/Wǒ hěn hǎo.mp3" },
+      { "cn": "我叫小李。", "pinyin": "Wǒ jiào Xiǎo Lǐ.", "id": "Nama saya Xiao Li.", "audio": "/static/audio/Wǒ jiào Xiǎo Lǐ.mp3" },
+      { "cn": "我喜欢中国菜。", "pinyin": "Wǒ xǐhuān Zhōngguó cài.", "id": "Saya suka masakan Tiongkok.", "audio": "/static/audio/Wǒ xǐhuān Zhōngguó cài.mp3" }
+    ]
+  },
+
+  {
+    "hanzi": "你",
+    "pinyin": "nǐ",
+    "arti": "Kamu",
+    "audio": "/static/audio/nǐ.mp3",
+    "sentences": [
+      { "cn": "你好吗？", "pinyin": "Nǐ hǎo ma?", "id": "Apa kabar?", "audio": "/static/audio/Nǐ hǎo ma.mp3" },
+      { "cn": "你叫什么名字？", "pinyin": "Nǐ jiào shénme míngzì?", "id": "Siapa namamu?", "audio": "/static/audio/Nǐ jiào shénme míngzì.mp3" }
+    ]
+  },
+
+  {
+    "hanzi": "好",
+    "pinyin": "hǎo",
+    "arti": "Baik / Bagus",
+    "audio": "/static/audio/hǎo.mp3",
+    "sentences": [
+      { "cn": "你好！", "pinyin": "Nǐ hǎo!", "id": "Halo!", "audio": "/static/audio/Nǐ hǎo!.mp3" },
+      { "cn": "我很好。", "pinyin": "Wǒ hěn hǎo.", "id": "Saya baik-baik saja.", "audio": "/static/audio/Wǒ hěn hǎo.mp3" },
+      { "cn": "老师好！", "pinyin": "Lǎoshī hǎo!", "id": "Halo, guru!", "audio": "/static/audio/Lǎoshī hǎo!.mp3" },
+      { "cn": "早上好！", "pinyin": "Zǎoshang hǎo!", "id": "Selamat pagi!", "audio": "/static/audio/Zǎoshang hǎo!.mp3" },
+      { "cn": "下午好！", "pinyin": "Xiàwǔ hǎo!", "id": "Selamat siang!", "audio": "/static/audio/Xiàwǔ hǎo!.mp3" },
+      { "cn": "晚上好！", "pinyin": "Wǎnshàng hǎo!", "id": "Selamat malam!", "audio": "/static/audio/Wǎnshàng hǎo!.mp3" },
+      { "cn": "你好吗？", "pinyin": "Nǐ hǎo ma?", "id": "Apa kabar?", "audio": "/static/audio/Nǐ hǎo ma.mp3" },
+      { "cn": "很好，谢谢。", "pinyin": "Hěn hǎo, xièxie.", "id": "Baik sekali, terima kasih.", "audio": "/static/audio/Hěn hǎo, xièxie.mp3" },
+      { "cn": "你好不好？", "pinyin": "Nǐ hǎo bù hǎo?", "id": "Apakah kamu baik-baik saja?", "audio": "/static/audio/Nǐ hǎo bù hǎo.mp3" },
+      { "cn": "我也很好。", "pinyin": "Wǒ yě hěn hǎo.", "id": "Saya juga baik.", "audio": "/static/audio/Wǒ yě hěn hǎo.mp3" }
+    ]
+  },
     {
       "hanzi": "爱",
       "pinyin": "ài",

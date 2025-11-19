@@ -1,65 +1,23 @@
 [
-  { "text": "洗瓶", "filename": "xiping.mp3" },
-  { "text": "请把水装进洗瓶。", "filename": "Qǐng bǎ shuǐ zhuāng jìn xǐpíng.mp3" },
-  { "text": "洗瓶在桌子上。", "filename": "Xǐpíng zài zhuōzi shàng.mp3" },
-
-  { "text": "仓库", "filename": "cangku.mp3" },
-  { "text": "货物在仓库里。", "filename": "Huòwù zài cāngkù lǐ.mp3" },
-  { "text": "仓库很大。", "filename": "Cāngkù hěn dà.mp3" },
-
-  { "text": "小推车", "filename": "xiaotuiche.mp3" },
-  { "text": "请用小推车搬东西。", "filename": "Qǐng yòng xiǎo tuīchē bān dōngxi.mp3" },
-  { "text": "小推车坏了。", "filename": "Xiǎo tuīchē huài le.mp3" },
-
-  { "text": "pH计", "filename": "phji.mp3" },
-  { "text": "请用pH计测量酸度。", "filename": "Qǐng yòng pH jì cèliáng suāndù.mp3" },
-  { "text": "pH计坏了。", "filename": "pH jì huài le.mp3" },
-
-  { "text": "真空泵", "filename": "zhenkongbeng.mp3" },
-  { "text": "真空泵在运行。", "filename": "Zhēnkōng bèng zài yùnxíng.mp3" },
-  { "text": "请检查真空泵。", "filename": "Qǐng jiǎnchá zhēnkōng bèng.mp3" },
-
-  { "text": "早安", "filename": "zao-an.mp3" },
-  { "text": "老师，早安！", "filename": "Lǎoshī, zǎo ān!.mp3" },
-  { "text": "同学们，早安！", "filename": "Tóngxuémen, zǎo ān!.mp3" },
-
-  { "text": "午安", "filename": "wu-an.mp3" },
-  { "text": "午安，你吃饭了吗？", "filename": "Wǔ ān, nǐ chīfàn le ma?.mp3" },
-  { "text": "大家午安！", "filename": "Dàjiā wǔ ān!.mp3" },
-
-  { "text": "下午好", "filename": "xiawuhao.mp3" },
-  { "text": "老师，下午好！", "filename": "Lǎoshī, xiàwǔ hǎo!.mp3" },
-  { "text": "同事们，下午好！", "filename": "Tóngshìmen, xiàwǔ hǎo!.mp3" },
-
-  { "text": "晚安", "filename": "wan-an.mp3" },
-  { "text": "妈妈，晚安！", "filename": "Māma, wǎn ān!.mp3" },
-  { "text": "朋友们，晚安！", "filename": "Péngyǒumen, wǎn ān!.mp3" },
-
-  { "text": "现在几点？", "filename": "xianzaijidian.mp3" },
-  { "text": "现在几点？", "filename": "Xiànzài jǐ diǎn?.mp3" },
-  { "text": "现在三点。", "filename": "Xiànzài sān diǎn.mp3" },
-
-  { "text": "我", "filename": "wo.mp3" },
+  { "text": "我", "filename": "wǒ.mp3" },
   { "text": "我是学生。", "filename": "Wǒ shì xuéshēng.mp3" },
-  { "text": "我喜欢汉语。", "filename": "Wǒ xǐhuān Hànyǔ.mp3" },
+  { "text": "我很好。", "filename": "Wǒ hěn hǎo.mp3" },
+  { "text": "我叫小李。", "filename": "Wǒ jiào Xiǎo Lǐ.mp3" },
+  { "text": "我喜欢中国菜。", "filename": "Wǒ xǐhuān Zhōngguó cài.mp3" },
 
-  { "text": "你", "filename": "ni.mp3" },
-  { "text": "你是谁？", "filename": "Nǐ shì shéi.mp3" },
+  { "text": "你", "filename": "nǐ.mp3" },
   { "text": "你好吗？", "filename": "Nǐ hǎo ma.mp3" },
+  { "text": "你叫什么名字？", "filename": "Nǐ jiào shénme míngzì.mp3" },
 
-  { "text": "他", "filename": "ta.mp3" },
-  { "text": "他是老师。", "filename": "Tā shì lǎoshī.mp3" },
-  { "text": "我认识他。", "filename": "Wǒ rènshì tā.mp3" },
-
-  { "text": "我们", "filename": "women.mp3" },
-  { "text": "我们是朋友。", "filename": "Wǒmen shì péngyǒu.mp3" },
-  { "text": "我们一起去吧。", "filename": "Wǒmen yīqǐ qù ba.mp3" },
-
-  { "text": "你们", "filename": "nimen.mp3" },
-  { "text": "你们要去哪里？", "filename": "Nǐmen yào qù nǎlǐ.mp3" },
-  { "text": "你们是学生吗？", "filename": "Nǐmen shì xuéshēng ma.mp3" },
-
-  { "text": "他们", "filename": "tamen.mp3" },
-  { "text": "他们是工人。", "filename": "Tāmen shì gōngrén.mp3" },
-  { "text": "我不认识他们。", "filename": "Wǒ bù rènshì tāmen.mp3" }
+  { "text": "好", "filename": "hǎo.mp3" },
+  { "text": "你好！", "filename": "Nǐ hǎo!.mp3" },
+  { "text": "我很好。", "filename": "Wǒ hěn hǎo.mp3" },
+  { "text": "老师好！", "filename": "Lǎoshī hǎo!.mp3" },
+  { "text": "早上好！", "filename": "Zǎoshang hǎo!.mp3" },
+  { "text": "下午好！", "filename": "Xiàwǔ hǎo!.mp3" },
+  { "text": "晚上好！", "filename": "Wǎnshàng hǎo!.mp3" },
+  { "text": "你好吗？", "filename": "Nǐ hǎo ma.mp3" },
+  { "text": "很好，谢谢。", "filename": "Hěn hǎo, xièxie.mp3" },
+  { "text": "你好不好？", "filename": "Nǐ hǎo bù hǎo.mp3" },
+  { "text": "我也很好。", "filename": "Wǒ yě hěn hǎo.mp3" }
 ]
