@@ -1,45 +1,41 @@
 [
-  { "text": "计量撬", "filename": "jì liàng qiào.mp3" },
-  { "text": "计量撬正在工作。", "filename": "Jìliàngqiào zhèngzài gōngzuò.mp3" },
-  { "text": "我们检查了计量撬。", "filename": "Wǒmen jiǎnchá le jìliàngqiào.mp3" },
+  { "text": "碱", "filename": "jiǎn.mp3" },
+  { "text": "碱是一种化学物质。", "filename": "Jiǎn shì yī zhǒng huàxué wùzhì.mp3" },
+  { "text": "这个溶液里有碱。", "filename": "Zhège róngyè lǐ yǒu jiǎn.mp3" },
 
-  { "text": "模温机", "filename": "mó wēn jī.mp3" },
-  { "text": "模温机开着吗？", "filename": "Mówēnjī kāizhe ma.mp3" },
-  { "text": "模温机很重要。", "filename": "Mówēnjī hěn zhòngyào.mp3" },
+  { "text": "氨水", "filename": "ān shuǐ.mp3" },
+  { "text": "氨水有刺激性气味。", "filename": "Ānshuǐ yǒu cìjīxìng qìwèi.mp3" },
+  { "text": "请小心使用氨水。", "filename": "Qǐng xiǎoxīn shǐyòng ānshuǐ.mp3" },
 
-  { "text": "搅拌器", "filename": "jiǎo bàn qì.mp3" },
-  { "text": "搅拌器在转动。", "filename": "Jiǎobànqì zài zhuǎndòng.mp3" },
-  { "text": "请关掉搅拌器。", "filename": "Qǐng guāndiào jiǎobànqì.mp3" },
+  { "text": "硫酸", "filename": "liúsuān.mp3" },
+  { "text": "硫酸很危险。", "filename": "Liúsuān hěn wēixiǎn.mp3" },
+  { "text": "我们在实验室里用硫酸。", "filename": "Wǒmen zài shíyànshì lǐ yòng liúsuān.mp3" },
 
-  { "text": "冷却机", "filename": "lěng què jī.mp3" },
-  { "text": "冷却机坏了。", "filename": "Lěngquèjī huài le.mp3" },
-  { "text": "我们需要新的冷却机。", "filename": "Wǒmen xūyào xīn de lěngquèjī.mp3" },
+  { "text": "除铁器", "filename": "chú tiě qì.mp3" },
+  { "text": "除铁器可以去掉铁。", "filename": "Chútiěqì kěyǐ qùdiào tiě.mp3" },
+  { "text": "我们安装了新的除铁器。", "filename": "Wǒmen ānzhuāng le xīn de chútiěqì.mp3" },
 
-  { "text": "测氧仪", "filename": "cè yǎng yí.mp3" },
-  { "text": "测氧仪显示正常。", "filename": "Cèyǎngyí xiǎnshì zhèngcháng.mp3" },
-  { "text": "请校准测氧仪。", "filename": "Qǐng jiàozhǔn cèyǎngyí.mp3" },
+  { "text": "热水", "filename": "rè shuǐ.mp3" },
+  { "text": "我喝一杯热水。", "filename": "Wǒ hē yī bēi rè shuǐ.mp3" },
+  { "text": "热水对身体很好。", "filename": "Rè shuǐ duì shēntǐ hěn hǎo.mp3" },
 
-  { "text": "投料", "filename": "tóu liào.mp3" },
-  { "text": "工人正在投料。", "filename": "Gōngrén zhèngzài tóuliào.mp3" },
-  { "text": "投料要小心。", "filename": "Tóuliào yào xiǎoxīn.mp3" },
+  { "text": "生病", "filename": "shēng bìng.mp3" },
+  { "text": "我生病了。", "filename": "Wǒ shēngbìng le.mp3" },
+  { "text": "他昨天生病了。", "filename": "Tā zuótiān shēngbìng le.mp3" },
 
-  { "text": "洗涤", "filename": "xǐ dí.mp3" },
-  { "text": "洗涤衣服要用水。", "filename": "Xǐdí yīfu yào yòng shuǐ.mp3" },
-  { "text": "请完成洗涤工作。", "filename": "Qǐng wánchéng xǐdí gōngzuò.mp3" },
+  { "text": "学习", "filename": "xué xí.mp3" },
+  { "text": "我喜欢学习汉语。", "filename": "Wǒ xǐhuān xuéxí hànyǔ.mp3" },
+  { "text": "他们在教室里学习。", "filename": "Tāmen zài jiàoshì lǐ xuéxí.mp3" },
 
-  { "text": "休息", "filename": "xiū xi.mp3" },
-  { "text": "我们休息一下吧。", "filename": "Wǒmen xiūxi yíxià ba.mp3" },
-  { "text": "你需要休息。", "filename": "Nǐ xūyào xiūxi.mp3" },
+  { "text": "度假", "filename": "dù jià.mp3" },
+  { "text": "我们去海边度假。", "filename": "Wǒmen qù hǎibiān dùjià.mp3" },
+  { "text": "他们正在度假。", "filename": "Tāmen zhèngzài dùjià.mp3" },
 
-  { "text": "加油", "filename": "jiā yóu.mp3" },
-  { "text": "比赛加油！", "filename": "Bǐsài jiāyóu.mp3" },
-  { "text": "我去加油站加油。", "filename": "Wǒ qù jiāyóu zhàn jiāyóu.mp3" },
+  { "text": "你好吗？", "filename": "nǐ hǎo ma.mp3" },
+  { "text": "你好吗？", "filename": "Nǐ hǎo ma.mp3" },
+  { "text": "我很好，你呢？", "filename": "Wǒ hěn hǎo, nǐ ne.mp3" },
 
-  { "text": "再见", "filename": "zài jiàn.mp3" },
-  { "text": "老师，再见！", "filename": "Lǎoshī, zàijiàn.mp3" },
-  { "text": "明天见，再见！", "filename": "Míngtiān jiàn, zàijiàn.mp3" },
-
-  { "text": "你完成了吗？", "filename": "Nǐ wánchéng le ma.mp3" },
-  { "text": "你完成了吗？", "filename": "Nǐ wánchéng le ma.mp3" },
-  { "text": "作业你完成了吗？", "filename": "Zuòyè nǐ wánchéng le ma.mp3" }
+  { "text": "我想上厕所", "filename": "wǒ xiǎng shàng cèsuǒ.mp3" },
+  { "text": "我想上厕所。", "filename": "Wǒ xiǎng shàng cèsuǒ.mp3" },
+  { "text": "请问，厕所在哪里？", "filename": "Qǐngwèn, cèsuǒ zài nǎlǐ.mp3" }
 ]

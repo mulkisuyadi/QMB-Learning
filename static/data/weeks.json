@@ -649,187 +649,207 @@
   }
     ],
     "week4": [
+  {
+    "hanzi": "碱",
+    "pinyin": "jiǎn",
+    "arti": "Alkali",
+    "audio": "/static/audio/jiǎn.mp3",
+    "sentences": [
       {
-        "hanzi": "碱",
-        "pinyin": "jiǎn",
-        "arti": "Alkali",
-        "audio": "/static/jian.mp3",
-        "sentences": [
-          {
-            "cn": "碱是一种化学物质。",
-            "pinyin": "Jiǎn shì yī zhǒng huàxué wùzhì.",
-            "id": "Alkali adalah sejenis zat kimia."
-          },
-          {
-            "cn": "这个溶液里有碱。",
-            "pinyin": "Zhège róngyè lǐ yǒu jiǎn.",
-            "id": "Larutan ini mengandung alkali."
-          }
-        ]
+        "cn": "碱是一种化学物质。",
+        "pinyin": "Jiǎn shì yī zhǒng huàxué wùzhì.",
+        "id": "Alkali adalah sejenis zat kimia.",
+        "audio": "/static/audio/Jiǎn shì yī zhǒng huàxué wùzhì.mp3"
       },
       {
-        "hanzi": "氨水",
-        "pinyin": "ān shuǐ",
-        "arti": "Amonia Cair",
-        "audio": "/static/anshui.mp3",
-        "sentences": [
-          {
-            "cn": "氨水有刺激性气味。",
-            "pinyin": "Ānshuǐ yǒu cìjīxìng qìwèi.",
-            "id": "Amonia cair memiliki bau yang menyengat."
-          },
-          {
-            "cn": "请小心使用氨水。",
-            "pinyin": "Qǐng xiǎoxīn shǐyòng ānshuǐ.",
-            "id": "Harap hati-hati saat menggunakan amonia cair."
-          }
-        ]
-      },
-      {
-        "hanzi": "硫酸",
-        "pinyin": "liúsuān",
-        "arti": "Asam Sulfat",
-        "audio": "/static/liusan.mp3",
-        "sentences": [
-          {
-            "cn": "硫酸很危险。",
-            "pinyin": "Liúsuān hěn wēixiǎn.",
-            "id": "Asam sulfat sangat berbahaya."
-          },
-          {
-            "cn": "我们在实验室里用硫酸。",
-            "pinyin": "Wǒmen zài shíyànshì lǐ yòng liúsuān.",
-            "id": "Kami menggunakan asam sulfat di laboratorium."
-          }
-        ]
-      },
-      {
-        "hanzi": "除铁器",
-        "pinyin": "chú tiě qì",
-        "arti": "Alat Pemisah Besi",
-        "audio": "/static/chutieqi.mp3",
-        "sentences": [
-          {
-            "cn": "除铁器可以去掉铁。",
-            "pinyin": "Chútiěqì kěyǐ qùdiào tiě.",
-            "id": "Alat pemisah besi dapat menghilangkan zat besi."
-          },
-          {
-            "cn": "我们安装了新的除铁器。",
-            "pinyin": "Wǒmen ānzhuāng le xīn de chútiěqì.",
-            "id": "Kami memasang alat pemisah besi yang baru."
-          }
-        ]
-      },
-      {
-        "hanzi": "热水",
-        "pinyin": "rè shuǐ",
-        "arti": "Air Panas",
-        "audio": "/static/reshui.mp3",
-        "sentences": [
-          {
-            "cn": "我喝一杯热水。",
-            "pinyin": "Wǒ hē yī bēi rè shuǐ.",
-            "id": "Saya minum segelas air panas."
-          },
-          {
-            "cn": "热水对身体很好。",
-            "pinyin": "Rè shuǐ duì shēntǐ hěn hǎo.",
-            "id": "Air panas baik untuk kesehatan."
-          }
-        ]
-      },
-      {
-        "hanzi": "生病",
-        "pinyin": "shēng bìng",
-        "arti": "Sakit",
-        "audio": "/static/shengbing.mp3",
-        "sentences": [
-          {
-            "cn": "我生病了。",
-            "pinyin": "Wǒ shēngbìng le.",
-            "id": "Saya sakit."
-          },
-          {
-            "cn": "他昨天生病了。",
-            "pinyin": "Tā zuótiān shēngbìng le.",
-            "id": "Dia sakit kemarin."
-          }
-        ]
-      },
-      {
-        "hanzi": "学习",
-        "pinyin": "xué xí",
-        "arti": "Belajar",
-        "audio": "/static/xuexi.mp3",
-        "sentences": [
-          {
-            "cn": "我喜欢学习汉语。",
-            "pinyin": "Wǒ xǐhuān xuéxí hànyǔ.",
-            "id": "Saya suka belajar bahasa Mandarin."
-          },
-          {
-            "cn": "他们在教室里学习。",
-            "pinyin": "Tāmen zài jiàoshì lǐ xuéxí.",
-            "id": "Mereka belajar di dalam kelas."
-          }
-        ]
-      },
-      {
-        "hanzi": "度假",
-        "pinyin": "dù jià",
-        "arti": "Berlibur",
-        "audio": "/static/dujia.mp3",
-        "sentences": [
-          {
-            "cn": "我们去海边度假。",
-            "pinyin": "Wǒmen qù hǎibiān dùjià.",
-            "id": "Kami pergi berlibur ke pantai."
-          },
-          {
-            "cn": "他们正在度假。",
-            "pinyin": "Tāmen zhèngzài dùjià.",
-            "id": "Mereka sedang berlibur."
-          }
-        ]
-      },
-      {
-        "hanzi": "你好吗？",
-        "pinyin": "nǐ hǎo ma?",
-        "arti": "Apa kabar?",
-        "audio": "/static/nihaoma.mp3",
-        "sentences": [
-          {
-            "cn": "你好吗？",
-            "pinyin": "Nǐ hǎo ma?",
-            "id": "Apa kabar?"
-          },
-          {
-            "cn": "我很好，你呢？",
-            "pinyin": "Wǒ hěn hǎo, nǐ ne?",
-            "id": "Saya baik, kamu bagaimana?"
-          }
-        ]
-      },
-      {
-        "hanzi": "我想上厕所",
-        "pinyin": "wǒ xiǎng shàng cèsuǒ",
-        "arti": "Saya ingin ke toilet",
-        "audio": "/static/woxiangshangcesuo.mp3",
-        "sentences": [
-          {
-            "cn": "我想上厕所。",
-            "pinyin": "Wǒ xiǎng shàng cèsuǒ.",
-            "id": "Saya ingin ke toilet."
-          },
-          {
-            "cn": "请问，厕所在哪里？",
-            "pinyin": "Qǐngwèn, cèsuǒ zài nǎlǐ?",
-            "id": "Permisi, di mana toiletnya?"
-          }
-        ]
+        "cn": "这个溶液里有碱。",
+        "pinyin": "Zhège róngyè lǐ yǒu jiǎn.",
+        "id": "Larutan ini mengandung alkali.",
+        "audio": "/static/audio/Zhège róngyè lǐ yǒu jiǎn.mp3"
       }
-    ],
+    ]
+  },
+  {
+    "hanzi": "氨水",
+    "pinyin": "ān shuǐ",
+    "arti": "Amonia Cair",
+    "audio": "/static/audio/ān shuǐ.mp3",
+    "sentences": [
+      {
+        "cn": "氨水有刺激性气味。",
+        "pinyin": "Ānshuǐ yǒu cìjīxìng qìwèi.",
+        "id": "Amonia cair memiliki bau yang menyengat.",
+        "audio": "/static/audio/Ānshuǐ yǒu cìjīxìng qìwèi.mp3"
+      },
+      {
+        "cn": "请小心使用氨水。",
+        "pinyin": "Qǐng xiǎoxīn shǐyòng ānshuǐ.",
+        "id": "Harap hati-hati saat menggunakan amonia cair.",
+        "audio": "/static/audio/Qǐng xiǎoxīn shǐyòng ānshuǐ.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "硫酸",
+    "pinyin": "liúsuān",
+    "arti": "Asam Sulfat",
+    "audio": "/static/audio/liúsuān.mp3",
+    "sentences": [
+      {
+        "cn": "硫酸很危险。",
+        "pinyin": "Liúsuān hěn wēixiǎn.",
+        "id": "Asam sulfat sangat berbahaya.",
+        "audio": "/static/audio/Liúsuān hěn wēixiǎn.mp3"
+      },
+      {
+        "cn": "我们在实验室里用硫酸。",
+        "pinyin": "Wǒmen zài shíyànshì lǐ yòng liúsuān.",
+        "id": "Kami menggunakan asam sulfat di laboratorium.",
+        "audio": "/static/audio/Wǒmen zài shíyànshì lǐ yòng liúsuān.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "除铁器",
+    "pinyin": "chú tiě qì",
+    "arti": "Alat Pemisah Besi",
+    "audio": "/static/audio/chú tiě qì.mp3",
+    "sentences": [
+      {
+        "cn": "除铁器可以去掉铁。",
+        "pinyin": "Chútiěqì kěyǐ qùdiào tiě.",
+        "id": "Alat pemisah besi dapat menghilangkan zat besi.",
+        "audio": "/static/audio/Chútiěqì kěyǐ qùdiào tiě.mp3"
+      },
+      {
+        "cn": "我们安装了新的除铁器。",
+        "pinyin": "Wǒmen ānzhuāng le xīn de chútiěqì.",
+        "id": "Kami memasang alat pemisah besi yang baru.",
+        "audio": "/static/audio/Wǒmen ānzhuāng le xīn de chútiěqì.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "热水",
+    "pinyin": "rè shuǐ",
+    "arti": "Air Panas",
+    "audio": "/static/audio/rè shuǐ.mp3",
+    "sentences": [
+      {
+        "cn": "我喝一杯热水。",
+        "pinyin": "Wǒ hē yī bēi rè shuǐ.",
+        "id": "Saya minum segelas air panas.",
+        "audio": "/static/audio/Wǒ hē yī bēi rè shuǐ.mp3"
+      },
+      {
+        "cn": "热水对身体很好。",
+        "pinyin": "Rè shuǐ duì shēntǐ hěn hǎo.",
+        "id": "Air panas baik untuk kesehatan.",
+        "audio": "/static/audio/Rè shuǐ duì shēntǐ hěn hǎo.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "生病",
+    "pinyin": "shēng bìng",
+    "arti": "Sakit",
+    "audio": "/static/audio/shēng bìng.mp3",
+    "sentences": [
+      {
+        "cn": "我生病了。",
+        "pinyin": "Wǒ shēngbìng le.",
+        "id": "Saya sakit.",
+        "audio": "/static/audio/Wǒ shēngbìng le.mp3"
+      },
+      {
+        "cn": "他昨天生病了。",
+        "pinyin": "Tā zuótiān shēngbìng le.",
+        "id": "Dia sakit kemarin.",
+        "audio": "/static/audio/Tā zuótiān shēngbìng le.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "学习",
+    "pinyin": "xué xí",
+    "arti": "Belajar",
+    "audio": "/static/audio/xué xí.mp3",
+    "sentences": [
+      {
+        "cn": "我喜欢学习汉语。",
+        "pinyin": "Wǒ xǐhuān xuéxí hànyǔ.",
+        "id": "Saya suka belajar bahasa Mandarin.",
+        "audio": "/static/audio/Wǒ xǐhuān xuéxí hànyǔ.mp3"
+      },
+      {
+        "cn": "他们在教室里学习。",
+        "pinyin": "Tāmen zài jiàoshì lǐ xuéxí.",
+        "id": "Mereka belajar di dalam kelas.",
+        "audio": "/static/audio/Tāmen zài jiàoshì lǐ xuéxí.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "度假",
+    "pinyin": "dù jià",
+    "arti": "Berlibur",
+    "audio": "/static/audio/dù jià.mp3",
+    "sentences": [
+      {
+        "cn": "我们去海边度假。",
+        "pinyin": "Wǒmen qù hǎibiān dùjià.",
+        "id": "Kami pergi berlibur ke pantai.",
+        "audio": "/static/audio/Wǒmen qù hǎibiān dùjià.mp3"
+      },
+      {
+        "cn": "他们正在度假。",
+        "pinyin": "Tāmen zhèngzài dùjià.",
+        "id": "Mereka sedang berlibur.",
+        "audio": "/static/audio/Tāmen zhèngzài dùjià.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "你好吗？",
+    "pinyin": "nǐ hǎo ma?",
+    "arti": "Apa kabar?",
+    "audio": "/static/audio/nǐ hǎo ma.mp3",
+    "sentences": [
+      {
+        "cn": "你好吗？",
+        "pinyin": "Nǐ hǎo ma?",
+        "id": "Apa kabar?",
+        "audio": "/static/audio/Nǐ hǎo ma.mp3"
+      },
+      {
+        "cn": "我很好，你呢？",
+        "pinyin": "Wǒ hěn hǎo, nǐ ne?",
+        "id": "Saya baik, kamu bagaimana?",
+        "audio": "/static/audio/Wǒ hěn hǎo, nǐ ne.mp3"
+      }
+    ]
+  },
+  {
+    "hanzi": "我想上厕所",
+    "pinyin": "wǒ xiǎng shàng cèsuǒ",
+    "arti": "Saya ingin ke toilet",
+    "audio": "/static/audio/wǒ xiǎng shàng cèsuǒ.mp3",
+    "sentences": [
+      {
+        "cn": "我想上厕所。",
+        "pinyin": "Wǒ xiǎng shàng cèsuǒ.",
+        "id": "Saya ingin ke toilet.",
+        "audio": "/static/audio/Wǒ xiǎng shàng cèsuǒ.mp3"
+      },
+      {
+        "cn": "请问，厕所在哪里？",
+        "pinyin": "Qǐngwèn, cèsuǒ zài nǎlǐ?",
+        "id": "Permisi, di mana toiletnya?",
+        "audio": "/static/audio/Qǐngwèn, cèsuǒ zài nǎlǐ.mp3"
+      }
+    ]
+  }
+],
     "week5": [
       {
         "hanzi": "电梯",
