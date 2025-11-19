@@ -1,38 +1,45 @@
 [
-  { "text": "反应釜", "filename": "fanyingfu.mp3" },
-  { "text": "反应釜在三楼。", "filename": "Fǎnyìngfǔ zài sān lóu.mp3" },
+  { "text": "显微镜", "filename": "xiǎnwēijìng.mp3" },
+  { "text": "请把样品放在显微镜下。", "filename": "Qǐng bǎ yàngpǐn fàng zài xiǎnwēijìng xià.mp3" },
+  { "text": "我在显微镜下看到了细胞。", "filename": "Wǒ zài xiǎnwēijìng xià kàn dào le xìbāo.mp3" },
 
-  { "text": "浓密剂", "filename": "nongmiji.mp3" },
-  { "text": "加入浓密剂。", "filename": "Jiārù nóngmìjì.mp3" },
+  { "text": "蠕动泵", "filename": "rúdòng bèng.mp3" },
+  { "text": "蠕动泵正在运行。", "filename": "Rúdòng bèng zhèngzài yùnxíng.mp3" },
+  { "text": "请关闭蠕动泵。", "filename": "Qǐng guānbì rúdòng bèng.mp3" },
 
-  { "text": "高位槽", "filename": "gaoweicao.mp3" },
-  { "text": "高位槽满了。", "filename": "Gāowèicáo mǎn le.mp3" },
+  { "text": "气氛炉", "filename": "qìfēn lú.mp3" },
+  { "text": "气氛炉温度很高。", "filename": "Qìfēn lú wēndù hěn gāo.mp3" },
+  { "text": "请小心操作气氛炉。", "filename": "Qǐng xiǎoxīn cāozuò qìfēn lú.mp3" },
 
-  { "text": "离心机", "filename": "lixinji.mp3" },
-  { "text": "离心机在工作。", "filename": "Líxīnjī zài gōngzuò.mp3" },
-  { "text": "请把样品放进离心机。", "filename": "Qǐng bǎ yàngpǐn fàng jìn líxīnjī.mp3" },
+  { "text": "阀门", "filename": "fámén.mp3" },
+  { "text": "请打开阀门。", "filename": "Qǐng dǎkāi fámén.mp3" },
+  { "text": "阀门坏了，需要修理。", "filename": "Fámén huài le, xūyào xiūlǐ.mp3" },
 
-  { "text": "烘箱", "filename": "hongxiang.mp3" },
-  { "text": "烘箱已经加热好了。", "filename": "Hōngxiāng yǐjīng jiārè hǎo le.mp3" },
-  { "text": "请把样品放进烘箱里。", "filename": "Qǐng bǎ yàngpǐn fàng jìn hōngxiāng lǐ.mp3" },
+  { "text": "水浴锅", "filename": "shuǐyù guō.mp3" },
+  { "text": "水浴锅里有热水。", "filename": "Shuǐyù guō lǐ yǒu rèshuǐ.mp3" },
+  { "text": "请把样品放进水浴锅加热。", "filename": "Qǐng bǎ yàngpǐn fàng jìn shuǐyù guō jiārè.mp3" },
 
-  { "text": "吃饭", "filename": "chifan.mp3" },
-  { "text": "我在吃饭。", "filename": "Wǒ zài chīfàn.mp3" },
-  { "text": "我们一起去吃饭吧。", "filename": "Wǒmen yīqǐ qù chīfàn ba.mp3" },
+  { "text": "电脑", "filename": "diànnǎo.mp3" },
+  { "text": "我用电脑工作。", "filename": "Wǒ yòng diànnǎo gōngzuò.mp3" },
+  { "text": "这台电脑很快。", "filename": "Zhè tái diànnǎo hěn kuài.mp3" },
 
-  { "text": "下班", "filename": "xiaban.mp3" },
-  { "text": "我五点下班。", "filename": "Wǒ wǔ diǎn xiàbān.mp3" },
-  { "text": "下班以后我们去吃饭。", "filename": "Xiàbān yǐhòu wǒmen qù chīfàn.mp3" },
+  { "text": "手电筒", "filename": "shǒudiàntǒng.mp3" },
+  { "text": "请把手电筒给我。", "filename": "Qǐng bǎ shǒudiàntǒng gěi wǒ.mp3" },
+  { "text": "晚上要用手电筒。", "filename": "Wǎnshang yào yòng shǒudiàntǒng.mp3" },
 
-  { "text": "等一下", "filename": "dengyixia.mp3" },
-  { "text": "请等一下。", "filename": "Qǐng děng yíxià.mp3" },
-  { "text": "等一下我再给你打电话。", "filename": "Děng yíxià wǒ zài gěi nǐ dǎ diànhuà.mp3" },
+  { "text": "粒度仪", "filename": "lìdù yí.mp3" },
+  { "text": "粒度仪正在测量样品。", "filename": "Lìdù yí zhèngzài cèliáng yàngpǐn.mp3" },
+  { "text": "请校准粒度仪。", "filename": "Qǐng jiàozhǔn lìdù yí.mp3" },
 
-  { "text": "工作", "filename": "gongzuo.mp3" },
-  { "text": "我在银行工作。", "filename": "Wǒ zài yínháng gōngzuò.mp3" },
-  { "text": "她的工作很忙。", "filename": "Tā de gōngzuò hěn máng.mp3" },
+  { "text": "水分仪", "filename": "shuǐfèn yí.mp3" },
+  { "text": "水分仪显示结果了。", "filename": "Shuǐfèn yí xiǎnshì jiéguǒ le.mp3" },
+  { "text": "请打开水分仪。", "filename": "Qǐng dǎkāi shuǐfèn yí.mp3" },
 
-  { "text": "谢谢", "filename": "xiexie.mp3" },
-  { "text": "谢谢你。", "filename": "Xièxie nǐ.mp3" },
-  { "text": "谢谢你的帮助。", "filename": "Xièxie nǐ de bāngzhù.mp3" }
+  { "text": "布氏漏斗", "filename": "Bùshì lòudǒu.mp3" },
+  { "text": "请用布氏漏斗过滤溶液。", "filename": "Qǐng yòng Bùshì lòudǒu guòlǜ róngyè.mp3" },
+  { "text": "布氏漏斗在实验室里很常用。", "filename": "Bùshì lòudǒu zài shíyànshì lǐ hěn chángyòng.mp3" },
+
+  { "text": "你吃饭了吗？", "filename": "Nǐ chīfàn le ma?.mp3" },
+  { "text": "你吃饭了吗？", "filename": "Nǐ chīfàn le ma?.mp3" },
+  { "text": "我还没吃饭。", "filename": "Wǒ hái méi chīfàn.mp3" }
 ]

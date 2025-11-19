@@ -185,205 +185,237 @@
       }
     ],
     "week2": [
+  {
+    "hanzi": "显微镜",
+    "pinyin": "xiǎnwēijìng",
+    "arti": "Mikroskop",
+    "audio": "/static/audio/xiǎnwēijìng.mp3",
+    "sentences": [
       {
-        "hanzi": "显微镜",
-        "pinyin": "xiǎnwēijìng",
-        "arti": "Mikroskop",
-        "audio": "/static/xianweijing.mp3",
-        "sentences": [
-          {
-            "cn": "请把样品放在显微镜下。",
-            "pinyin": "Qǐng bǎ yàngpǐn fàng zài xiǎnwēijìng xià.",
-            "id": "Tolong letakkan sampel di bawah mikroskop."
-          },
-          {
-            "cn": "我在显微镜下看到了细胞。",
-            "pinyin": "Wǒ zài xiǎnwēijìng xià kàn dào le xìbāo.",
-            "id": "Saya melihat sel di bawah mikroskop."
-          }
-        ]
+        "cn": "请把样品放在显微镜下。",
+        "pinyin": "Qǐng bǎ yàngpǐn fàng zài xiǎnwēijìng xià.",
+        "id": "Tolong letakkan sampel di bawah mikroskop.",
+        "audio": "/static/audio/Qǐng bǎ yàngpǐn fàng zài xiǎnwēijìng xià.mp3"
       },
       {
-        "hanzi": "蠕动泵",
-        "pinyin": "rúdòng bèng",
-        "arti": "Pompa Peristaltik",
-        "audio": "/static/rudongbeng.mp3",
-        "sentences": [
-          {
-            "cn": "蠕动泵正在运行。",
-            "pinyin": "Rúdòng bèng zhèngzài yùnxíng.",
-            "id": "Pompa peristaltik sedang berjalan."
-          },
-          {
-            "cn": "请关闭蠕动泵。",
-            "pinyin": "Qǐng guānbì rúdòng bèng.",
-            "id": "Tolong matikan pompa peristaltik."
-          }
-        ]
-      },
-      {
-        "hanzi": "气氛炉",
-        "pinyin": "qìfēn lú",
-        "arti": "Tungku Atmosfer",
-        "audio": "/static/qifenlu.mp3",
-        "sentences": [
-          {
-            "cn": "气氛炉温度很高。",
-            "pinyin": "Qìfēn lú wēndù hěn gāo.",
-            "id": "Suhu tungku atmosfer sangat tinggi."
-          },
-          {
-            "cn": "请小心操作气氛炉。",
-            "pinyin": "Qǐng xiǎoxīn cāozuò qìfēn lú.",
-            "id": "Harap hati-hati saat mengoperasikan tungku atmosfer."
-          }
-        ]
-      },
-      {
-        "hanzi": "阀门",
-        "pinyin": "fámén",
-        "arti": "Katup / Valve",
-        "audio": "/static/famen.mp3",
-        "sentences": [
-          {
-            "cn": "请打开阀门。",
-            "pinyin": "Qǐng dǎkāi fámén.",
-            "id": "Tolong buka katup."
-          },
-          {
-            "cn": "阀门坏了，需要修理。",
-            "pinyin": "Fámén huài le, xūyào xiūlǐ.",
-            "id": "Katupnya rusak, perlu diperbaiki."
-          }
-        ]
-      },
-      {
-        "hanzi": "水浴锅",
-        "pinyin": "shuǐyù guō",
-        "arti": "Water Bath",
-        "audio": "/static/shuiyuguo.mp3",
-        "sentences": [
-          {
-            "cn": "水浴锅里有热水。",
-            "pinyin": "Shuǐyù guō lǐ yǒu rèshuǐ.",
-            "id": "Di dalam water bath ada air panas."
-          },
-          {
-            "cn": "请把样品放进水浴锅加热。",
-            "pinyin": "Qǐng bǎ yàngpǐn fàng jìn shuǐyù guō jiārè.",
-            "id": "Tolong masukkan sampel ke dalam water bath untuk dipanaskan."
-          }
-        ]
-      },
-      {
-        "hanzi": "电脑",
-        "pinyin": "diànnǎo",
-        "arti": "Komputer",
-        "audio": "/static/diannao.mp3",
-        "sentences": [
-          {
-            "cn": "我用电脑工作。",
-            "pinyin": "Wǒ yòng diànnǎo gōngzuò.",
-            "id": "Saya bekerja dengan komputer."
-          },
-          {
-            "cn": "这台电脑很快。",
-            "pinyin": "Zhè tái diànnǎo hěn kuài.",
-            "id": "Komputer ini sangat cepat."
-          }
-        ]
-      },
-      {
-        "hanzi": "手电筒",
-        "pinyin": "shǒudiàntǒng",
-        "arti": "Senter",
-        "audio": "/static/shoudiantong.mp3",
-        "sentences": [
-          {
-            "cn": "请把手电筒给我。",
-            "pinyin": "Qǐng bǎ shǒudiàntǒng gěi wǒ.",
-            "id": "Tolong berikan saya senter."
-          },
-          {
-            "cn": "晚上要用手电筒。",
-            "pinyin": "Wǎnshang yào yòng shǒudiàntǒng.",
-            "id": "Malam hari harus pakai senter."
-          }
-        ]
-      },
-      {
-        "hanzi": "粒度仪",
-        "pinyin": "lìdù yí",
-        "arti": "Alat Analisis Ukuran Partikel",
-        "audio": "/static/liduyi.mp3",
-        "sentences": [
-          {
-            "cn": "粒度仪正在测量样品。",
-            "pinyin": "Lìdù yí zhèngzài cèliáng yàngpǐn.",
-            "id": "Alat analisis ukuran partikel sedang mengukur sampel."
-          },
-          {
-            "cn": "请校准粒度仪。",
-            "pinyin": "Qǐng jiàozhǔn lìdù yí.",
-            "id": "Harap kalibrasi alat analisis ukuran partikel."
-          }
-        ]
-      },
-      {
-        "hanzi": "水分仪",
-        "pinyin": "shuǐfèn yí",
-        "arti": "Alat Analisis Kadar Air",
-        "audio": "/static/shuifenyi.mp3",
-        "sentences": [
-          {
-            "cn": "水分仪显示结果了。",
-            "pinyin": "Shuǐfèn yí xiǎnshì jiéguǒ le.",
-            "id": "Alat analisis kadar air sudah menampilkan hasilnya."
-          },
-          {
-            "cn": "请打开水分仪。",
-            "pinyin": "Qǐng dǎkāi shuǐfèn yí.",
-            "id": "Tolong nyalakan alat analisis kadar air."
-          }
-        ]
-      },
-      {
-        "hanzi": "布氏漏斗",
-        "pinyin": "Bùshì lòudǒu",
-        "arti": "Corong Büchner",
-        "audio": "/static/bushiloudou.mp3",
-        "sentences": [
-          {
-            "cn": "请用布氏漏斗过滤溶液。",
-            "pinyin": "Qǐng yòng Bùshì lòudǒu guòlǜ róngyè.",
-            "id": "Tolong gunakan corong Büchner untuk menyaring larutan."
-          },
-          {
-            "cn": "布氏漏斗在实验室里很常用。",
-            "pinyin": "Bùshì lòudǒu zài shíyànshì lǐ hěn chángyòng.",
-            "id": "Corong Büchner sering digunakan di laboratorium."
-          }
-        ]
-      },
-      {
-        "hanzi": "你吃饭了吗？",
-        "pinyin": "Nǐ chīfàn le ma?",
-        "arti": "Sudah makan?",
-        "audio": "/static/nichifanlema.mp3",
-        "sentences": [
-          {
-            "cn": "你吃饭了吗？",
-            "pinyin": "Nǐ chīfàn le ma?",
-            "id": "Kamu sudah makan?"
-          },
-          {
-            "cn": "我还没吃饭。",
-            "pinyin": "Wǒ hái méi chīfàn.",
-            "id": "Saya belum makan."
-          }
-        ]
+        "cn": "我在显微镜下看到了细胞。",
+        "pinyin": "Wǒ zài xiǎnwēijìng xià kàn dào le xìbāo.",
+        "id": "Saya melihat sel di bawah mikroskop.",
+        "audio": "/static/audio/Wǒ zài xiǎnwēijìng xià kàn dào le xìbāo.mp3"
       }
-    ],
+    ]
+  },
+
+  {
+    "hanzi": "蠕动泵",
+    "pinyin": "rúdòng bèng",
+    "arti": "Pompa Peristaltik",
+    "audio": "/static/audio/rúdòng bèng.mp3",
+    "sentences": [
+      {
+        "cn": "蠕动泵正在运行。",
+        "pinyin": "Rúdòng bèng zhèngzài yùnxíng.",
+        "id": "Pompa peristaltik sedang berjalan.",
+        "audio": "/static/audio/Rúdòng bèng zhèngzài yùnxíng.mp3"
+      },
+      {
+        "cn": "请关闭蠕动泵。",
+        "pinyin": "Qǐng guānbì rúdòng bèng.",
+        "id": "Tolong matikan pompa peristaltik.",
+        "audio": "/static/audio/Qǐng guānbì rúdòng bèng.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "气氛炉",
+    "pinyin": "qìfēn lú",
+    "arti": "Tungku Atmosfer",
+    "audio": "/static/audio/qìfēn lú.mp3",
+    "sentences": [
+      {
+        "cn": "气氛炉温度很高。",
+        "pinyin": "Qìfēn lú wēndù hěn gāo.",
+        "id": "Suhu tungku atmosfer sangat tinggi.",
+        "audio": "/static/audio/Qìfēn lú wēndù hěn gāo.mp3"
+      },
+      {
+        "cn": "请小心操作气氛炉。",
+        "pinyin": "Qǐng xiǎoxīn cāozuò qìfēn lú.",
+        "id": "Harap hati-hati saat mengoperasikan tungku atmosfer.",
+        "audio": "/static/audio/Qǐng xiǎoxīn cāozuò qìfēn lú.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "阀门",
+    "pinyin": "fámén",
+    "arti": "Katup / Valve",
+    "audio": "/static/audio/fámén.mp3",
+    "sentences": [
+      {
+        "cn": "请打开阀门。",
+        "pinyin": "Qǐng dǎkāi fámén.",
+        "id": "Tolong buka katup.",
+        "audio": "/static/audio/Qǐng dǎkāi fámén.mp3"
+      },
+      {
+        "cn": "阀门坏了，需要修理。",
+        "pinyin": "Fámén huài le, xūyào xiūlǐ.",
+        "id": "Katupnya rusak, perlu diperbaiki.",
+        "audio": "/static/audio/Fámén huài le, xūyào xiūlǐ.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "水浴锅",
+    "pinyin": "shuǐyù guō",
+    "arti": "Water Bath",
+    "audio": "/static/audio/shuǐyù guō.mp3",
+    "sentences": [
+      {
+        "cn": "水浴锅里有热水。",
+        "pinyin": "Shuǐyù guō lǐ yǒu rèshuǐ.",
+        "id": "Di dalam water bath ada air panas.",
+        "audio": "/static/audio/Shuǐyù guō lǐ yǒu rèshuǐ.mp3"
+      },
+      {
+        "cn": "请把样品放进水浴锅加热。",
+        "pinyin": "Qǐng bǎ yàngpǐn fàng jìn shuǐyù guō jiārè.",
+        "id": "Tolong masukkan sampel ke dalam water bath untuk dipanaskan.",
+        "audio": "/static/audio/Qǐng bǎ yàngpǐn fàng jìn shuǐyù guō jiārè.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "电脑",
+    "pinyin": "diànnǎo",
+    "arti": "Komputer",
+    "audio": "/static/audio/diànnǎo.mp3",
+    "sentences": [
+      {
+        "cn": "我用电脑工作。",
+        "pinyin": "Wǒ yòng diànnǎo gōngzuò.",
+        "id": "Saya bekerja dengan komputer.",
+        "audio": "/static/audio/Wǒ yòng diànnǎo gōngzuò.mp3"
+      },
+      {
+        "cn": "这台电脑很快。",
+        "pinyin": "Zhè tái diànnǎo hěn kuài.",
+        "id": "Komputer ini sangat cepat.",
+        "audio": "/static/audio/Zhè tái diànnǎo hěn kuài.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "手电筒",
+    "pinyin": "shǒudiàntǒng",
+    "arti": "Senter",
+    "audio": "/static/audio/shǒudiàntǒng.mp3",
+    "sentences": [
+      {
+        "cn": "请把手电筒给我。",
+        "pinyin": "Qǐng bǎ shǒudiàntǒng gěi wǒ.",
+        "id": "Tolong berikan saya senter.",
+        "audio": "/static/audio/Qǐng bǎ shǒudiàntǒng gěi wǒ.mp3"
+      },
+      {
+        "cn": "晚上要用手电筒。",
+        "pinyin": "Wǎnshang yào yòng shǒudiàntǒng.",
+        "id": "Malam hari harus pakai senter.",
+        "audio": "/static/audio/Wǎnshang yào yòng shǒudiàntǒng.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "粒度仪",
+    "pinyin": "lìdù yí",
+    "arti": "Alat Analisis Ukuran Partikel",
+    "audio": "/static/audio/lìdù yí.mp3",
+    "sentences": [
+      {
+        "cn": "粒度仪正在测量样品。",
+        "pinyin": "Lìdù yí zhèngzài cèliáng yàngpǐn.",
+        "id": "Alat analisis ukuran partikel sedang mengukur sampel.",
+        "audio": "/static/audio/Lìdù yí zhèngzài cèliáng yàngpǐn.mp3"
+      },
+      {
+        "cn": "请校准粒度仪。",
+        "pinyin": "Qǐng jiàozhǔn lìdù yí.",
+        "id": "Harap kalibrasi alat analisis ukuran partikel.",
+        "audio": "/static/audio/Qǐng jiàozhǔn lìdù yí.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "水分仪",
+    "pinyin": "shuǐfèn yí",
+    "arti": "Alat Analisis Kadar Air",
+    "audio": "/static/audio/shuǐfèn yí.mp3",
+    "sentences": [
+      {
+        "cn": "水分仪显示结果了。",
+        "pinyin": "Shuǐfèn yí xiǎnshì jiéguǒ le.",
+        "id": "Alat analisis kadar air sudah menampilkan hasilnya.",
+        "audio": "/static/audio/Shuǐfèn yí xiǎnshì jiéguǒ le.mp3"
+      },
+      {
+        "cn": "请打开水分仪。",
+        "pinyin": "Qǐng dǎkāi shuǐfèn yí.",
+        "id": "Tolong nyalakan alat analisis kadar air.",
+        "audio": "/static/audio/Qǐng dǎkāi shuǐfèn yí.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "布氏漏斗",
+    "pinyin": "Bùshì lòudǒu",
+    "arti": "Corong Büchner",
+    "audio": "/static/audio/Bùshì lòudǒu.mp3",
+    "sentences": [
+      {
+        "cn": "请用布氏漏斗过滤溶液。",
+        "pinyin": "Qǐng yòng Bùshì lòudǒu guòlǜ róngyè.",
+        "id": "Tolong gunakan corong Büchner untuk menyaring larutan.",
+        "audio": "/static/audio/Qǐng yòng Bùshì lòudǒu guòlǜ róngyè.mp3"
+      },
+      {
+        "cn": "布氏漏斗在实验室里很常用。",
+        "pinyin": "Bùshì lòudǒu zài shíyànshì lǐ hěn chángyòng.",
+        "id": "Corong Büchner sering digunakan di laboratorium.",
+        "audio": "/static/audio/Bùshì lòudǒu zài shíyànshì lǐ hěn chángyòng.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "你吃饭了吗？",
+    "pinyin": "Nǐ chīfàn le ma?",
+    "arti": "Sudah makan?",
+    "audio": "/static/audio/Nǐ chīfàn le ma?.mp3",
+    "sentences": [
+      {
+        "cn": "你吃饭了吗？",
+        "pinyin": "Nǐ chīfàn le ma?",
+        "id": "Kamu sudah makan?",
+        "audio": "/static/audio/Nǐ chīfàn le ma?.mp3"
+      },
+      {
+        "cn": "我还没吃饭。",
+        "pinyin": "Wǒ hái méi chīfàn.",
+        "id": "Saya belum makan.",
+        "audio": "/static/audio/Wǒ hái méi chīfàn.mp3"
+      }
+    ]
+  }
+],
     "week3": [
       {
         "hanzi": "计量撬",
