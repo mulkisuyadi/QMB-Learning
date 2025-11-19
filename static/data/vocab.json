@@ -43,77 +43,77 @@
     ]
   },
     {
-      "hanzi": "爱",
-      "pinyin": "ài",
-      "arti": "Cinta / Suka",
-      "audio": "ai.mp3",
-      "sentences": [
-        { "cn": "我爱你。", "pinyin": "Wǒ ài nǐ.", "id": "Saya cinta kamu." },
-        { "cn": "我爱妈妈。", "pinyin": "Wǒ ài māma.", "id": "Saya cinta ibu." },
-        { "cn": "我爱爸爸。", "pinyin": "Wǒ ài bàba.", "id": "Saya cinta ayah." },
-        { "cn": "我爱中国。", "pinyin": "Wǒ ài Zhōngguó.", "id": "Saya cinta Tiongkok." },
-        { "cn": "我爱学习汉语。", "pinyin": "Wǒ ài xuéxí Hànyǔ.", "id": "Saya suka belajar bahasa Mandarin." },
-        { "cn": "我爱吃米饭。", "pinyin": "Wǒ ài chī mǐfàn.", "id": "Saya suka makan nasi." },
-        { "cn": "我爱喝茶。", "pinyin": "Wǒ ài hē chá.", "id": "Saya suka minum teh." },
-        { "cn": "我爱我的朋友。", "pinyin": "Wǒ ài wǒ de péngyǒu.", "id": "Saya sayang teman-teman saya." },
-        { "cn": "他们爱唱歌。", "pinyin": "Tāmen ài chàng gē.", "id": "Mereka suka bernyanyi." },
-        { "cn": "她爱笑。", "pinyin": "Tā ài xiào.", "id": "Dia suka tertawa." }
-      ]
-    },
-    {
-      "hanzi": "爸爸",
-      "pinyin": "bàba",
-      "arti": "Ayah / Papa",
-      "audio": "baba.mp3",
-      "sentences": [
-        { "cn": "我是爸爸。", "pinyin": "Wǒ shì bàba.", "id": "Saya adalah ayah." },
-        { "cn": "我爱爸爸。", "pinyin": "Wǒ ài bàba.", "id": "Saya cinta ayah." },
-        { "cn": "爸爸好！", "pinyin": "Bàba hǎo!", "id": "Halo, Ayah!" },
-        { "cn": "这是我的爸爸。", "pinyin": "Zhè shì wǒ de bàba.", "id": "Ini ayah saya." },
-        { "cn": "爸爸在家。", "pinyin": "Bàba zài jiā.", "id": "Ayah ada di rumah." },
-        { "cn": "爸爸工作很忙。", "pinyin": "Bàba gōngzuò hěn máng.", "id": "Ayah sibuk bekerja." },
-        { "cn": "爸爸喜欢喝茶。", "pinyin": "Bàba xǐhuān hē chá.", "id": "Ayah suka minum teh." },
-        { "cn": "爸爸开车。", "pinyin": "Bàba kāichē.", "id": "Ayah mengemudi mobil." },
-        { "cn": "我和爸爸去超市。", "pinyin": "Wǒ hé bàba qù chāoshì.", "id": "Saya dan ayah pergi ke supermarket." },
-        { "cn": "爸爸笑了。", "pinyin": "Bàba xiào le.", "id": "Ayah tersenyum." }
-      ]
-    },
-    {
-      "hanzi": "杯子",
-      "pinyin": "bēizi",
-      "arti": "Gelas / Cangkir",
-      "audio": "beizi.mp3",
-      "sentences": [
-        { "cn": "桌子上有一个杯子。", "pinyin": "Zhuōzi shàng yǒu yí gè bēizi.", "id": "Di atas meja ada sebuah gelas." },
-        { "cn": "杯子里有水。", "pinyin": "Bēizi lǐ yǒu shuǐ.", "id": "Di dalam gelas ada air." },
-        { "cn": "这个杯子很大。", "pinyin": "Zhège bēizi hěn dà.", "id": "Gelas ini sangat besar." },
-        { "cn": "我有两个杯子。", "pinyin": "Wǒ yǒu liǎng gè bēizi.", "id": "Saya punya dua gelas." },
-        { "cn": "杯子在桌子下面。", "pinyin": "Bēizi zài zhuōzi xiàmian.", "id": "Gelas ada di bawah meja." },
-        { "cn": "请把那个杯子给我。", "pinyin": "Qǐng bǎ nàge bēizi gěi wǒ.", "id": "Tolong berikan saya gelas itu." },
-        { "cn": "我想要一个新的杯子。", "pinyin": "Wǒ xiǎng yào yí gè xīn de bēizi.", "id": "Saya ingin sebuah gelas baru." },
-        { "cn": "杯子里的水很热。", "pinyin": "Bēizi lǐ de shuǐ hěn rè.", "id": "Air di dalam gelas sangat panas." },
-        { "cn": "我买了三个红色的杯子。", "pinyin": "Wǒ mǎile sān gè hóngsè de bēizi.", "id": "Saya membeli tiga gelas berwarna merah." },
-        { "cn": "那个杯子不是我的。", "pinyin": "Nàge bēizi bú shì wǒ de.", "id": "Gelas itu bukan milik saya." }
-      ]
-    },
-    {
-      "hanzi": "北京",
-      "pinyin": "Běijīng",
-      "arti": "Beijing (Ibu Kota Tiongkok)",
-      "audio": "beijing.mp3",
-      "sentences": [
-        { "cn": "我在北京学习汉语。", "pinyin": "Wǒ zài Běijīng xuéxí Hànyǔ.", "id": "Saya belajar bahasa Mandarin di Beijing." },
-        { "cn": "北京是中国的首都。", "pinyin": "Běijīng shì Zhōngguó de shǒudū.", "id": "Beijing adalah ibu kota Tiongkok." },
-        { "cn": "我想去北京旅游。", "pinyin": "Wǒ xiǎng qù Běijīng lǚyóu.", "id": "Saya ingin pergi berwisata ke Beijing." },
-        { "cn": "北京有很多人。", "pinyin": "Běijīng yǒu hěn duō rén.", "id": "Beijing memiliki banyak orang." },
-        { "cn": "我的朋友在北京工作。", "pinyin": "Wǒ de péngyǒu zài Běijīng gōngzuò.", "id": "Teman saya bekerja di Beijing." },
-        { "cn": "北京的冬天很冷。", "pinyin": "Běijīng de dōngtiān hěn lěng.", "id": "Musim dingin di Beijing sangat dingin." },
-        { "cn": "北京的夏天很热。", "pinyin": "Běijīng de xiàtiān hěn rè.", "id": "Musim panas di Beijing sangat panas." },
-        { "cn": "他们住在北京的一个小房子里。", "pinyin": "Tāmen zhù zài Běijīng de yí gè xiǎo fángzi lǐ.", "id": "Mereka tinggal di sebuah rumah kecil di Beijing." },
-        { "cn": "北京有很多好吃的饭菜。", "pinyin": "Běijīng yǒu hěn duō hǎochī de fàncài.", "id": "Di Beijing ada banyak makanan enak." },
-        { "cn": "我去过北京两次。", "pinyin": "Wǒ qùguo Běijīng liǎng cì.", "id": "Saya pernah pergi ke Beijing dua kali." }
-      ]
-    },
+  "hanzi": "爱",
+  "pinyin": "ài",
+  "arti": "Cinta / Suka",
+  "audio": "/static/audio/ài.mp3",
+  "sentences": [
+    { "cn": "我爱你。", "pinyin": "Wǒ ài nǐ.", "id": "Saya cinta kamu.", "audio": "/static/audio/Wǒ ài nǐ.mp3" },
+    { "cn": "我爱妈妈。", "pinyin": "Wǒ ài māma.", "id": "Saya cinta ibu.", "audio": "/static/audio/Wǒ ài māma.mp3" },
+    { "cn": "我爱爸爸。", "pinyin": "Wǒ ài bàba.", "id": "Saya cinta ayah.", "audio": "/static/audio/Wǒ ài bàba.mp3" },
+    { "cn": "我爱中国。", "pinyin": "Wǒ ài Zhōngguó.", "id": "Saya cinta Tiongkok.", "audio": "/static/audio/Wǒ ài Zhōngguó.mp3" },
+    { "cn": "我爱学习汉语。", "pinyin": "Wǒ ài xuéxí Hànyǔ.", "id": "Saya suka belajar bahasa Mandarin.", "audio": "/static/audio/Wǒ ài xuéxí Hànyǔ.mp3" },
+    { "cn": "我爱吃米饭。", "pinyin": "Wǒ ài chī mǐfàn.", "id": "Saya suka makan nasi.", "audio": "/static/audio/Wǒ ài chī mǐfàn.mp3" },
+    { "cn": "我爱喝茶。", "pinyin": "Wǒ ài hē chá.", "id": "Saya suka minum teh.", "audio": "/static/audio/Wǒ ài hē chá.mp3" },
+    { "cn": "我爱我的朋友。", "pinyin": "Wǒ ài wǒ de péngyǒu.", "id": "Saya sayang teman-teman saya.", "audio": "/static/audio/Wǒ ài wǒ de péngyǒu.mp3" },
+    { "cn": "他们爱唱歌。", "pinyin": "Tāmen ài chàng gē.", "id": "Mereka suka bernyanyi.", "audio": "/static/audio/Tāmen ài chàng gē.mp3" },
+    { "cn": "她爱笑。", "pinyin": "Tā ài xiào.", "id": "Dia suka tertawa.", "audio": "/static/audio/Tā ài xiào.mp3" }
+  ]
+},
+{
+  "hanzi": "爸爸",
+  "pinyin": "bàba",
+  "arti": "Ayah / Papa",
+  "audio": "/static/audio/bàba.mp3",
+  "sentences": [
+    { "cn": "我是爸爸。", "pinyin": "Wǒ shì bàba.", "id": "Saya adalah ayah.", "audio": "/static/audio/Wǒ shì bàba.mp3" },
+    { "cn": "我爱爸爸。", "pinyin": "Wǒ ài bàba.", "id": "Saya cinta ayah.", "audio": "/static/audio/Wǒ ài bàba.mp3" },
+    { "cn": "爸爸好！", "pinyin": "Bàba hǎo!", "id": "Halo, Ayah!", "audio": "/static/audio/Bàba hǎo!.mp3" },
+    { "cn": "这是我的爸爸。", "pinyin": "Zhè shì wǒ de bàba.", "id": "Ini ayah saya.", "audio": "/static/audio/Zhè shì wǒ de bàba.mp3" },
+    { "cn": "爸爸在家。", "pinyin": "Bàba zài jiā.", "id": "Ayah ada di rumah.", "audio": "/static/audio/Bàba zài jiā.mp3" },
+    { "cn": "爸爸工作很忙。", "pinyin": "Bàba gōngzuò hěn máng.", "id": "Ayah sibuk bekerja.", "audio": "/static/audio/Bàba gōngzuò hěn máng.mp3" },
+    { "cn": "爸爸喜欢喝茶。", "pinyin": "Bàba xǐhuān hē chá.", "id": "Ayah suka minum teh.", "audio": "/static/audio/Bàba xǐhuān hē chá.mp3" },
+    { "cn": "爸爸开车。", "pinyin": "Bàba kāichē.", "id": "Ayah mengemudi mobil.", "audio": "/static/audio/Bàba kāichē.mp3" },
+    { "cn": "我和爸爸去超市。", "pinyin": "Wǒ hé bàba qù chāoshì.", "id": "Saya dan ayah pergi ke supermarket.", "audio": "/static/audio/Wǒ hé bàba qù chāoshì.mp3" },
+    { "cn": "爸爸笑了。", "pinyin": "Bàba xiào le.", "id": "Ayah tersenyum.", "audio": "/static/audio/Bàba xiào le.mp3" }
+  ]
+},
+{
+  "hanzi": "杯子",
+  "pinyin": "bēizi",
+  "arti": "Gelas / Cangkir",
+  "audio": "/static/audio/bēizi.mp3",
+  "sentences": [
+    { "cn": "桌子上有一个杯子。", "pinyin": "Zhuōzi shàng yǒu yí gè bēizi.", "id": "Di atas meja ada sebuah gelas.", "audio": "/static/audio/Zhuōzi shàng yǒu yí gè bēizi.mp3" },
+    { "cn": "杯子里有水。", "pinyin": "Bēizi lǐ yǒu shuǐ.", "id": "Di dalam gelas ada air.", "audio": "/static/audio/Bēizi lǐ yǒu shuǐ.mp3" },
+    { "cn": "这个杯子很大。", "pinyin": "Zhège bēizi hěn dà.", "id": "Gelas ini sangat besar.", "audio": "/static/audio/Zhège bēizi hěn dà.mp3" },
+    { "cn": "我有两个杯子。", "pinyin": "Wǒ yǒu liǎng gè bēizi.", "id": "Saya punya dua gelas.", "audio": "/static/audio/Wǒ yǒu liǎng gè bēizi.mp3" },
+    { "cn": "杯子在桌子下面。", "pinyin": "Bēizi zài zhuōzi xiàmian.", "id": "Gelas ada di bawah meja.", "audio": "/static/audio/Bēizi zài zhuōzi xiàmian.mp3" },
+    { "cn": "请把那个杯子给我。", "pinyin": "Qǐng bǎ nàge bēizi gěi wǒ.", "id": "Tolong berikan saya gelas itu.", "audio": "/static/audio/Qǐng bǎ nàge bēizi gěi wǒ.mp3" },
+    { "cn": "我想要一个新的杯子。", "pinyin": "Wǒ xiǎng yào yí gè xīn de bēizi.", "id": "Saya ingin sebuah gelas baru.", "audio": "/static/audio/Wǒ xiǎng yào yí gè xīn de bēizi.mp3" },
+    { "cn": "杯子里的水很热。", "pinyin": "Bēizi lǐ de shuǐ hěn rè.", "id": "Air di dalam gelas sangat panas.", "audio": "/static/audio/Bēizi lǐ de shuǐ hěn rè.mp3" },
+    { "cn": "我买了三个红色的杯子。", "pinyin": "Wǒ mǎile sān gè hóngsè de bēizi.", "id": "Saya membeli tiga gelas berwarna merah.", "audio": "/static/audio/Wǒ mǎile sān gè hóngsè de bēizi.mp3" },
+    { "cn": "那个杯子不是我的。", "pinyin": "Nàge bēizi bú shì wǒ de.", "id": "Gelas itu bukan milik saya.", "audio": "/static/audio/Nàge bēizi bú shì wǒ de.mp3" }
+  ]
+},
+{
+  "hanzi": "北京",
+  "pinyin": "Běijīng",
+  "arti": "Beijing (Ibu Kota Tiongkok)",
+  "audio": "/static/audio/Běijīng.mp3",
+  "sentences": [
+    { "cn": "我在北京学习汉语。", "pinyin": "Wǒ zài Běijīng xuéxí Hànyǔ.", "id": "Saya belajar bahasa Mandarin di Beijing.", "audio": "/static/audio/Wǒ zài Běijīng xuéxí Hànyǔ.mp3" },
+    { "cn": "北京是中国的首都。", "pinyin": "Běijīng shì Zhōngguó de shǒudū.", "id": "Beijing adalah ibu kota Tiongkok.", "audio": "/static/audio/Běijīng shì Zhōngguó de shǒudū.mp3" },
+    { "cn": "我想去北京旅游。", "pinyin": "Wǒ xiǎng qù Běijīng lǚyóu.", "id": "Saya ingin pergi berwisata ke Beijing.", "audio": "/static/audio/Wǒ xiǎng qù Běijīng lǚyóu.mp3" },
+    { "cn": "北京有很多人。", "pinyin": "Běijīng yǒu hěn duō rén.", "id": "Beijing memiliki banyak orang.", "audio": "/static/audio/Běijīng yǒu hěn duō rén.mp3" },
+    { "cn": "我的朋友在北京工作。", "pinyin": "Wǒ de péngyǒu zài Běijīng gōngzuò.", "id": "Teman saya bekerja di Beijing.", "audio": "/static/audio/Wǒ de péngyǒu zài Běijīng gōngzuò.mp3" },
+    { "cn": "北京的冬天很冷。", "pinyin": "Běijīng de dōngtiān hěn lěng.", "id": "Musim dingin di Beijing sangat dingin.", "audio": "/static/audio/Běijīng de dōngtiān hěn lěng.mp3" },
+    { "cn": "北京的夏天很热。", "pinyin": "Běijīng de xiàtiān hěn rè.", "id": "Musim panas di Beijing sangat panas.", "audio": "/static/audio/Běijīng de xiàtiān hěn rè.mp3" },
+    { "cn": "他们住在北京的一个小房子里。", "pinyin": "Tāmen zhù zài Běijīng de yí gè xiǎo fángzi lǐ.", "id": "Mereka tinggal di sebuah rumah kecil di Beijing.", "audio": "/static/audio/Tāmen zhù zài Běijīng de yí gè xiǎo fángzi lǐ.mp3" },
+    { "cn": "北京有很多好吃的饭菜。", "pinyin": "Běijīng yǒu hěn duō hǎochī de fàncài.", "id": "Di Beijing ada banyak makanan enak.", "audio": "/static/audio/Běijīng yǒu hěn duō hǎochī de fàncài.mp3" },
+    { "cn": "我去过北京两次。", "pinyin": "Wǒ qùguo Běijīng liǎng cì.", "id": "Saya pernah pergi ke Beijing dua kali.", "audio": "/static/audio/Wǒ qùguo Běijīng liǎng cì.mp3" }
+  ]
+},
     {
       "hanzi": "本",
       "pinyin": "běn",
