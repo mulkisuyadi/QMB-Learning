@@ -338,125 +338,132 @@
 }
 ,
     {
-      "hanzi": "电视",
-      "pinyin": "diànshì",
-      "arti": "televisi / TV",
-      "audio": "dianshi.mp3",
-      "sentences": [
-        { "cn": "这是我的电视。", "pinyin": "Zhè shì wǒ de diànshì.", "id": "Ini televisi saya." },
-        { "cn": "电视在客厅里。", "pinyin": "Diànshì zài kètīng lǐ.", "id": "Televisi ada di ruang tamu." },
-        { "cn": "我喜欢看电视。", "pinyin": "Wǒ xǐhuān kàn diànshì.", "id": "Saya suka menonton televisi." },
-        { "cn": "你每天看电视吗？", "pinyin": "Nǐ měitiān kàn diànshì ma?", "id": "Apakah kamu menonton televisi setiap hari?" },
-        { "cn": "我们在电视上看新闻。", "pinyin": "Wǒmen zài diànshì shàng kàn xīnwén.", "id": "Kami menonton berita di televisi." },
-        { "cn": "电视很大。", "pinyin": "Diànshì hěn dà.", "id": "Televisi itu besar." },
-        { "cn": "我想买一台新电视。", "pinyin": "Wǒ xiǎng mǎi yī tái xīn diànshì.", "id": "Saya ingin membeli sebuah televisi baru." },
-        { "cn": "他不看电视。", "pinyin": "Tā bú kàn diànshì.", "id": "Dia tidak menonton televisi." },
-        { "cn": "请不要关电视。", "pinyin": "Qǐng bú yào guān diànshì.", "id": "Tolong jangan matikan televisi." },
-        { "cn": "我们一家人一起看电视。", "pinyin": "Wǒmen yī jiā rén yīqǐ kàn diànshì.", "id": "Kami sekeluarga menonton televisi bersama." }
-      ]
-    },
+  "hanzi": "电视",
+  "pinyin": "diànshì",
+  "arti": "televisi / TV",
+  "audio": "dianshi.mp3",
+  "sentences": [
+    { "cn": "这是我的电视。", "pinyin": "Zhè shì wǒ de diànshì.", "id": "Ini televisi saya.", "audio": "/static/audio/Zhè shì wǒ de diànshì.mp3" },
+    { "cn": "电视在客厅里。", "pinyin": "Diànshì zài kètīng lǐ.", "id": "Televisi ada di ruang tamu.", "audio": "/static/audio/Diànshì zài kètīng lǐ.mp3" },
+    { "cn": "我喜欢看电视。", "pinyin": "Wǒ xǐhuān kàn diànshì.", "id": "Saya suka menonton televisi.", "audio": "/static/audio/Wǒ xǐhuān kàn diànshì.mp3" },
+    { "cn": "你每天看电视吗？", "pinyin": "Nǐ měitiān kàn diànshì ma?", "id": "Apakah kamu menonton televisi setiap hari?", "audio": "/static/audio/Nǐ měitiān kàn diànshì ma.mp3" },
+    { "cn": "我们在电视上看新闻。", "pinyin": "Wǒmen zài diànshì shàng kàn xīnwén.", "id": "Kami menonton berita di televisi.", "audio": "/static/audio/Wǒmen zài diànshì shàng kàn xīnwén.mp3" },
+    { "cn": "电视很大。", "pinyin": "Diànshì hěn dà.", "id": "Televisi itu besar.", "audio": "/static/audio/Diànshì hěn dà.mp3" },
+    { "cn": "我想买一台新电视。", "pinyin": "Wǒ xiǎng mǎi yī tái xīn diànshì.", "id": "Saya ingin membeli sebuah televisi baru.", "audio": "/static/audio/Wǒ xiǎng mǎi yī tái xīn diànshì.mp3" },
+    { "cn": "他不看电视。", "pinyin": "Tā bú kàn diànshì.", "id": "Dia tidak menonton televisi.", "audio": "/static/audio/Tā bú kàn diànshì.mp3" },
+    { "cn": "请不要关电视。", "pinyin": "Qǐng bú yào guān diànshì.", "id": "Tolong jangan matikan televisi.", "audio": "/static/audio/Qǐng bú yào guān diànshì.mp3" },
+    { "cn": "我们一家人一起看电视。", "pinyin": "Wǒmen yī jiā rén yīqǐ kàn diànshì.", "id": "Kami sekeluarga menonton televisi bersama.", "audio": "/static/audio/Wǒmen yī jiā rén yīqǐ kàn diànshì.mp3" }
+  ]
+}
+,
     {
-      "hanzi": "电影",
-      "pinyin": "diànyǐng",
-      "arti": "film / movie",
-      "audio": "dianying.mp3",
-      "sentences": [
-        { "cn": "我喜欢看电影。", "pinyin": "Wǒ xǐhuān kàn diànyǐng.", "id": "Saya suka menonton film." },
-        { "cn": "你想看什么电影？", "pinyin": "Nǐ xiǎng kàn shénme diànyǐng?", "id": "Kamu ingin menonton film apa?" },
-        { "cn": "今天晚上有电影。", "pinyin": "Jīntiān wǎnshang yǒu diànyǐng.", "id": "Malam ini ada film." },
-        { "cn": "我们一起去看电影吧。", "pinyin": "Wǒmen yīqǐ qù kàn diànyǐng ba.", "id": "Ayo kita pergi menonton film bersama." },
-        { "cn": "我昨天看了一个电影。", "pinyin": "Wǒ zuótiān kàn le yī gè diànyǐng.", "id": "Kemarin saya menonton sebuah film." },
-        { "cn": "这个电影很好看。", "pinyin": "Zhège diànyǐng hěn hǎokàn.", "id": "Film ini sangat bagus." },
-        { "cn": "那部电影很有名。", "pinyin": "Nà bù diànyǐng hěn yǒumíng.", "id": "Film itu sangat terkenal." },
-        { "cn": "他不喜欢这个电影。", "pinyin": "Tā bù xǐhuān zhège diànyǐng.", "id": "Dia tidak suka film ini." },
-        { "cn": "请不要在电影里说话。", "pinyin": "Qǐng bú yào zài diànyǐng lǐ shuōhuà.", "id": "Tolong jangan berbicara saat menonton film." },
-        { "cn": "我常常和朋友一起看电影。", "pinyin": "Wǒ chángcháng hé péngyǒu yīqǐ kàn diànyǐng.", "id": "Saya sering menonton film bersama teman." }
-      ]
-    },
+  "hanzi": "电影",
+  "pinyin": "diànyǐng",
+  "arti": "film / movie",
+  "audio": "dianying.mp3",
+  "sentences": [
+    { "cn": "我喜欢看电影。", "pinyin": "Wǒ xǐhuān kàn diànyǐng.", "id": "Saya suka menonton film.", "audio": "/static/audio/Wǒ xǐhuān kàn diànyǐng.mp3" },
+    { "cn": "你想看什么电影？", "pinyin": "Nǐ xiǎng kàn shénme diànyǐng?", "id": "Kamu ingin menonton film apa?", "audio": "/static/audio/Nǐ xiǎng kàn shénme diànyǐng.mp3" },
+    { "cn": "今天晚上有电影。", "pinyin": "Jīntiān wǎnshang yǒu diànyǐng.", "id": "Malam ini ada film.", "audio": "/static/audio/Jīntiān wǎnshang yǒu diànyǐng.mp3" },
+    { "cn": "我们一起去看电影吧。", "pinyin": "Wǒmen yīqǐ qù kàn diànyǐng ba.", "id": "Ayo kita menonton film bersama.", "audio": "/static/audio/Wǒmen yīqǐ qù kàn diànyǐng ba.mp3" },
+    { "cn": "我昨天看了一个电影。", "pinyin": "Wǒ zuótiān kàn le yī gè diànyǐng.", "id": "Kemarin saya menonton sebuah film.", "audio": "/static/audio/Wǒ zuótiān kàn le yī gè diànyǐng.mp3" },
+    { "cn": "这个电影很好看。", "pinyin": "Zhège diànyǐng hěn hǎokàn.", "id": "Film ini sangat bagus.", "audio": "/static/audio/Zhège diànyǐng hěn hǎokàn.mp3" },
+    { "cn": "那部电影很有名。", "pinyin": "Nà bù diànyǐng hěn yǒumíng.", "id": "Film itu sangat terkenal.", "audio": "/static/audio/Nà bù diànyǐng hěn yǒumíng.mp3" },
+    { "cn": "他不喜欢这个电影。", "pinyin": "Tā bù xǐhuān zhège diànyǐng.", "id": "Dia tidak suka film ini.", "audio": "/static/audio/Tā bù xǐhuān zhège diànyǐng.mp3" },
+    { "cn": "请不要在电影里说话。", "pinyin": "Qǐng bú yào zài diànyǐng lǐ shuōhuà.", "id": "Tolong jangan berbicara saat menonton film.", "audio": "/static/audio/Qǐng bú yào zài diànyǐng lǐ shuōhuà.mp3" },
+    { "cn": "我常常和朋友一起看电影。", "pinyin": "Wǒ chángcháng hé péngyǒu yīqǐ kàn diànyǐng.", "id": "Saya sering menonton film bersama teman.", "audio": "/static/audio/Wǒ chángcháng hé péngyǒu yīqǐ kàn diànyǐng.mp3" }
+  ]
+}
+,
+   {
+  "hanzi": "东西",
+  "pinyin": "dōngxi",
+  "arti": "barang / benda",
+  "audio": "dongxi.mp3",
+  "sentences": [
+    { "cn": "我买了一些东西。", "pinyin": "Wǒ mǎi le yīxiē dōngxi.", "id": "Saya membeli beberapa barang.", "audio": "/static/audio/Wǒ mǎi le yīxiē dōngxi.mp3" },
+    { "cn": "你要买什么东西？", "pinyin": "Nǐ yào mǎi shénme dōngxi?", "id": "Kamu mau membeli apa?", "audio": "/static/audio/Nǐ yào mǎi shénme dōngxi.mp3" },
+    { "cn": "桌子上有很多东西。", "pinyin": "Zhuōzi shàng yǒu hěn duō dōngxi.", "id": "Di atas meja ada banyak barang.", "audio": "/static/audio/Zhuōzi shàng yǒu hěn duō dōngxi.mp3" },
+    { "cn": "不要忘记带东西。", "pinyin": "Bú yào wàngjì dài dōngxi.", "id": "Jangan lupa membawa barang.", "audio": "/static/audio/Bú yào wàngjì dài dōngxi.mp3" },
+    { "cn": "我想吃一点东西。", "pinyin": "Wǒ xiǎng chī yīdiǎn dōngxi.", "id": "Saya ingin makan sesuatu.", "audio": "/static/audio/Wǒ xiǎng chī yīdiǎn dōngxi.mp3" },
+    { "cn": "这些东西是谁的？", "pinyin": "Zhèxiē dōngxi shì shéi de?", "id": "Ini milik siapa?", "audio": "/static/audio/Zhèxiē dōngxi shì shéi de.mp3" },
+    { "cn": "他买的东西很贵。", "pinyin": "Tā mǎi de dōngxi hěn guì.", "id": "Barang yang dia beli sangat mahal.", "audio": "/static/audio/Tā mǎi de dōngxi hěn guì.mp3" },
+    { "cn": "我家里有很多东西。", "pinyin": "Wǒ jiā lǐ yǒu hěn duō dōngxi.", "id": "Di rumah saya banyak barang.", "audio": "/static/audio/Wǒ jiā lǐ yǒu hěn duō dōngxi.mp3" },
+    { "cn": "请帮我拿这些东西。", "pinyin": "Qǐng bāng wǒ ná zhèxiē dōngxi.", "id": "Tolong ambilkan barang-barang ini.", "audio": "/static/audio/Qǐng bāng wǒ ná zhèxiē dōngxi.mp3" },
+    { "cn": "她喜欢买漂亮的东西。", "pinyin": "Tā xǐhuān mǎi piàoliang de dōngxi.", "id": "Dia suka membeli barang bagus.", "audio": "/static/audio/Tā xǐhuān mǎi piàoliang de dōngxi.mp3" }
+  ]
+}
+,
     {
-      "hanzi": "东西",
-      "pinyin": "dōngxi",
-      "arti": "barang / benda",
-      "audio": "dongxi.mp3",
-      "sentences": [
-        { "cn": "我买了一些东西。", "pinyin": "Wǒ mǎi le yīxiē dōngxi.", "id": "Saya membeli beberapa barang." },
-        { "cn": "你要买什么东西？", "pinyin": "Nǐ yào mǎi shénme dōngxi?", "id": "Kamu mau membeli barang apa?" },
-        { "cn": "桌子上有很多东西。", "pinyin": "Zhuōzi shàng yǒu hěn duō dōngxi.", "id": "Di atas meja ada banyak barang." },
-        { "cn": "不要忘记带东西。", "pinyin": "Bú yào wàngjì dài dōngxi.", "id": "Jangan lupa membawa barang." },
-        { "cn": "我想吃一点东西。", "pinyin": "Wǒ xiǎng chī yīdiǎn dōngxi.", "id": "Saya ingin makan sesuatu." },
-        { "cn": "这些东西是谁的？", "pinyin": "Zhèxiē dōngxi shì shéi de?", "id": "Barang-barang ini milik siapa?" },
-        { "cn": "他买的东西很贵。", "pinyin": "Tā mǎi de dōngxi hěn guì.", "id": "Barang yang dia beli sangat mahal." },
-        { "cn": "我家里有很多东西。", "pinyin": "Wǒ jiā lǐ yǒu hěn duō dōngxi.", "id": "Di rumah saya ada banyak barang." },
-        { "cn": "请帮我拿这些东西。", "pinyin": "Qǐng bāng wǒ ná zhèxiē dōngxi.", "id": "Tolong bantu saya membawa barang-barang ini." },
-        { "cn": "她喜欢买漂亮的东西。", "pinyin": "Tā xǐhuān mǎi piàoliang de dōngxi.", "id": "Dia suka membeli barang-barang yang indah." }
-      ]
-    },
+  "hanzi": "对不起",
+  "pinyin": "duìbuqǐ",
+  "arti": "maaf / sorry",
+  "audio": "duibuqi.mp3",
+  "sentences": [
+    { "cn": "对不起，我迟到了。", "pinyin": "Duìbuqǐ, wǒ chídào le.", "id": "Maaf, saya terlambat.", "audio": "/static/audio/Duìbuqǐ, wǒ chídào le.mp3" },
+    { "cn": "对不起，我不懂。", "pinyin": "Duìbuqǐ, wǒ bù dǒng.", "id": "Maaf, saya tidak mengerti.", "audio": "/static/audio/Duìbuqǐ, wǒ bù dǒng.mp3" },
+    { "cn": "对不起，我忘了。", "pinyin": "Duìbuqǐ, wǒ wàng le.", "id": "Maaf, saya lupa.", "audio": "/static/audio/Duìbuqǐ, wǒ wàng le.mp3" },
+    { "cn": "对不起，打扰你了。", "pinyin": "Duìbuqǐ, dǎrǎo nǐ le.", "id": "Maaf mengganggu.", "audio": "/static/audio/Duìbuqǐ, dǎrǎo nǐ le.mp3" },
+    { "cn": "对不起，我没有听到。", "pinyin": "Duìbuqǐ, wǒ méiyǒu tīng dào.", "id": "Maaf, saya tidak dengar.", "audio": "/static/audio/Duìbuqǐ, wǒ méiyǒu tīng dào.mp3" },
+    { "cn": "对不起，我不小心。", "pinyin": "Duìbuqǐ, wǒ bù xiǎoxīn.", "id": "Maaf, saya tidak sengaja.", "audio": "/static/audio/Duìbuqǐ, wǒ bù xiǎoxīn.mp3" },
+    { "cn": "对不起，我打破了你的杯子。", "pinyin": "Duìbuqǐ, wǒ dǎ pò le nǐ de bēizi.", "id": "Maaf, saya memecahkan cangkirmu.", "audio": "/static/audio/Duìbuqǐ, wǒ dǎ pò le nǐ de bēizi.mp3" },
+    { "cn": "对不起，我错了。", "pinyin": "Duìbuqǐ, wǒ cuò le.", "id": "Maaf, saya salah.", "audio": "/static/audio/Duìbuqǐ, wǒ cuò le.mp3" },
+    { "cn": "对不起，让你等了。", "pinyin": "Duìbuqǐ, ràng nǐ děng le.", "id": "Maaf membuatmu menunggu.", "audio": "/static/audio/Duìbuqǐ, ràng nǐ děng le.mp3" },
+    { "cn": "对不起，我没有带钱。", "pinyin": "Duìbuqǐ, wǒ méiyǒu dài qián.", "id": "Maaf, saya tidak bawa uang.", "audio": "/static/audio/Duìbuqǐ, wǒ méiyǒu dài qián.mp3" }
+  ]
+}
+,
     {
-      "hanzi": "对不起",
-      "pinyin": "duìbuqǐ",
-      "arti": "maaf / sorry",
-      "audio": "duibuqi.mp3",
-      "sentences": [
-        { "cn": "对不起，我迟到了。", "pinyin": "Duìbuqǐ, wǒ chídào le.", "id": "Maaf, saya terlambat." },
-        { "cn": "对不起，我不懂。", "pinyin": "Duìbuqǐ, wǒ bù dǒng.", "id": "Maaf, saya tidak mengerti." },
-        { "cn": "对不起，我忘了。", "pinyin": "Duìbuqǐ, wǒ wàng le.", "id": "Maaf, saya lupa." },
-        { "cn": "对不起，打扰你了。", "pinyin": "Duìbuqǐ, dǎrǎo nǐ le.", "id": "Maaf, mengganggu kamu." },
-        { "cn": "对不起，我没有听到。", "pinyin": "Duìbuqǐ, wǒ méiyǒu tīng dào.", "id": "Maaf, saya tidak mendengar." },
-        { "cn": "对不起，我不小心。", "pinyin": "Duìbuqǐ, wǒ bù xiǎoxīn.", "id": "Maaf, saya tidak sengaja." },
-        { "cn": "对不起，我打破了你的杯子。", "pinyin": "Duìbuqǐ, wǒ dǎ pò le nǐ de bēizi.", "id": "Maaf, saya memecahkan cangkirmu." },
-        { "cn": "对不起，我错了。", "pinyin": "Duìbuqǐ, wǒ cuò le.", "id": "Maaf, saya salah." },
-        { "cn": "对不起，让你等了。", "pinyin": "Duìbuqǐ, ràng nǐ děng le.", "id": "Maaf, membuatmu menunggu." },
-        { "cn": "对不起，我没有带钱。", "pinyin": "Duìbuqǐ, wǒ méiyǒu dài qián.", "id": "Maaf, saya tidak membawa uang." }
-      ]
-    },
+  "hanzi": "都",
+  "pinyin": "dōu",
+  "arti": "semua / kedua-duanya",
+  "audio": "dou.mp3",
+  "sentences": [
+    { "cn": "我们都喜欢吃水果。", "pinyin": "Wǒmen dōu xǐhuān chī shuǐguǒ.", "id": "Kami semua suka makan buah.", "audio": "/static/audio/Wǒmen dōu xǐhuān chī shuǐguǒ.mp3" },
+    { "cn": "他们都去学校了。", "pinyin": "Tāmen dōu qù xuéxiào le.", "id": "Mereka semua pergi ke sekolah.", "audio": "/static/audio/Tāmen dōu qù xuéxiào le.mp3" },
+    { "cn": "我和哥哥都喜欢看电影。", "pinyin": "Wǒ hé gēge dōu xǐhuān kàn diànyǐng.", "id": "Saya & kakak sama-sama suka film.", "audio": "/static/audio/Wǒ hé gēge dōu xǐhuān kàn diànyǐng.mp3" },
+    { "cn": "你们都吃饭了吗？", "pinyin": "Nǐmen dōu chī fàn le ma?", "id": "Kalian semua sudah makan?", "audio": "/static/audio/Nǐmen dōu chī fàn le ma.mp3" },
+    { "cn": "大家都很高兴。", "pinyin": "Dàjiā dōu hěn gāoxìng.", "id": "Semua orang sangat senang.", "audio": "/static/audio/Dàjiā dōu hěn gāoxìng.mp3" }
+  ]
+}
+,
     {
-      "hanzi": "都",
-      "pinyin": "dōu",
-      "arti": "semua / kedua-duanya",
-      "audio": "dou.mp3",
-      "sentences": [
-        { "cn": "我们都喜欢吃水果。", "pinyin": "Wǒmen dōu xǐhuān chī shuǐguǒ.", "id": "Kami semua suka makan buah." },
-        { "cn": "他们都去学校了。", "pinyin": "Tāmen dōu qù xuéxiào le.", "id": "Mereka semua pergi ke sekolah." },
-        { "cn": "我和哥哥都喜欢看电影。", "pinyin": "Wǒ hé gēge dōu xǐhuān kàn diànyǐng.", "id": "Saya dan kakak laki-laki saya sama-sama suka menonton film." },
-        { "cn": "你们都吃饭了吗？", "pinyin": "Nǐmen dōu chī fàn le ma?", "id": "Apakah kalian semua sudah makan?" },
-        { "cn": "大家都很高兴。", "pinyin": "Dàjiā dōu hěn gāoxìng.", "id": "Semua orang sangat senang." }
-      ]
-    },
+  "hanzi": "多",
+  "pinyin": "duō",
+  "arti": "banyak / lebih",
+  "audio": "duo.mp3",
+  "sentences": [
+    { "cn": "这里有很多人。", "pinyin": "Zhèlǐ yǒu hěn duō rén.", "id": "Di sini ada banyak orang.", "audio": "/static/audio/Zhèlǐ yǒu hěn duō rén.mp3" },
+    { "cn": "我有两个苹果，你有更多吗？", "pinyin": "Wǒ yǒu liǎng gè píngguǒ, nǐ yǒu gèng duō ma?", "id": "Saya punya 2 apel, kamu punya lebih?", "audio": "/static/audio/Wǒ yǒu liǎng gè píngguǒ, nǐ yǒu gèng duō ma.mp3" },
+    { "cn": "这个城市有很多学校。", "pinyin": "Zhège chéngshì yǒu hěn duō xuéxiào.", "id": "Kota ini punya banyak sekolah.", "audio": "/static/audio/Zhège chéngshì yǒu hěn duō xuéxiào.mp3" },
+    { "cn": "我想喝更多水。", "pinyin": "Wǒ xiǎng hē gèng duō shuǐ.", "id": "Saya ingin minum lebih banyak air.", "audio": "/static/audio/Wǒ xiǎng hē gèng duō shuǐ.mp3" },
+    { "cn": "你有多朋友？", "pinyin": "Nǐ yǒu duō péngyǒu?", "id": "Kamu punya berapa banyak teman?", "audio": "/static/audio/Nǐ yǒu duō péngyǒu.mp3" },
+    { "cn": "这里的花很多，很漂亮。", "pinyin": "Zhèlǐ de huā hěn duō, hěn piàoliang.", "id": "Di sini banyak bunga.", "audio": "/static/audio/Zhèlǐ de huā hěn duō, hěn piàoliang.mp3" },
+    { "cn": "他工作很多。", "pinyin": "Tā gōngzuò hěn duō.", "id": "Dia bekerja banyak.", "audio": "/static/audio/Tā gōngzuò hěn duō.mp3" },
+    { "cn": "我们班有很多学生。", "pinyin": "Wǒmen bān yǒu hěn duō xuéshēng.", "id": "Kelas kami banyak siswa.", "audio": "/static/audio/Wǒmen bān yǒu hěn duō xuéshēng.mp3" },
+    { "cn": "你吃了很多饭吗？", "pinyin": "Nǐ chī le hěn duō fàn ma?", "id": "Kamu makan banyak?", "audio": "/static/audio/Nǐ chī le hěn duō fàn ma.mp3" },
+    { "cn": "这个商店有很多东西。", "pinyin": "Zhège shāngdiàn yǒu hěn duō dōngxi.", "id": "Toko ini banyak barang.", "audio": "/static/audio/Zhège shāngdiàn yǒu hěn duō dōngxi.mp3" }
+  ]
+}
+,
     {
-      "hanzi": "多",
-      "pinyin": "duō",
-      "arti": "banyak / lebih",
-      "audio": "duo.mp3",
-      "sentences": [
-        { "cn": "这里有很多人。", "pinyin": "Zhèlǐ yǒu hěn duō rén.", "id": "Di sini ada banyak orang." },
-        { "cn": "我有两个苹果，你有更多吗？", "pinyin": "Wǒ yǒu liǎng gè píngguǒ, nǐ yǒu gèng duō ma?", "id": "Saya punya dua apel, apakah kamu punya lebih banyak?" },
-        { "cn": "这个城市有很多学校。", "pinyin": "Zhège chéngshì yǒu hěn duō xuéxiào.", "id": "Kota ini memiliki banyak sekolah." },
-        { "cn": "我想喝更多水。", "pinyin": "Wǒ xiǎng hē gèng duō shuǐ.", "id": "Saya ingin minum lebih banyak air." },
-        { "cn": "你有多朋友？", "pinyin": "Nǐ yǒu duō péngyǒu?", "id": "Kamu punya berapa banyak teman?" },
-        { "cn": "这里的花很多，很漂亮。", "pinyin": "Zhèlǐ de huā hěn duō, hěn piàoliang.", "id": "Bunga-bunga di sini banyak dan sangat indah." },
-        { "cn": "他工作很多。", "pinyin": "Tā gōngzuò hěn duō.", "id": "Dia bekerja banyak." },
-        { "cn": "我们班有很多学生。", "pinyin": "Wǒmen bān yǒu hěn duō xuéshēng.", "id": "Kelas kami memiliki banyak siswa." },
-        { "cn": "你吃了很多饭吗？", "pinyin": "Nǐ chī le hěn duō fàn ma?", "id": "Apakah kamu sudah makan banyak nasi?" },
-        { "cn": "这个商店有很多东西。", "pinyin": "Zhège shāngdiàn yǒu hěn duō dōngxi.", "id": "Toko ini memiliki banyak barang." }
-      ]
-    },
-    {
-      "hanzi": "多少",
-      "pinyin": "duōshao",
-      "arti": "berapa / how many",
-      "audio": "duoshao.mp3",
-      "sentences": [
-        { "cn": "你有多少钱？", "pinyin": "Nǐ yǒu duōshao qián?", "id": "Kamu punya berapa uang?" },
-        { "cn": "这本书多少钱？", "pinyin": "Zhè běn shū duōshao qián?", "id": "Buku ini berapa harganya?" },
-        { "cn": "你家有多少人？", "pinyin": "Nǐ jiā yǒu duōshao rén?", "id": "Di rumahmu ada berapa orang?" },
-        { "cn": "今天有多少学生？", "pinyin": "Jīntiān yǒu duōshao xuéshēng?", "id": "Hari ini ada berapa siswa?" },
-        { "cn": "你买了多少水果？", "pinyin": "Nǐ mǎi le duōshao shuǐguǒ?", "id": "Kamu membeli berapa banyak buah?" },
-        { "cn": "这件衣服多少钱？", "pinyin": "Zhè jiàn yīfú duōshao qián?", "id": "Baju ini berapa harganya?" },
-        { "cn": "你吃了多少饭？", "pinyin": "Nǐ chī le duōshao fàn?", "id": "Kamu sudah makan berapa banyak nasi?" },
-        { "cn": "学校有多少教室？", "pinyin": "Xuéxiào yǒu duōshao jiàoshì?", "id": "Sekolah ini punya berapa ruang kelas?" },
-        { "cn": "你想买多少苹果？", "pinyin": "Nǐ xiǎng mǎi duōshao píngguǒ?", "id": "Kamu ingin membeli berapa banyak apel?" },
-        { "cn": "你每天睡多少小时？", "pinyin": "Nǐ měitiān shuì duōshao xiǎoshí?", "id": "Kamu tidur berapa jam setiap hari?" }
-      ]
-    }
+  "hanzi": "多少",
+  "pinyin": "duōshao",
+  "arti": "berapa / how many",
+  "audio": "duoshao.mp3",
+  "sentences": [
+    { "cn": "你有多少钱？", "pinyin": "Nǐ yǒu duōshao qián?", "id": "Kamu punya berapa uang?", "audio": "/static/audio/Nǐ yǒu duōshao qián.mp3" },
+    { "cn": "这本书多少钱？", "pinyin": "Zhè běn shū duōshao qián?", "id": "Buku ini berapa harganya?", "audio": "/static/audio/Zhè běn shū duōshao qián.mp3" },
+    { "cn": "你家有多少人？", "pinyin": "Nǐ jiā yǒu duōshao rén?", "id": "Ada berapa orang di rumahmu?", "audio": "/static/audio/Nǐ jiā yǒu duōshao rén.mp3" },
+    { "cn": "今天有多少学生？", "pinyin": "Jīntiān yǒu duōshao xuéshēng?", "id": "Hari ini ada berapa siswa?", "audio": "/static/audio/Jīntiān yǒu duōshao xuéshēng.mp3" },
+    { "cn": "你买了多少水果？", "pinyin": "Nǐ mǎi le duōshao shuǐguǒ?", "id": "Kamu membeli berapa buah?", "audio": "/static/audio/Nǐ mǎi le duōshao shuǐguǒ.mp3" },
+    { "cn": "这件衣服多少钱？", "pinyin": "Zhè jiàn yīfú duōshao qián?", "id": "Baju ini berapa harganya?", "audio": "/static/audio/Zhè jiàn yīfú duōshao qián.mp3" },
+    { "cn": "你吃了多少饭？", "pinyin": "Nǐ chī le duōshao fàn?", "id": "Kamu makan berapa banyak nasi?", "audio": "/static/audio/Nǐ chī le duōshao fàn.mp3" },
+    { "cn": "学校有多少教室？", "pinyin": "Xuéxiào yǒu duōshao jiàoshì?", "id": "Sekolah ini punya berapa kelas?", "audio": "/static/audio/Xuéxiào yǒu duōshao jiàoshì.mp3" },
+    { "cn": "你想买多少苹果？", "pinyin": "Nǐ xiǎng mǎi duōshao píngguǒ?", "id": "Kamu ingin beli berapa apel?", "audio": "/static/audio/Nǐ xiǎng mǎi duōshao píngguǒ.mp3" },
+    { "cn": "你每天睡多少小时？", "pinyin": "Nǐ měitiān shuì duōshao xiǎoshí?", "id": "Kamu tidur berapa jam sehari?", "audio": "/static/audio/Nǐ měitiān shuì duōshao xiǎoshí.mp3" }
+  ]
+}
+
   ]
 }
