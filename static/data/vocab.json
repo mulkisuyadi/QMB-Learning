@@ -115,95 +115,95 @@
   ]
 },
     {
-      "hanzi": "本",
-      "pinyin": "běn",
-      "arti": "Kata Satuan untuk Buku",
-      "audio": "ben.mp3",
-      "sentences": [
-        { "cn": "这是一本书。", "pinyin": "Zhè shì yì běn shū.", "id": "Ini sebuah buku." },
-        { "cn": "我有三本汉语书。", "pinyin": "Wǒ yǒu sān běn Hànyǔ shū.", "id": "Saya punya tiga buku bahasa Mandarin." },
-        { "cn": "桌子上有一本词典。", "pinyin": "Zhuōzi shàng yǒu yì běn cídiǎn.", "id": "Di atas meja ada sebuah kamus." },
-        { "cn": "这本书很好看。", "pinyin": "Zhè běn shū hěn hǎokàn.", "id": "Buku ini sangat bagus." },
-        { "cn": "那本书是谁的？", "pinyin": "Nà běn shū shì shéi de?", "id": "Buku itu milik siapa?" },
-        { "cn": "我想买一本中文书。", "pinyin": "Wǒ xiǎng mǎi yì běn Zhōngwén shū.", "id": "Saya ingin membeli sebuah buku bahasa Mandarin." },
-        { "cn": "我昨天看了一本小说。", "pinyin": "Wǒ zuótiān kànle yì běn xiǎoshuō.", "id": "Kemarin saya membaca sebuah novel." },
-        { "cn": "他送我一本英语书。", "pinyin": "Tā sòng wǒ yì běn Yīngyǔ shū.", "id": "Dia memberi saya sebuah buku bahasa Inggris." },
-        { "cn": "这本书是新的。", "pinyin": "Zhè běn shū shì xīn de.", "id": "Buku ini baru." },
-        { "cn": "你喜欢这本书吗？", "pinyin": "Nǐ xǐhuān zhè běn shū ma?", "id": "Apakah kamu suka buku ini?" }
-      ]
-    },
-    {
-      "hanzi": "不客气",
-      "pinyin": "bú kèqi",
-      "arti": "Sama-sama / You’re welcome",
-      "audio": "bu-keqi.mp3",
-      "sentences": [
-        { "cn": "谢谢你！——不客气。", "pinyin": "Xièxie nǐ! —— Bú kèqi.", "id": "Terima kasih! — Sama-sama." },
-        { "cn": "谢谢老师！——不客气。", "pinyin": "Xièxie lǎoshī! —— Bú kèqi.", "id": "Terima kasih, guru! — Sama-sama." },
-        { "cn": "谢谢你的帮助。——不客气。", "pinyin": "Xièxie nǐ de bāngzhù. —— Bú kèqi.", "id": "Terima kasih atas bantuanmu. — Sama-sama." },
-        { "cn": "谢谢你给我的书。——不客气。", "pinyin": "Xièxie nǐ gěi wǒ de shū. —— Bú kèqi.", "id": "Terima kasih sudah memberiku buku. — Sama-sama." },
-        { "cn": "谢谢你请我吃饭。——不客气。", "pinyin": "Xièxie nǐ qǐng wǒ chīfàn. —— Bú kèqi.", "id": "Terima kasih sudah mentraktir makan. — Sama-sama." },
-        { "cn": "谢谢你帮我做作业。——不客气。", "pinyin": "Xièxie nǐ bāng wǒ zuò zuòyè. —— Bú kèqi.", "id": "Terima kasih sudah membantuku mengerjakan PR. — Sama-sama." },
-        { "cn": "谢谢你送我的杯子。——不客气。", "pinyin": "Xièxie nǐ sòng wǒ de bēizi. —— Bú kèqi.", "id": "Terima kasih sudah memberiku gelas. — Sama-sama." },
-        { "cn": "谢谢你的电话。——不客气。", "pinyin": "Xièxie nǐ de diànhuà. —— Bú kèqi.", "id": "Terima kasih atas teleponmu. — Sama-sama." },
-        { "cn": "谢谢你今天来我家。——不客气。", "pinyin": "Xièxie nǐ jīntiān lái wǒ jiā. —— Bú kèqi.", "id": "Terima kasih sudah datang ke rumahku hari ini. — Sama-sama." },
-        { "cn": "谢谢你！——不客气，你也帮了我。", "pinyin": "Xièxie nǐ! —— Bú kèqi, nǐ yě bāng le wǒ.", "id": "Terima kasih! — Sama-sama, kamu juga sudah membantuku." }
-      ]
-    },
-    {
-      "hanzi": "不",
-      "pinyin": "bù",
-      "arti": "tidak / bukan",
-      "audio": "bu.mp3",
-      "sentences": [
-        { "cn": "我不是老师。", "pinyin": "Wǒ bú shì lǎoshī.", "id": "Saya bukan guru." },
-        { "cn": "他不在家。", "pinyin": "Tā bú zài jiā.", "id": "Dia tidak di rumah." },
-        { "cn": "我今天不去学校。", "pinyin": "Wǒ jīntiān bú qù xuéxiào.", "id": "Hari ini saya tidak pergi ke sekolah." },
-        { "cn": "这本书不好看。", "pinyin": "Zhè běn shū bù hǎokàn.", "id": "Buku ini tidak bagus." },
-        { "cn": "我不喜欢喝咖啡。", "pinyin": "Wǒ bù xǐhuān hē kāfēi.", "id": "Saya tidak suka minum kopi." },
-        { "cn": "那个杯子不是我的。", "pinyin": "Nàge bēizi bú shì wǒ de.", "id": "Gelas itu bukan milik saya." },
-        { "cn": "我不认识他。", "pinyin": "Wǒ bú rènshi tā.", "id": "Saya tidak kenal dia." },
-        { "cn": "今天不热。", "pinyin": "Jīntiān bú rè.", "id": "Hari ini tidak panas." },
-        { "cn": "我不想去北京。", "pinyin": "Wǒ bù xiǎng qù Běijīng.", "id": "Saya tidak ingin pergi ke Beijing." },
-        { "cn": "他不是中国人。", "pinyin": "Tā bú shì Zhōngguó rén.", "id": "Dia bukan orang Tiongkok." }
-      ]
-    },
-    {
-      "hanzi": "菜",
-      "pinyin": "cài",
-      "arti": "hidangan / masakan / sayur",
-      "audio": "cai.mp3",
-      "sentences": [
-        { "cn": "我喜欢中国菜。", "pinyin": "Wǒ xǐhuān Zhōngguó cài.", "id": "Saya suka masakan Tiongkok." },
-        { "cn": "这道菜很好吃。", "pinyin": "Zhè dào cài hěn hǎochī.", "id": "Hidangan ini sangat enak." },
-        { "cn": "你会做菜吗？", "pinyin": "Nǐ huì zuò cài ma?", "id": "Apakah kamu bisa memasak?" },
-        { "cn": "妈妈每天做很多菜。", "pinyin": "Māma měitiān zuò hěn duō cài.", "id": "Ibu setiap hari memasak banyak hidangan." },
-        { "cn": "这家饭馆的菜很便宜。", "pinyin": "Zhè jiā fànguǎn de cài hěn piányi.", "id": "Makanan di restoran ini sangat murah." },
-        { "cn": "我不喜欢辣的菜。", "pinyin": "Wǒ bù xǐhuān là de cài.", "id": "Saya tidak suka masakan pedas." },
-        { "cn": "桌子上有三盘菜。", "pinyin": "Zhuōzi shàng yǒu sān pán cài.", "id": "Di atas meja ada tiga piring hidangan." },
-        { "cn": "今天的菜很好吃。", "pinyin": "Jīntiān de cài hěn hǎochī.", "id": "Masakan hari ini sangat enak." },
-        { "cn": "你最喜欢什么菜？", "pinyin": "Nǐ zuì xǐhuān shénme cài?", "id": "Kamu paling suka masakan apa?" },
-        { "cn": "我点了两道菜和一碗米饭。", "pinyin": "Wǒ diǎnle liǎng dào cài hé yì wǎn mǐfàn.", "id": "Saya memesan dua hidangan dan semangkuk nasi." }
-      ]
-    },
-    {
-      "hanzi": "茶",
-      "pinyin": "chá",
-      "arti": "teh",
-      "audio": "cha.mp3",
-      "sentences": [
-        { "cn": "我喜欢喝茶。", "pinyin": "Wǒ xǐhuān hē chá.", "id": "Saya suka minum teh." },
-        { "cn": "中国人常常喝茶。", "pinyin": "Zhōngguó rén chángcháng hē chá.", "id": "Orang Tiongkok sering minum teh." },
-        { "cn": "这杯茶很热。", "pinyin": "Zhè bēi chá hěn rè.", "id": "Cangkir teh ini sangat panas." },
-        { "cn": "你要喝茶还是咖啡？", "pinyin": "Nǐ yào hē chá háishì kāfēi?", "id": "Kamu mau minum teh atau kopi?" },
-        { "cn": "我每天早上喝一杯茶。", "pinyin": "Wǒ měitiān zǎoshang hē yì bēi chá.", "id": "Saya setiap pagi minum segelas teh." },
-        { "cn": "茶在桌子上。", "pinyin": "Chá zài zhuōzi shàng.", "id": "Tehnya ada di atas meja." },
-        { "cn": "爸爸喜欢喝绿茶。", "pinyin": "Bàba xǐhuān hē lǜchá.", "id": "Ayah suka minum teh hijau." },
-        { "cn": "这家饭馆的茶很好喝。", "pinyin": "Zhè jiā fànguǎn de chá hěn hǎohē.", "id": "Teh di restoran ini sangat enak." },
-        { "cn": "我点了一杯茶和一些菜。", "pinyin": "Wǒ diǎnle yì bēi chá hé yìxiē cài.", "id": "Saya memesan secangkir teh dan beberapa hidangan." },
-        { "cn": "你喜欢喝热茶还是冷茶？", "pinyin": "Nǐ xǐhuān hē rè chá háishì lěng chá?", "id": "Kamu suka minum teh panas atau teh dingin?" }
-      ]
-    },
+  "hanzi": "本",
+  "pinyin": "běn",
+  "arti": "Kata Satuan untuk Buku",
+  "audio": "ben.mp3",
+  "sentences": [
+    { "cn": "这是一本书。", "pinyin": "Zhè shì yì běn shū.", "id": "Ini sebuah buku.", "audio": "/static/audio/Zhè shì yì běn shū.mp3" },
+    { "cn": "我有三本汉语书。", "pinyin": "Wǒ yǒu sān běn Hànyǔ shū.", "id": "Saya punya tiga buku bahasa Mandarin.", "audio": "/static/audio/Wǒ yǒu sān běn Hànyǔ shū.mp3" },
+    { "cn": "桌子上有一本词典。", "pinyin": "Zhuōzi shàng yǒu yì běn cídiǎn.", "id": "Di atas meja ada sebuah kamus.", "audio": "/static/audio/Zhuōzi shàng yǒu yì běn cídiǎn.mp3" },
+    { "cn": "这本书很好看。", "pinyin": "Zhè běn shū hěn hǎokàn.", "id": "Buku ini sangat bagus.", "audio": "/static/audio/Zhè běn shū hěn hǎokàn.mp3" },
+    { "cn": "那本书是谁的？", "pinyin": "Nà běn shū shì shéi de?", "id": "Buku itu milik siapa?", "audio": "/static/audio/Nà běn shū shì shéi de.mp3" },
+    { "cn": "我想买一本中文书。", "pinyin": "Wǒ xiǎng mǎi yì běn Zhōngwén shū.", "id": "Saya ingin membeli sebuah buku bahasa Mandarin.", "audio": "/static/audio/Wǒ xiǎng mǎi yì běn Zhōngwén shū.mp3" },
+    { "cn": "我昨天看了一本小说。", "pinyin": "Wǒ zuótiān kànle yì běn xiǎoshuō.", "id": "Kemarin saya membaca sebuah novel.", "audio": "/static/audio/Wǒ zuótiān kànle yì běn xiǎoshuō.mp3" },
+    { "cn": "他送我一本英语书。", "pinyin": "Tā sòng wǒ yì běn Yīngyǔ shū.", "id": "Dia memberi saya sebuah buku bahasa Inggris.", "audio": "/static/audio/Tā sòng wǒ yì běn Yīngyǔ shū.mp3" },
+    { "cn": "这本书是新的。", "pinyin": "Zhè běn shū shì xīn de.", "id": "Buku ini baru.", "audio": "/static/audio/Zhè běn shū shì xīn de.mp3" },
+    { "cn": "你喜欢这本书吗？", "pinyin": "Nǐ xǐhuān zhè běn shū ma?", "id": "Apakah kamu suka buku ini?", "audio": "/static/audio/Nǐ xǐhuān zhè běn shū ma.mp3" }
+  ]
+},
+{
+  "hanzi": "不客气",
+  "pinyin": "bú kèqi",
+  "arti": "Sama-sama / You’re welcome",
+  "audio": "bu-keqi.mp3",
+  "sentences": [
+    { "cn": "谢谢你！——不客气。", "pinyin": "Xièxie nǐ! —— Bú kèqi.", "id": "Terima kasih! — Sama-sama.", "audio": "/static/audio/Xièxie nǐ —— Bú kèqi.mp3" },
+    { "cn": "谢谢老师！——不客气。", "pinyin": "Xièxie lǎoshī! —— Bú kèqi.", "id": "Terima kasih, guru! — Sama-sama.", "audio": "/static/audio/Xièxie lǎoshī —— Bú kèqi.mp3" },
+    { "cn": "谢谢你的帮助。——不客气。", "pinyin": "Xièxie nǐ de bāngzhù. —— Bú kèqi.", "id": "Terima kasih atas bantuanmu. — Sama-sama.", "audio": "/static/audio/Xièxie nǐ de bāngzhù —— Bú kèqi.mp3" },
+    { "cn": "谢谢你给我的书。——不客气。", "pinyin": "Xièxie nǐ gěi wǒ de shū. —— Bú kèqi.", "id": "Terima kasih sudah memberiku buku. — Sama-sama.", "audio": "/static/audio/Xièxie nǐ gěi wǒ de shū —— Bú kèqi.mp3" },
+    { "cn": "谢谢你请我吃饭。——不客气。", "pinyin": "Xièxie nǐ qǐng wǒ chīfàn. —— Bú kèqi.", "id": "Terima kasih sudah mentraktir makan. — Sama-sama.", "audio": "/static/audio/Xièxie nǐ qǐng wǒ chīfàn —— Bú kèqi.mp3" },
+    { "cn": "谢谢你帮我做作业。——不客气。", "pinyin": "Xièxie nǐ bāng wǒ zuò zuòyè. —— Bú kèqi.", "id": "Terima kasih sudah membantuku mengerjakan PR. — Sama-sama.", "audio": "/static/audio/Xièxie nǐ bāng wǒ zuò zuòyè —— Bú kèqi.mp3" },
+    { "cn": "谢谢你送我的杯子。——不客气。", "pinyin": "Xièxie nǐ sòng wǒ de bēizi. —— Bú kèqi.", "id": "Terima kasih sudah memberiku gelas. — Sama-sama.", "audio": "/static/audio/Xièxie nǐ sòng wǒ de bēizi —— Bú kèqi.mp3" },
+    { "cn": "谢谢你的电话。——不客气。", "pinyin": "Xièxie nǐ de diànhuà. —— Bú kèqi.", "id": "Terima kasih atas teleponmu. — Sama-sama.", "audio": "/static/audio/Xièxie nǐ de diànhuà —— Bú kèqi.mp3" },
+    { "cn": "谢谢你今天来我家。——不客气。", "pinyin": "Xièxie nǐ jīntiān lái wǒ jiā. —— Bú kèqi.", "id": "Terima kasih sudah datang ke rumahku hari ini. — Sama-sama.", "audio": "/static/audio/Xièxie nǐ jīntiān lái wǒ jiā —— Bú kèqi.mp3" },
+    { "cn": "谢谢你！——不客气，你也帮了我。", "pinyin": "Xièxie nǐ! —— Bú kèqi, nǐ yě bāng le wǒ.", "id": "Terima kasih! — Sama-sama, kamu juga sudah membantuku.", "audio": "/static/audio/Xièxie nǐ —— Bú kèqi nǐ yě bāng le wǒ.mp3" }
+  ]
+},
+{
+  "hanzi": "不",
+  "pinyin": "bù",
+  "arti": "tidak / bukan",
+  "audio": "bu.mp3",
+  "sentences": [
+    { "cn": "我不是老师。", "pinyin": "Wǒ bú shì lǎoshī.", "id": "Saya bukan guru.", "audio": "/static/audio/Wǒ bú shì lǎoshī.mp3" },
+    { "cn": "他不在家。", "pinyin": "Tā bú zài jiā.", "id": "Dia tidak di rumah.", "audio": "/static/audio/Tā bú zài jiā.mp3" },
+    { "cn": "我今天不去学校。", "pinyin": "Wǒ jīntiān bú qù xuéxiào.", "id": "Hari ini saya tidak pergi ke sekolah.", "audio": "/static/audio/Wǒ jīntiān bú qù xuéxiào.mp3" },
+    { "cn": "这本书不好看。", "pinyin": "Zhè běn shū bù hǎokàn.", "id": "Buku ini tidak bagus.", "audio": "/static/audio/Zhè běn shū bù hǎokàn.mp3" },
+    { "cn": "我不喜欢喝咖啡。", "pinyin": "Wǒ bù xǐhuān hē kāfēi.", "id": "Saya tidak suka minum kopi.", "audio": "/static/audio/Wǒ bù xǐhuān hē kāfēi.mp3" },
+    { "cn": "那个杯子不是我的。", "pinyin": "Nàge bēizi bú shì wǒ de.", "id": "Gelas itu bukan milik saya.", "audio": "/static/audio/Nàge bēizi bú shì wǒ de.mp3" },
+    { "cn": "我不认识他。", "pinyin": "Wǒ bú rènshi tā.", "id": "Saya tidak kenal dia.", "audio": "/static/audio/Wǒ bú rènshi tā.mp3" },
+    { "cn": "今天不热。", "pinyin": "Jīntiān bú rè.", "id": "Hari ini tidak panas.", "audio": "/static/audio/Jīntiān bú rè.mp3" },
+    { "cn": "我不想去北京。", "pinyin": "Wǒ bù xiǎng qù Běijīng.", "id": "Saya tidak ingin pergi ke Beijing.", "audio": "/static/audio/Wǒ bù xiǎng qù Běijīng.mp3" },
+    { "cn": "他不是中国人。", "pinyin": "Tā bú shì Zhōngguó rén.", "id": "Dia bukan orang Tiongkok.", "audio": "/static/audio/Tā bú shì Zhōngguó rén.mp3" }
+  ]
+},
+{
+  "hanzi": "菜",
+  "pinyin": "cài",
+  "arti": "hidangan / masakan / sayur",
+  "audio": "cai.mp3",
+  "sentences": [
+    { "cn": "我喜欢中国菜。", "pinyin": "Wǒ xǐhuān Zhōngguó cài.", "id": "Saya suka masakan Tiongkok.", "audio": "/static/audio/Wǒ xǐhuān Zhōngguó cài.mp3" },
+    { "cn": "这道菜很好吃。", "pinyin": "Zhè dào cài hěn hǎochī.", "id": "Hidangan ini sangat enak.", "audio": "/static/audio/Zhè dào cài hěn hǎochī.mp3" },
+    { "cn": "你会做菜吗？", "pinyin": "Nǐ huì zuò cài ma?", "id": "Apakah kamu bisa memasak?", "audio": "/static/audio/Nǐ huì zuò cài ma.mp3" },
+    { "cn": "妈妈每天做很多菜。", "pinyin": "Māma měitiān zuò hěn duō cài.", "id": "Ibu setiap hari memasak banyak hidangan.", "audio": "/static/audio/Māma měitiān zuò hěn duō cài.mp3" },
+    { "cn": "这家饭馆的菜很便宜。", "pinyin": "Zhè jiā fànguǎn de cài hěn piányi.", "id": "Makanan di restoran ini sangat murah.", "audio": "/static/audio/Zhè jiā fànguǎn de cài hěn piányi.mp3" },
+    { "cn": "我不喜欢辣的菜。", "pinyin": "Wǒ bù xǐhuān là de cài.", "id": "Saya tidak suka masakan pedas.", "audio": "/static/audio/Wǒ bù xǐhuān là de cài.mp3" },
+    { "cn": "桌子上有三盘菜。", "pinyin": "Zhuōzi shàng yǒu sān pán cài.", "id": "Di atas meja ada tiga piring hidangan.", "audio": "/static/audio/Zhuōzi shàng yǒu sān pán cài.mp3" },
+    { "cn": "今天的菜很好吃。", "pinyin": "Jīntiān de cài hěn hǎochī.", "id": "Masakan hari ini sangat enak.", "audio": "/static/audio/Jīntiān de cài hěn hǎochī.mp3" },
+    { "cn": "你最喜欢什么菜？", "pinyin": "Nǐ zuì xǐhuān shénme cài?", "id": "Kamu paling suka masakan apa?", "audio": "/static/audio/Nǐ zuì xǐhuān shénme cài.mp3" },
+    { "cn": "我点了两道菜和一碗米饭。", "pinyin": "Wǒ diǎnle liǎng dào cài hé yì wǎn mǐfàn.", "id": "Saya memesan dua hidangan dan semangkuk nasi.", "audio": "/static/audio/Wǒ diǎnle liǎng dào cài hé yì wǎn mǐfàn.mp3" }
+  ]
+},
+{
+  "hanzi": "茶",
+  "pinyin": "chá",
+  "arti": "teh",
+  "audio": "cha.mp3",
+  "sentences": [
+    { "cn": "我喜欢喝茶。", "pinyin": "Wǒ xǐhuān hē chá.", "id": "Saya suka minum teh.", "audio": "/static/audio/Wǒ xǐhuān hē chá.mp3" },
+    { "cn": "中国人常常喝茶。", "pinyin": "Zhōngguó rén chángcháng hē chá.", "id": "Orang Tiongkok sering minum teh.", "audio": "/static/audio/Zhōngguó rén chángcháng hē chá.mp3" },
+    { "cn": "这杯茶很热。", "pinyin": "Zhè bēi chá hěn rè.", "id": "Cangkir teh ini sangat panas.", "audio": "/static/audio/Zhè bēi chá hěn rè.mp3" },
+    { "cn": "你要喝茶还是咖啡？", "pinyin": "Nǐ yào hē chá háishì kāfēi?", "id": "Kamu mau minum teh atau kopi?", "audio": "/static/audio/Nǐ yào hē chá háishì kāfēi.mp3" },
+    { "cn": "我每天早上喝一杯茶。", "pinyin": "Wǒ měitiān zǎoshang hē yì bēi chá.", "id": "Saya setiap pagi minum segelas teh.", "audio": "/static/audio/Wǒ měitiān zǎoshang hē yì bēi chá.mp3" },
+    { "cn": "茶在桌子上。", "pinyin": "Chá zài zhuōzi shàng.", "id": "Tehnya ada di atas meja.", "audio": "/static/audio/Chá zài zhuōzi shàng.mp3" },
+    { "cn": "爸爸喜欢喝绿茶。", "pinyin": "Bàba xǐhuān hē lǜchá.", "id": "Ayah suka minum teh hijau.", "audio": "/static/audio/Bàba xǐhuān hē lǜchá.mp3" },
+    { "cn": "这家饭馆的茶很好喝。", "pinyin": "Zhè jiā fànguǎn de chá hěn hǎohē.", "id": "Teh di restoran ini sangat enak.", "audio": "/static/audio/Zhè jiā fànguǎn de chá hěn hǎohē.mp3" },
+    { "cn": "我点了一杯茶和一些菜。", "pinyin": "Wǒ diǎnle yì bēi chá hé yìxiē cài.", "id": "Saya memesan secangkir teh dan beberapa hidangan.", "audio": "/static/audio/Wǒ diǎnle yì bēi chá hé yìxiē cài.mp3" },
+    { "cn": "你喜欢喝热茶还是冷茶？", "pinyin": "Nǐ xǐhuān hē rè chá háishì lěng chá?", "id": "Kamu suka minum teh panas atau teh dingin?", "audio": "/static/audio/Nǐ xǐhuān hē rè chá háishì lěng chá.mp3" }
+  ]
+},
     {
       "hanzi": "吃",
       "pinyin": "chī",
