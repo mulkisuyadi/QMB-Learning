@@ -418,203 +418,235 @@
 ],
     "week3": [
       {
-        "hanzi": "计量撬",
-        "pinyin": "jì liàng qiào",
-        "arti": "Skid Pengukuran",
-        "audio": "/static/jiliangqiao.mp3",
-        "sentences": [
-          {
-            "cn": "计量撬正在工作。",
-            "pinyin": "Jìliàngqiào zhèngzài gōngzuò.",
-            "id": "Skid pengukuran sedang bekerja."
-          },
-          {
-            "cn": "我们检查了计量撬。",
-            "pinyin": "Wǒmen jiǎnchá le jìliàngqiào.",
-            "id": "Kami memeriksa skid pengukuran."
-          }
-        ]
+    "hanzi": "计量撬",
+    "pinyin": "jì liàng qiào",
+    "arti": "Skid Pengukuran",
+    "audio": "/static/audio/jì liàng qiào.mp3",
+    "sentences": [
+      {
+        "cn": "计量撬正在工作。",
+        "pinyin": "Jìliàngqiào zhèngzài gōngzuò.",
+        "id": "Skid pengukuran sedang bekerja.",
+        "audio": "/static/audio/Jìliàngqiào zhèngzài gōngzuò.mp3"
       },
       {
-        "hanzi": "模温机",
-        "pinyin": "mó wēn jī",
-        "arti": "Mesin Pengatur Suhu Cetakan",
-        "audio": "/static/mowenji.mp3",
-        "sentences": [
-          {
-            "cn": "模温机开着吗？",
-            "pinyin": "Mówēnjī kāizhe ma?",
-            "id": "Apakah mesin pengatur suhu cetakan menyala?"
-          },
-          {
-            "cn": "模温机很重要。",
-            "pinyin": "Mówēnjī hěn zhòngyào.",
-            "id": "Mesin pengatur suhu cetakan sangat penting."
-          }
-        ]
-      },
-      {
-        "hanzi": "搅拌器",
-        "pinyin": "jiǎo bàn qì",
-        "arti": "Mixer / Pengaduk",
-        "audio": "/static/jiaobanqi.mp3",
-        "sentences": [
-          {
-            "cn": "搅拌器在转动。",
-            "pinyin": "Jiǎobànqì zài zhuǎndòng.",
-            "id": "Mixer sedang berputar."
-          },
-          {
-            "cn": "请关掉搅拌器。",
-            "pinyin": "Qǐng guāndiào jiǎobànqì.",
-            "id": "Tolong matikan mixer."
-          }
-        ]
-      },
-      {
-        "hanzi": "冷却机",
-        "pinyin": "lěng què jī",
-        "arti": "Mesin Pendingin",
-        "audio": "/static/lengqueji.mp3",
-        "sentences": [
-          {
-            "cn": "冷却机坏了。",
-            "pinyin": "Lěngquèjī huài le.",
-            "id": "Mesin pendingin rusak."
-          },
-          {
-            "cn": "我们需要新的冷却机。",
-            "pinyin": "Wǒmen xūyào xīn de lěngquèjī.",
-            "id": "Kami membutuhkan mesin pendingin baru."
-          }
-        ]
-      },
-      {
-        "hanzi": "测氧仪",
-        "pinyin": "cè yǎng yí",
-        "arti": "Oksigen Analyzer",
-        "audio": "/static/ceyangyi.mp3",
-        "sentences": [
-          {
-            "cn": "测氧仪显示正常。",
-            "pinyin": "Cèyǎngyí xiǎnshì zhèngcháng.",
-            "id": "Oksigen analyzer menunjukkan normal."
-          },
-          {
-            "cn": "请校准测氧仪。",
-            "pinyin": "Qǐng jiàozhǔn cèyǎngyí.",
-            "id": "Tolong kalibrasi oksigen analyzer."
-          }
-        ]
-      },
-      {
-        "hanzi": "投料",
-        "pinyin": "tóu liào",
-        "arti": "Menambahkan bahan / feeding material",
-        "audio": "/static/touliu.mp3",
-        "sentences": [
-          {
-            "cn": "工人正在投料。",
-            "pinyin": "Gōngrén zhèngzài tóuliào.",
-            "id": "Pekerja sedang menambahkan bahan."
-          },
-          {
-            "cn": "投料要小心。",
-            "pinyin": "Tóuliào yào xiǎoxīn.",
-            "id": "Harus hati-hati saat menambahkan bahan."
-          }
-        ]
-      },
-      {
-        "hanzi": "洗涤",
-        "pinyin": "xǐ dí",
-        "arti": "Mencuci / Washing",
-        "audio": "/static/xidi.mp3",
-        "sentences": [
-          {
-            "cn": "洗涤衣服要用水。",
-            "pinyin": "Xǐdí yīfu yào yòng shuǐ.",
-            "id": "Mencuci baju harus pakai air."
-          },
-          {
-            "cn": "请完成洗涤工作。",
-            "pinyin": "Qǐng wánchéng xǐdí gōngzuò.",
-            "id": "Tolong selesaikan pekerjaan mencuci."
-          }
-        ]
-      },
-      {
-        "hanzi": "休息",
-        "pinyin": "xiū xi",
-        "arti": "Istirahat",
-        "audio": "/static/xiuxi.mp3",
-        "sentences": [
-          {
-            "cn": "我们休息一下吧。",
-            "pinyin": "Wǒmen xiūxi yíxià ba.",
-            "id": "Mari kita istirahat sebentar."
-          },
-          {
-            "cn": "你需要休息。",
-            "pinyin": "Nǐ xūyào xiūxi.",
-            "id": "Kamu perlu istirahat."
-          }
-        ]
-      },
-      {
-        "hanzi": "加油",
-        "pinyin": "jiā yóu",
-        "arti": "Semangat / Isi bensin",
-        "audio": "/static/jiayou.mp3",
-        "sentences": [
-          {
-            "cn": "比赛加油！",
-            "pinyin": "Bǐsài jiāyóu!",
-            "id": "Semangat untuk pertandingan!"
-          },
-          {
-            "cn": "我去加油站加油。",
-            "pinyin": "Wǒ qù jiāyóu zhàn jiāyóu.",
-            "id": "Saya pergi ke pom bensin untuk isi bensin."
-          }
-        ]
-      },
-      {
-        "hanzi": "再见",
-        "pinyin": "zài jiàn",
-        "arti": "Sampai jumpa",
-        "audio": "/static/zaijian.mp3",
-        "sentences": [
-          {
-            "cn": "老师，再见！",
-            "pinyin": "Lǎoshī, zàijiàn!",
-            "id": "Guru, sampai jumpa!"
-          },
-          {
-            "cn": "明天见，再见！",
-            "pinyin": "Míngtiān jiàn, zàijiàn!",
-            "id": "Sampai besok, sampai jumpa!"
-          }
-        ]
-      },
-      {
-        "hanzi": "你完成了吗？",
-        "pinyin": "Nǐ wánchéng le ma?",
-        "arti": "Apakah kamu sudah selesai?",
-        "audio": "/static/niwanchenglema.mp3",
-        "sentences": [
-          {
-            "cn": "你完成了吗？",
-            "pinyin": "Nǐ wánchéng le ma?",
-            "id": "Apakah kamu sudah selesai?"
-          },
-          {
-            "cn": "作业你完成了吗？",
-            "pinyin": "Zuòyè nǐ wánchéng le ma?",
-            "id": "PR kamu sudah selesai?"
-          }
-        ]
+        "cn": "我们检查了计量撬。",
+        "pinyin": "Wǒmen jiǎnchá le jìliàngqiào.",
+        "id": "Kami memeriksa skid pengukuran.",
+        "audio": "/static/audio/Wǒmen jiǎnchá le jìliàngqiào.mp3"
       }
+    ]
+  },
+
+  {
+    "hanzi": "模温机",
+    "pinyin": "mó wēn jī",
+    "arti": "Mesin Pengatur Suhu Cetakan",
+    "audio": "/static/audio/mó wēn jī.mp3",
+    "sentences": [
+      {
+        "cn": "模温机开着吗？",
+        "pinyin": "Mówēnjī kāizhe ma?",
+        "id": "Apakah mesin pengatur suhu cetakan menyala?",
+        "audio": "/static/audio/Mówēnjī kāizhe ma.mp3"
+      },
+      {
+        "cn": "模温机很重要。",
+        "pinyin": "Mówēnjī hěn zhòngyào.",
+        "id": "Mesin pengatur suhu cetakan sangat penting.",
+        "audio": "/static/audio/Mówēnjī hěn zhòngyào.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "搅拌器",
+    "pinyin": "jiǎo bàn qì",
+    "arti": "Mixer / Pengaduk",
+    "audio": "/static/audio/jiǎo bàn qì.mp3",
+    "sentences": [
+      {
+        "cn": "搅拌器在转动。",
+        "pinyin": "Jiǎobànqì zài zhuǎndòng.",
+        "id": "Mixer sedang berputar.",
+        "audio": "/static/audio/Jiǎobànqì zài zhuǎndòng.mp3"
+      },
+      {
+        "cn": "请关掉搅拌器。",
+        "pinyin": "Qǐng guāndiào jiǎobànqì.",
+        "id": "Tolong matikan mixer.",
+        "audio": "/static/audio/Qǐng guāndiào jiǎobànqì.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "冷却机",
+    "pinyin": "lěng què jī",
+    "arti": "Mesin Pendingin",
+    "audio": "/static/audio/lěng què jī.mp3",
+    "sentences": [
+      {
+        "cn": "冷却机坏了。",
+        "pinyin": "Lěngquèjī huài le.",
+        "id": "Mesin pendingin rusak.",
+        "audio": "/static/audio/Lěngquèjī huài le.mp3"
+      },
+      {
+        "cn": "我们需要新的冷却机。",
+        "pinyin": "Wǒmen xūyào xīn de lěngquèjī.",
+        "id": "Kami membutuhkan mesin pendingin baru.",
+        "audio": "/static/audio/Wǒmen xūyào xīn de lěngquèjī.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "测氧仪",
+    "pinyin": "cè yǎng yí",
+    "arti": "Oksigen Analyzer",
+    "audio": "/static/audio/cè yǎng yí.mp3",
+    "sentences": [
+      {
+        "cn": "测氧仪显示正常。",
+        "pinyin": "Cèyǎngyí xiǎnshì zhèngcháng.",
+        "id": "Oksigen analyzer menunjukkan normal.",
+        "audio": "/static/audio/Cèyǎngyí xiǎnshì zhèngcháng.mp3"
+      },
+      {
+        "cn": "请校准测氧仪。",
+        "pinyin": "Qǐng jiàozhǔn cèyǎngyí.",
+        "id": "Tolong kalibrasi oksigen analyzer.",
+        "audio": "/static/audio/Qǐng jiàozhǔn cèyǎngyí.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "投料",
+    "pinyin": "tóu liào",
+    "arti": "Menambahkan bahan / feeding material",
+    "audio": "/static/audio/tóu liào.mp3",
+    "sentences": [
+      {
+        "cn": "工人正在投料。",
+        "pinyin": "Gōngrén zhèngzài tóuliào.",
+        "id": "Pekerja sedang menambahkan bahan.",
+        "audio": "/static/audio/Gōngrén zhèngzài tóuliào.mp3"
+      },
+      {
+        "cn": "投料要小心。",
+        "pinyin": "Tóuliào yào xiǎoxīn.",
+        "id": "Harus hati-hati saat menambahkan bahan.",
+        "audio": "/static/audio/Tóuliào yào xiǎoxīn.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "洗涤",
+    "pinyin": "xǐ dí",
+    "arti": "Mencuci / Washing",
+    "audio": "/static/audio/xǐ dí.mp3",
+    "sentences": [
+      {
+        "cn": "洗涤衣服要用水。",
+        "pinyin": "Xǐdí yīfu yào yòng shuǐ.",
+        "id": "Mencuci baju harus pakai air.",
+        "audio": "/static/audio/Xǐdí yīfu yào yòng shuǐ.mp3"
+      },
+      {
+        "cn": "请完成洗涤工作。",
+        "pinyin": "Qǐng wánchéng xǐdí gōngzuò.",
+        "id": "Tolong selesaikan pekerjaan mencuci.",
+        "audio": "/static/audio/Qǐng wánchéng xǐdí gōngzuò.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "休息",
+    "pinyin": "xiū xi",
+    "arti": "Istirahat",
+    "audio": "/static/audio/xiū xi.mp3",
+    "sentences": [
+      {
+        "cn": "我们休息一下吧。",
+        "pinyin": "Wǒmen xiūxi yíxià ba.",
+        "id": "Mari kita istirahat sebentar.",
+        "audio": "/static/audio/Wǒmen xiūxi yíxià ba.mp3"
+      },
+      {
+        "cn": "你需要休息。",
+        "pinyin": "Nǐ xūyào xiūxi.",
+        "id": "Kamu perlu istirahat.",
+        "audio": "/static/audio/Nǐ xūyào xiūxi.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "加油",
+    "pinyin": "jiā yóu",
+    "arti": "Semangat / Isi bensin",
+    "audio": "/static/audio/jiā yóu.mp3",
+    "sentences": [
+      {
+        "cn": "比赛加油！",
+        "pinyin": "Bǐsài jiāyóu!",
+        "id": "Semangat untuk pertandingan!",
+        "audio": "/static/audio/Bǐsài jiāyóu.mp3"
+      },
+      {
+        "cn": "我去加油站加油。",
+        "pinyin": "Wǒ qù jiāyóu zhàn jiāyóu.",
+        "id": "Saya pergi ke pom bensin untuk isi bensin.",
+        "audio": "/static/audio/Wǒ qù jiāyóu zhàn jiāyóu.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "再见",
+    "pinyin": "zài jiàn",
+    "arti": "Sampai jumpa",
+    "audio": "/static/audio/zài jiàn.mp3",
+    "sentences": [
+      {
+        "cn": "老师，再见！",
+        "pinyin": "Lǎoshī, zàijiàn!",
+        "id": "Guru, sampai jumpa!",
+        "audio": "/static/audio/Lǎoshī, zàijiàn.mp3"
+      },
+      {
+        "cn": "明天见，再见！",
+        "pinyin": "Míngtiān jiàn, zàijiàn!",
+        "id": "Sampai besok, sampai jumpa!",
+        "audio": "/static/audio/Míngtiān jiàn, zàijiàn.mp3"
+      }
+    ]
+  },
+
+  {
+    "hanzi": "你完成了吗？",
+    "pinyin": "Nǐ wánchéng le ma?",
+    "arti": "Apakah kamu sudah selesai?",
+    "audio": "/static/audio/Nǐ wánchéng le ma.mp3",
+    "sentences": [
+      {
+        "cn": "你完成了吗？",
+        "pinyin": "Nǐ wánchéng le ma?",
+        "id": "Apakah kamu sudah selesai?",
+        "audio": "/static/audio/Nǐ wánchéng le ma.mp3"
+      },
+      {
+        "cn": "作业你完成了吗？",
+        "pinyin": "Zuòyè nǐ wánchéng le ma?",
+        "id": "PR kamu sudah selesai?",
+        "audio": "/static/audio/Zuòyè nǐ wánchéng le ma.mp3"
+      }
+    ]
+  }
     ],
     "week4": [
       {
