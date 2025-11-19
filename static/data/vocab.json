@@ -205,131 +205,138 @@
   ]
 },
     {
-      "hanzi": "吃",
-      "pinyin": "chī",
-      "arti": "makan",
-      "audio": "chi.mp3",
-      "sentences": [
-        { "cn": "我喜欢吃米饭。", "pinyin": "Wǒ xǐhuān chī mǐfàn.", "id": "Saya suka makan nasi." },
-        { "cn": "他们在吃中国菜。", "pinyin": "Tāmen zài chī Zhōngguó cài.", "id": "Mereka sedang makan masakan Tiongkok." },
-        { "cn": "我们一起吃饭吧。", "pinyin": "Wǒmen yìqǐ chīfàn ba.", "id": "Mari kita makan bersama." },
-        { "cn": "你吃不吃面包？", "pinyin": "Nǐ chī bù chī miànbāo?", "id": "Apakah kamu makan roti?" },
-        { "cn": "中午我吃面条。", "pinyin": "Zhōngwǔ wǒ chī miàntiáo.", "id": "Siang hari saya makan mi." },
-        { "cn": "他们喜欢吃水果。", "pinyin": "Tāmen xǐhuān chī shuǐguǒ.", "id": "Mereka suka makan buah." },
-        { "cn": "我们常常在家吃饭。", "pinyin": "Wǒmen chángcháng zài jiā chīfàn.", "id": "Kami sering makan di rumah." },
-        { "cn": "今天晚上我想吃鱼。", "pinyin": "Jīntiān wǎnshang wǒ xiǎng chī yú.", "id": "Malam ini saya ingin makan ikan." },
-        { "cn": "他不吃肉，只吃菜。", "pinyin": "Tā bù chī ròu, zhǐ chī cài.", "id": "Dia tidak makan daging, hanya makan sayur." },
-        { "cn": "我们在学校吃午饭。", "pinyin": "Wǒmen zài xuéxiào chī wǔfàn.", "id": "Kami makan siang di sekolah." }
-      ]
-    },
+  "hanzi": "吃",
+  "pinyin": "chī",
+  "arti": "makan",
+  "audio": "chi.mp3",
+  "sentences": [
+    { "cn": "我喜欢吃米饭。", "pinyin": "Wǒ xǐhuān chī mǐfàn.", "id": "Saya suka makan nasi.", "audio": "/static/audio/Wǒ xǐhuān chī mǐfàn.mp3" },
+    { "cn": "他们在吃中国菜。", "pinyin": "Tāmen zài chī Zhōngguó cài.", "id": "Mereka sedang makan masakan Tiongkok.", "audio": "/static/audio/Tāmen zài chī Zhōngguó cài.mp3" },
+    { "cn": "我们一起吃饭吧。", "pinyin": "Wǒmen yìqǐ chīfàn ba.", "id": "Mari kita makan bersama.", "audio": "/static/audio/Wǒmen yìqǐ chīfàn ba.mp3" },
+    { "cn": "你吃不吃面包？", "pinyin": "Nǐ chī bù chī miànbāo?", "id": "Apakah kamu makan roti?", "audio": "/static/audio/Nǐ chī bù chī miànbāo.mp3" },
+    { "cn": "中午我吃面条。", "pinyin": "Zhōngwǔ wǒ chī miàntiáo.", "id": "Siang hari saya makan mi.", "audio": "/static/audio/Zhōngwǔ wǒ chī miàntiáo.mp3" },
+    { "cn": "他们喜欢吃水果。", "pinyin": "Tāmen xǐhuān chī shuǐguǒ.", "id": "Mereka suka makan buah.", "audio": "/static/audio/Tāmen xǐhuān chī shuǐguǒ.mp3" },
+    { "cn": "我们常常在家吃饭。", "pinyin": "Wǒmen chángcháng zài jiā chīfàn.", "id": "Kami sering makan di rumah.", "audio": "/static/audio/Wǒmen chángcháng zài jiā chīfàn.mp3" },
+    { "cn": "今天晚上我想吃鱼。", "pinyin": "Jīntiān wǎnshang wǒ xiǎng chī yú.", "id": "Malam ini saya ingin makan ikan.", "audio": "/static/audio/Jīntiān wǎnshang wǒ xiǎng chī yú.mp3" },
+    { "cn": "他不吃肉，只吃菜。", "pinyin": "Tā bù chī ròu, zhǐ chī cài.", "id": "Dia tidak makan daging, hanya makan sayur.", "audio": "/static/audio/Tā bù chī ròu, zhǐ chī cài.mp3" },
+    { "cn": "我们在学校吃午饭。", "pinyin": "Wǒmen zài xuéxiào chī wǔfàn.", "id": "Kami makan siang di sekolah.", "audio": "/static/audio/Wǒmen zài xuéxiào chī wǔfàn.mp3" }
+  ]
+}
+,
     {
-      "hanzi": "出租车",
-      "pinyin": "chūzūchē",
-      "arti": "taksi",
-      "audio": "chuzuche.mp3",
-      "sentences": [
-        { "cn": "我们坐出租车去机场。", "pinyin": "Wǒmen zuò chūzūchē qù jīchǎng.", "id": "Kami naik taksi ke bandara." },
-        { "cn": "他在路口等出租车。", "pinyin": "Tā zài lùkǒu děng chūzūchē.", "id": "Dia menunggu taksi di persimpangan jalan." },
-        { "cn": "我想打一个出租车去火车站。", "pinyin": "Wǒ xiǎng dǎ yí gè chūzūchē qù huǒchēzhàn.", "id": "Saya ingin memanggil taksi untuk pergi ke stasiun kereta." },
-        { "cn": "出租车来了，我们快上车吧。", "pinyin": "Chūzūchē lái le, wǒmen kuài shàngchē ba.", "id": "Taksi sudah datang, ayo cepat naik." },
-        { "cn": "今天下雨，我打出租车回家。", "pinyin": "Jīntiān xiàyǔ, wǒ dǎ chūzūchē huí jiā.", "id": "Hari ini hujan, saya naik taksi pulang ke rumah." },
-        { "cn": "在北京，出租车很多。", "pinyin": "Zài Běijīng, chūzūchē hěn duō.", "id": "Di Beijing, ada banyak taksi." },
-        { "cn": "他们坐出租车去看电影。", "pinyin": "Tāmen zuò chūzūchē qù kàn diànyǐng.", "id": "Mereka naik taksi untuk menonton film." },
-        { "cn": "你打出租车还是坐公交车？", "pinyin": "Nǐ dǎ chūzūchē háishì zuò gōngjiāochē?", "id": "Kamu naik taksi atau bus?" },
-        { "cn": "我爸爸常常坐出租车上班。", "pinyin": "Wǒ bàba chángcháng zuò chūzūchē shàngbān.", "id": "Ayah saya sering naik taksi untuk bekerja." },
-        { "cn": "那个出租车司机很好。", "pinyin": "Nà gè chūzūchē sījī hěn hǎo.", "id": "Sopir taksi itu sangat baik." }
-      ]
-    },
+  "hanzi": "出租车",
+  "pinyin": "chūzūchē",
+  "arti": "taksi",
+  "audio": "chuzuche.mp3",
+  "sentences": [
+    { "cn": "我们坐出租车去机场。", "pinyin": "Wǒmen zuò chūzūchē qù jīchǎng.", "id": "Kami naik taksi ke bandara.", "audio": "/static/audio/Wǒmen zuò chūzūchē qù jīchǎng.mp3" },
+    { "cn": "他在路口等出租车。", "pinyin": "Tā zài lùkǒu děng chūzūchē.", "id": "Dia menunggu taksi di persimpangan jalan.", "audio": "/static/audio/Tā zài lùkǒu děng chūzūchē.mp3" },
+    { "cn": "我想打一个出租车去火车站。", "pinyin": "Wǒ xiǎng dǎ yí gè chūzūchē qù huǒchēzhàn.", "id": "Saya ingin memanggil taksi untuk pergi ke stasiun kereta.", "audio": "/static/audio/Wǒ xiǎng dǎ yí gè chūzūchē qù huǒchēzhàn.mp3" },
+    { "cn": "出租车来了，我们快上车吧。", "pinyin": "Chūzūchē lái le, wǒmen kuài shàngchē ba.", "id": "Taksi sudah datang, ayo cepat naik.", "audio": "/static/audio/Chūzūchē lái le, wǒmen kuài shàngchē ba.mp3" },
+    { "cn": "今天下雨，我打出租车回家。", "pinyin": "Jīntiān xiàyǔ, wǒ dǎ chūzūchē huí jiā.", "id": "Hari ini hujan, saya naik taksi pulang ke rumah.", "audio": "/static/audio/Jīntiān xiàyǔ, wǒ dǎ chūzūchē huí jiā.mp3" },
+    { "cn": "在北京，出租车很多。", "pinyin": "Zài Běijīng, chūzūchē hěn duō.", "id": "Di Beijing, ada banyak taksi.", "audio": "/static/audio/Zài Běijīng, chūzūchē hěn duō.mp3" },
+    { "cn": "他们坐出租车去看电影。", "pinyin": "Tāmen zuò chūzūchē qù kàn diànyǐng.", "id": "Mereka naik taksi untuk menonton film.", "audio": "/static/audio/Tāmen zuò chūzūchē qù kàn diànyǐng.mp3" },
+    { "cn": "你打出租车还是坐公交车？", "pinyin": "Nǐ dǎ chūzūchē háishì zuò gōngjiāochē?", "id": "Kamu naik taksi atau bus?", "audio": "/static/audio/Nǐ dǎ chūzūchē háishì zuò gōngjiāochē.mp3" },
+    { "cn": "我爸爸常常坐出租车上班。", "pinyin": "Wǒ bàba chángcháng zuò chūzūchē shàngbān.", "id": "Ayah saya sering naik taksi untuk bekerja.", "audio": "/static/audio/Wǒ bàba chángcháng zuò chūzūchē shàngbān.mp3" },
+    { "cn": "那个出租车司机很好。", "pinyin": "Nà gè chūzūchē sījī hěn hǎo.", "id": "Sopir taksi itu sangat baik.", "audio": "/static/audio/Nà gè chūzūchē sījī hěn hǎo.mp3" }
+  ]
+}
+,
     {
-      "hanzi": "打电话",
-      "pinyin": "dǎ diànhuà",
-      "arti": "menelepon",
-      "audio": "dadianhua.mp3",
-      "sentences": [
-        { "cn": "我晚上给妈妈打电话。", "pinyin": "Wǒ wǎnshang gěi māma dǎ diànhuà.", "id": "Saya menelpon ibu pada malam hari." },
-        { "cn": "你可以给老师打电话吗？", "pinyin": "Nǐ kěyǐ gěi lǎoshī dǎ diànhuà ma?", "id": "Bisakah kamu menelpon guru?" },
-        { "cn": "她在办公室打电话。", "pinyin": "Tā zài bàngōngshì dǎ diànhuà.", "id": "Dia sedang menelpon di kantor." },
-        { "cn": "我明天打电话给朋友。", "pinyin": "Wǒ míngtiān dǎ diànhuà gěi péngyou.", "id": "Saya akan menelpon teman besok." },
-        { "cn": "爸爸在家打电话。", "pinyin": "Bàba zài jiā dǎ diànhuà.", "id": "Ayah sedang menelpon di rumah." },
-        { "cn": "他常常晚上打电话。", "pinyin": "Tā chángcháng wǎnshang dǎ diànhuà.", "id": "Dia sering menelpon pada malam hari." },
-        { "cn": "请你现在打电话给他。", "pinyin": "Qǐng nǐ xiànzài dǎ diànhuà gěi tā.", "id": "Tolong sekarang kamu menelpon dia." },
-        { "cn": "我打电话问老师一个问题。", "pinyin": "Wǒ dǎ diànhuà wèn lǎoshī yí gè wèntí.", "id": "Saya menelpon guru untuk bertanya satu pertanyaan." },
-        { "cn": "他们正在打电话。", "pinyin": "Tāmen zhèngzài dǎ diànhuà.", "id": "Mereka sedang menelpon." },
-        { "cn": "你为什么不给我打电话？", "pinyin": "Nǐ wèishénme bù gěi wǒ dǎ diànhuà?", "id": "Mengapa kamu tidak menelpon saya?" }
-      ]
-    },
+  "hanzi": "打电话",
+  "pinyin": "dǎ diànhuà",
+  "arti": "menelepon",
+  "audio": "dadianhua.mp3",
+  "sentences": [
+    { "cn": "我晚上给妈妈打电话。", "pinyin": "Wǒ wǎnshang gěi māma dǎ diànhuà.", "id": "Saya menelpon ibu pada malam hari.", "audio": "/static/audio/Wǒ wǎnshang gěi māma dǎ diànhuà.mp3" },
+    { "cn": "你可以给老师打电话吗？", "pinyin": "Nǐ kěyǐ gěi lǎoshī dǎ diànhuà ma?", "id": "Bisakah kamu menelpon guru?", "audio": "/static/audio/Nǐ kěyǐ gěi lǎoshī dǎ diànhuà ma.mp3" },
+    { "cn": "她在办公室打电话。", "pinyin": "Tā zài bàngōngshì dǎ diànhuà.", "id": "Dia sedang menelpon di kantor.", "audio": "/static/audio/Tā zài bàngōngshì dǎ diànhuà.mp3" },
+    { "cn": "我明天打电话给朋友。", "pinyin": "Wǒ míngtiān dǎ diànhuà gěi péngyou.", "id": "Saya akan menelpon teman besok.", "audio": "/static/audio/Wǒ míngtiān dǎ diànhuà gěi péngyou.mp3" },
+    { "cn": "爸爸在家打电话。", "pinyin": "Bàba zài jiā dǎ diànhuà.", "id": "Ayah sedang menelpon di rumah.", "audio": "/static/audio/Bàba zài jiā dǎ diànhuà.mp3" },
+    { "cn": "他常常晚上打电话。", "pinyin": "Tā chángcháng wǎnshang dǎ diànhuà.", "id": "Dia sering menelpon pada malam hari.", "audio": "/static/audio/Tā chángcháng wǎnshang dǎ diànhuà.mp3" },
+    { "cn": "请你现在打电话给他。", "pinyin": "Qǐng nǐ xiànzài dǎ diànhuà gěi tā.", "id": "Tolong sekarang kamu menelpon dia.", "audio": "/static/audio/Qǐng nǐ xiànzài dǎ diànhuà gěi tā.mp3" },
+    { "cn": "我打电话问老师一个问题。", "pinyin": "Wǒ dǎ diànhuà wèn lǎoshī yí gè wèntí.", "id": "Saya menelpon guru untuk bertanya satu pertanyaan.", "audio": "/static/audio/Wǒ dǎ diànhuà wèn lǎoshī yí gè wèntí.mp3" },
+    { "cn": "他们正在打电话。", "pinyin": "Tāmen zhèngzài dǎ diànhuà.", "id": "Mereka sedang menelpon.", "audio": "/static/audio/Tāmen zhèngzài dǎ diànhuà.mp3" },
+    { "cn": "你为什么不给我打电话？", "pinyin": "Nǐ wèishénme bù gěi wǒ dǎ diànhuà?", "id": "Mengapa kamu tidak menelpon saya?", "audio": "/static/audio/Nǐ wèishénme bù gěi wǒ dǎ diànhuà.mp3" }
+  ]
+}
+,
     {
-      "hanzi": "大",
-      "pinyin": "dà",
-      "arti": "besar",
-      "audio": "da.mp3",
-      "sentences": [
-        { "cn": "我的家很大。", "pinyin": "Wǒ de jiā hěn dà.", "id": "Rumah saya sangat besar." },
-        { "cn": "这本书很大。", "pinyin": "Zhè běn shū hěn dà.", "id": "Buku ini sangat besar." },
-        { "cn": "你们的教室很大。", "pinyin": "Nǐmen de jiàoshì hěn dà.", "id": "Ruang kelas kalian sangat besar." },
-        { "cn": "北京是一个大城市。", "pinyin": "Běijīng shì yí gè dà chéngshì.", "id": "Beijing adalah sebuah kota besar." },
-        { "cn": "这个苹果太大了。", "pinyin": "Zhè gè píngguǒ tài dà le.", "id": "Apel ini terlalu besar." },
-        { "cn": "我哥哥很大，他二十岁。", "pinyin": "Wǒ gēge hěn dà, tā èrshí suì.", "id": "Kakak laki-laki saya sudah besar, dia berumur dua puluh tahun." },
-        { "cn": "大山很漂亮。", "pinyin": "Dà shān hěn piàoliang.", "id": "Gunung besar itu sangat indah." },
-        { "cn": "小猫不大。", "pinyin": "Xiǎo māo bú dà.", "id": "Kucing kecil itu tidak besar." },
-        { "cn": "这个房间比那个房间大。", "pinyin": "Zhè gè fángjiān bǐ nà gè fángjiān dà.", "id": "Ruangan ini lebih besar daripada ruangan itu." },
-        { "cn": "今天的月亮很大。", "pinyin": "Jīntiān de yuèliang hěn dà.", "id": "Bulan malam ini sangat besar." }
-      ]
-    },
+  "hanzi": "大",
+  "pinyin": "dà",
+  "arti": "besar",
+  "audio": "da.mp3",
+  "sentences": [
+    { "cn": "我的家很大。", "pinyin": "Wǒ de jiā hěn dà.", "id": "Rumah saya sangat besar.", "audio": "/static/audio/Wǒ de jiā hěn dà.mp3" },
+    { "cn": "这本书很大。", "pinyin": "Zhè běn shū hěn dà.", "id": "Buku ini sangat besar.", "audio": "/static/audio/Zhè běn shū hěn dà.mp3" },
+    { "cn": "你们的教室很大。", "pinyin": "Nǐmen de jiàoshì hěn dà.", "id": "Ruang kelas kalian sangat besar.", "audio": "/static/audio/Nǐmen de jiàoshì hěn dà.mp3" },
+    { "cn": "北京是一个大城市。", "pinyin": "Běijīng shì yí gè dà chéngshì.", "id": "Beijing adalah sebuah kota besar.", "audio": "/static/audio/Běijīng shì yí gè dà chéngshì.mp3" },
+    { "cn": "这个苹果太大了。", "pinyin": "Zhè gè píngguǒ tài dà le.", "id": "Apel ini terlalu besar.", "audio": "/static/audio/Zhè gè píngguǒ tài dà le.mp3" },
+    { "cn": "我哥哥很大，他二十岁。", "pinyin": "Wǒ gēge hěn dà, tā èrshí suì.", "id": "Kakak laki-laki saya sudah besar, dia berumur dua puluh tahun.", "audio": "/static/audio/Wǒ gēge hěn dà, tā èrshí suì.mp3" },
+    { "cn": "大山很漂亮。", "pinyin": "Dà shān hěn piàoliang.", "id": "Gunung besar itu sangat indah.", "audio": "/static/audio/Dà shān hěn piàoliang.mp3" },
+    { "cn": "小猫不大。", "pinyin": "Xiǎo māo bú dà.", "id": "Kucing kecil itu tidak besar.", "audio": "/static/audio/Xiǎo māo bú dà.mp3" },
+    { "cn": "这个房间比那个房间大。", "pinyin": "Zhè gè fángjiān bǐ nà gè fángjiān dà.", "id": "Ruangan ini lebih besar daripada ruangan itu.", "audio": "/static/audio/Zhè gè fángjiān bǐ nà gè fángjiān dà.mp3" },
+    { "cn": "今天的月亮很大。", "pinyin": "Jīntiān de yuèliang hěn dà.", "id": "Bulan malam ini sangat besar.", "audio": "/static/audio/Jīntiān de yuèliang hěn dà.mp3" }
+  ]
+}
+,
+   {
+  "hanzi": "的",
+  "pinyin": "de",
+  "arti": "kepunyaan / partikel (of)",
+  "audio": "de.mp3",
+  "sentences": [
+    { "cn": "这是我的书。", "pinyin": "Zhè shì wǒ de shū.", "id": "Ini adalah bukuku.", "audio": "/static/audio/Zhè shì wǒ de shū.mp3" },
+    { "cn": "那是你的吗？", "pinyin": "Nà shì nǐ de ma?", "id": "Apakah itu punyamu?", "audio": "/static/audio/Nà shì nǐ de ma.mp3" },
+    { "cn": "她是我的老师。", "pinyin": "Tā shì wǒ de lǎoshī.", "id": "Dia adalah guruku.", "audio": "/static/audio/Tā shì wǒ de lǎoshī.mp3" },
+    { "cn": "这是爸爸的手机。", "pinyin": "Zhè shì bàba de shǒujī.", "id": "Ini adalah handphone ayah.", "audio": "/static/audio/Zhè shì bàba de shǒujī.mp3" },
+    { "cn": "我的家很大。", "pinyin": "Wǒ de jiā hěn dà.", "id": "Rumah saya sangat besar.", "audio": "/static/audio/Wǒ de jiā hěn dà.mp3" },
+    { "cn": "你是我的朋友。", "pinyin": "Nǐ shì wǒ de péngyou.", "id": "Kamu adalah temanku.", "audio": "/static/audio/Nǐ shì wǒ de péngyou.mp3" },
+    { "cn": "他是中国的学生。", "pinyin": "Tā shì Zhōngguó de xuéshēng.", "id": "Dia adalah murid dari Tiongkok.", "audio": "/static/audio/Tā shì Zhōngguó de xuéshēng.mp3" },
+    { "cn": "老师的书在桌子上。", "pinyin": "Lǎoshī de shū zài zhuōzi shàng.", "id": "Buku guru ada di atas meja.", "audio": "/static/audio/Lǎoshī de shū zài zhuōzi shàng.mp3" },
+    { "cn": "这不是我的杯子。", "pinyin": "Zhè bú shì wǒ de bēizi.", "id": "Ini bukan cangkirku.", "audio": "/static/audio/Zhè bú shì wǒ de bēizi.mp3" },
+    { "cn": "这是我妈妈的菜。", "pinyin": "Zhè shì wǒ māma de cài.", "id": "Ini adalah masakan ibu saya.", "audio": "/static/audio/Zhè shì wǒ māma de cài.mp3" }
+  ]
+}
+,
     {
-      "hanzi": "的",
-      "pinyin": "de",
-      "arti": "kepunyaan / partikel (of)",
-      "audio": "de.mp3",
-      "sentences": [
-        { "cn": "这是我的书。", "pinyin": "Zhè shì wǒ de shū.", "id": "Ini adalah bukuku." },
-        { "cn": "那是你的吗？", "pinyin": "Nà shì nǐ de ma?", "id": "Apakah itu punyamu?" },
-        { "cn": "她是我的老师。", "pinyin": "Tā shì wǒ de lǎoshī.", "id": "Dia adalah guruku." },
-        { "cn": "这是爸爸的手机。", "pinyin": "Zhè shì bàba de shǒujī.", "id": "Ini adalah handphone ayah." },
-        { "cn": "我的家很大。", "pinyin": "Wǒ de jiā hěn dà.", "id": "Rumah saya sangat besar." },
-        { "cn": "你是我的朋友。", "pinyin": "Nǐ shì wǒ de péngyou.", "id": "Kamu adalah temanku." },
-        { "cn": "他是中国的学生。", "pinyin": "Tā shì Zhōngguó de xuéshēng.", "id": "Dia adalah murid dari Tiongkok." },
-        { "cn": "老师的书在桌子上。", "pinyin": "Lǎoshī de shū zài zhuōzi shàng.", "id": "Buku guru ada di atas meja." },
-        { "cn": "这不是我的杯子。", "pinyin": "Zhè bú shì wǒ de bēizi.", "id": "Ini bukan cangkirku." },
-        { "cn": "这是我妈妈的菜。", "pinyin": "Zhè shì wǒ māma de cài.", "id": "Ini adalah masakan ibu saya." }
-      ]
-    },
+  "hanzi": "点",
+  "pinyin": "diǎn",
+  "arti": "jam / sedikit / memesan",
+  "audio": "dian.mp3",
+  "sentences": [
+    { "cn": "现在三点。", "pinyin": "Xiànzài sān diǎn.", "id": "Sekarang jam tiga.", "audio": "/static/audio/Xiànzài sān diǎn.mp3" },
+    { "cn": "我们两点见。", "pinyin": "Wǒmen liǎng diǎn jiàn.", "id": "Kita bertemu jam dua.", "audio": "/static/audio/Wǒmen liǎng diǎn jiàn.mp3" },
+    { "cn": "我想喝一点水。", "pinyin": "Wǒ xiǎng hē yī diǎn shuǐ.", "id": "Saya ingin minum sedikit air.", "audio": "/static/audio/Wǒ xiǎng hē yī diǎn shuǐ.mp3" },
+    { "cn": "请给我一点米饭。", "pinyin": "Qǐng gěi wǒ yī diǎn mǐfàn.", "id": "Tolong beri saya sedikit nasi.", "audio": "/static/audio/Qǐng gěi wǒ yī diǎn mǐfàn.mp3" },
+    { "cn": "你会说一点汉语吗？", "pinyin": "Nǐ huì shuō yī diǎn Hànyǔ ma?", "id": "Apakah kamu bisa bicara sedikit bahasa Mandarin?", "audio": "/static/audio/Nǐ huì shuō yī diǎn Hànyǔ ma.mp3" },
+    { "cn": "我想点菜。", "pinyin": "Wǒ xiǎng diǎn cài.", "id": "Saya ingin memesan makanan.", "audio": "/static/audio/Wǒ xiǎng diǎn cài.mp3" },
+    { "cn": "他点了一杯茶。", "pinyin": "Tā diǎn le yī bēi chá.", "id": "Dia memesan segelas teh.", "audio": "/static/audio/Tā diǎn le yī bēi chá.mp3" },
+    { "cn": "几点了？", "pinyin": "Jǐ diǎn le?", "id": "Jam berapa sekarang?", "audio": "/static/audio/Jǐ diǎn le.mp3" },
+    { "cn": "我们十点上课。", "pinyin": "Wǒmen shí diǎn shàngkè.", "id": "Kami mulai kelas jam sepuluh.", "audio": "/static/audio/Wǒmen shí diǎn shàngkè.mp3" },
+    { "cn": "我会一点英语。", "pinyin": "Wǒ huì yī diǎn Yīngyǔ.", "id": "Saya bisa sedikit bahasa Inggris.", "audio": "/static/audio/Wǒ huì yī diǎn Yīngyǔ.mp3" }
+  ]
+}
+,
     {
-      "hanzi": "点",
-      "pinyin": "diǎn",
-      "arti": "jam / sedikit / memesan",
-      "audio": "dian.mp3",
-      "sentences": [
-        { "cn": "现在三点。", "pinyin": "Xiànzài sān diǎn.", "id": "Sekarang jam tiga." },
-        { "cn": "我们两点见。", "pinyin": "Wǒmen liǎng diǎn jiàn.", "id": "Kita bertemu jam dua." },
-        { "cn": "我想喝一点水。", "pinyin": "Wǒ xiǎng hē yī diǎn shuǐ.", "id": "Saya ingin minum sedikit air." },
-        { "cn": "请给我一点米饭。", "pinyin": "Qǐng gěi wǒ yī diǎn mǐfàn.", "id": "Tolong beri saya sedikit nasi." },
-        { "cn": "你会说一点汉语吗？", "pinyin": "Nǐ huì shuō yī diǎn Hànyǔ ma?", "id": "Apakah kamu bisa bicara sedikit bahasa Mandarin?" },
-        { "cn": "我想点菜。", "pinyin": "Wǒ xiǎng diǎn cài.", "id": "Saya ingin memesan makanan." },
-        { "cn": "他点了一杯茶。", "pinyin": "Tā diǎn le yī bēi chá.", "id": "Dia memesan segelas teh." },
-        { "cn": "几点了？", "pinyin": "Jǐ diǎn le?", "id": "Jam berapa sekarang?" },
-        { "cn": "我们十点上课。", "pinyin": "Wǒmen shí diǎn shàngkè.", "id": "Kami mulai kelas jam sepuluh." },
-        { "cn": "我会一点英语。", "pinyin": "Wǒ huì yī diǎn Yīngyǔ.", "id": "Saya bisa sedikit bahasa Inggris." }
-      ]
-    },
-    {
-      "hanzi": "电脑",
-      "pinyin": "diànnǎo",
-      "arti": "komputer",
-      "audio": "diannao.mp3",
-      "sentences": [
-        { "cn": "这是我的电脑。", "pinyin": "Zhè shì wǒ de diànnǎo.", "id": "Ini komputer saya." },
-        { "cn": "我买了一个新电脑。", "pinyin": "Wǒ mǎi le yī gè xīn diànnǎo.", "id": "Saya membeli sebuah komputer baru." },
-        { "cn": "你会用电脑吗？", "pinyin": "Nǐ huì yòng diànnǎo ma?", "id": "Apakah kamu bisa menggunakan komputer?" },
-        { "cn": "我在电脑上看电影。", "pinyin": "Wǒ zài diànnǎo shàng kàn diànyǐng.", "id": "Saya menonton film di komputer." },
-        { "cn": "电脑在桌子上。", "pinyin": "Diànnǎo zài zhuōzi shàng.", "id": "Komputer ada di atas meja." },
-        { "cn": "我想买一台电脑。", "pinyin": "Wǒ xiǎng mǎi yī tái diànnǎo.", "id": "Saya ingin membeli sebuah komputer." },
-        { "cn": "他用电脑工作。", "pinyin": "Tā yòng diànnǎo gōngzuò.", "id": "Dia bekerja dengan komputer." },
-        { "cn": "电脑很贵。", "pinyin": "Diànnǎo hěn guì.", "id": "Komputer itu mahal." },
-        { "cn": "我不会修电脑。", "pinyin": "Wǒ bú huì xiū diànnǎo.", "id": "Saya tidak bisa memperbaiki komputer." },
-        { "cn": "请不要玩我的电脑。", "pinyin": "Qǐng bú yào wán wǒ de diànnǎo.", "id": "Tolong jangan mainkan komputer saya." }
-      ]
-    },
+  "hanzi": "电脑",
+  "pinyin": "diànnǎo",
+  "arti": "komputer",
+  "audio": "diannao.mp3",
+  "sentences": [
+    { "cn": "这是我的电脑。", "pinyin": "Zhè shì wǒ de diànnǎo.", "id": "Ini komputer saya.", "audio": "/static/audio/Zhè shì wǒ de diànnǎo.mp3" },
+    { "cn": "我买了一个新电脑。", "pinyin": "Wǒ mǎi le yī gè xīn diànnǎo.", "id": "Saya membeli sebuah komputer baru.", "audio": "/static/audio/Wǒ mǎi le yī gè xīn diànnǎo.mp3" },
+    { "cn": "你会用电脑吗？", "pinyin": "Nǐ huì yòng diànnǎo ma?", "id": "Apakah kamu bisa menggunakan komputer?", "audio": "/static/audio/Nǐ huì yòng diànnǎo ma.mp3" },
+    { "cn": "我在电脑上看电影。", "pinyin": "Wǒ zài diànnǎo shàng kàn diànyǐng.", "id": "Saya menonton film di komputer.", "audio": "/static/audio/Wǒ zài diànnǎo shàng kàn diànyǐng.mp3" },
+    { "cn": "电脑在桌子上。", "pinyin": "Diànnǎo zài zhuōzi shàng.", "id": "Komputer ada di atas meja.", "audio": "/static/audio/Diànnǎo zài zhuōzi shàng.mp3" },
+    { "cn": "我想买一台电脑。", "pinyin": "Wǒ xiǎng mǎi yī tái diànnǎo.", "id": "Saya ingin membeli sebuah komputer.", "audio": "/static/audio/Wǒ xiǎng mǎi yī tái diànnǎo.mp3" },
+    { "cn": "他用电脑工作。", "pinyin": "Tā yòng diànnǎo gōngzuò.", "id": "Dia bekerja dengan komputer.", "audio": "/static/audio/Tā yòng diànnǎo gōngzuò.mp3" },
+    { "cn": "电脑很贵。", "pinyin": "Diànnǎo hěn guì.", "id": "Komputer itu mahal.", "audio": "/static/audio/Diànnǎo hěn guì.mp3" },
+    { "cn": "我不会修电脑。", "pinyin": "Wǒ bú huì xiū diànnǎo.", "id": "Saya tidak bisa memperbaiki komputer.", "audio": "/static/audio/Wǒ bú huì xiū diànnǎo.mp3" },
+    { "cn": "请不要玩我的电脑。", "pinyin": "Qǐng bú yào wán wǒ de diànnǎo.", "id": "Tolong jangan mainkan komputer saya.", "audio": "/static/audio/Qǐng bú yào wán wǒ de diànnǎo.mp3" }
+  ]
+}
+,
     {
       "hanzi": "电视",
       "pinyin": "diànshì",
